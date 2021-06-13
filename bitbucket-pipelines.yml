@@ -13,6 +13,7 @@ pipelines:
           caches:
             
           script: 
+            - npm install
             - node gather.js             
             #- git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/output/ --user $ftp_user --passwd $ftp_pw $ftp_host
           
