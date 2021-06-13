@@ -15,5 +15,6 @@ pipelines:
           deployment: production
           image: dotsunited/git-ftp
           script:
+            - git ftp init
             - git ftp push --force --syncroot Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
           
