@@ -9,7 +9,7 @@ pipelines:
             - npm install
             - node gather.js             
           artifacts:
-            - $BITBUCKET_CLONE_DIR/Plugins/**
+            - Plugins/**
       - step:
           name: manifest push
           deployment: production
