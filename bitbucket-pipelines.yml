@@ -4,7 +4,6 @@ pipelines:
       - step:
           name: manifest creation
           image: node:14-alpine
-          caches:
             
           script: 
             - npm install
@@ -14,7 +13,7 @@ pipelines:
       - step:
           name: manifest push
           deployment: production
-          caches:
           image: dotsunited/git-ftp
+          script:
             - git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
           
