@@ -14,5 +14,5 @@ pipelines:
             
           script: 
             - node gather.js             
-            - git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/output/ --user $ftp_user --passwd $ftp_pw $ftp_host
+            #- git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/output/ --user $ftp_user --passwd $ftp_pw $ftp_host
           

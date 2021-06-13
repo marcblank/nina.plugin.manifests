@@ -17,6 +17,7 @@ async function scanDir(dir) {
             const jsons = await scanDir(fullPath);
             jsonArr = [...jsonArr, ...jsons];
         } else {
+            console.log('Found manifest in ' + fullPath);
             const data = await readFile(fullPath);
             const json = JSON.parse(data.toString('utf8').replace(/^\uFEFF/, ''));
             jsonArr.push(json);
@@ -26,6 +27,7 @@ async function scanDir(dir) {
 }
 
 (async ()=>{
+    console.log('Scanning for manifests in ' + root);
     const manifests = await scanDir(root);
     const targetDir = __dirname + '/Plugins';
     if (!fs.existsSync(targetDir)){
