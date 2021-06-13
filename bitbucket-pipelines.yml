@@ -9,12 +9,12 @@ pipelines:
             - npm install
             - node gather.js             
           artifacts:
-            - Plugins/**
+            - $BITBUCKET_CLONE_DIR/Plugins/**
       - step:
           name: manifest push
           deployment: production
           image: dotsunited/git-ftp
           script:
-            - git ftp init --syncroot Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
-            - git ftp push --force --syncroot Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
+            - git ftp init --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
+            - git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
           
