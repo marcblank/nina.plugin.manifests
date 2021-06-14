@@ -1,0 +1,146 @@
+# Welcome to the N.I.N.A. Community Plugin Repository
+Inside this repository all plugin manifests for the N.I.N.A. application are found. All plugin manifests inside this repository are put onto the N.I.N.A. server to be used to show and install plugins inside the N.I.N.A. application
+
+N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography imaging suite. You can find the source code [here](https://bitbucket.org/Isbeorn/nina)
+
+# Submitting a plugin manifest
+To make a plugin available you can submit a manifest into this repository, by following the basic steps:
+1. Develop a plugin
+2. Create a manifest
+3. Test your manifest against the schema
+4. Submit a pull request against this repository with your manifest
+5. Wait for the pull Request to be reviewed and merged
+
+# Develop a plugin
+For more details on how to develop a plugin, there is a separate repository containing a basic template and guidelines to follow.  
+The repository can be found [here](https://bitbucket.org/Isbeorn/nina.plugin.template)
+
+# Fork the repository
+To be able to submit a pull request, the repository needs to be forked first.  
+How to fork a repository is described [here](https://support.atlassian.com/bitbucket-cloud/docs/fork-a-repository/)
+
+# Create a manifest
+A manifest file contains a JSON describing all the necessary metadata of a plugin. 
+To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/tools/CreateManifest.ps1) or alternatively follow the manual steps.
+
+***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
+
+## Using the powershell script - *recommended*
+This is the most simple way of creating the manifest file. It will make use of the compiled assembly and its meta data attributes and will fill out most of the manifest with the available meta data.
+The only thing that needs to be added manually is the installer URL which points to the location where the plugin dll is hosted online - a script paramter to directly insert this is also available.
+The script has the following set of parameters:
+
+`-file` - **required**
+
+The path to your compiled plugin DLL to create the manifest for
+
+`-installerUrl` 
+
+A URL pointing to the plugin where it can be downloaded
+
+`-createArchive` 
+
+Add this if the dll should be bundled into a zip archive
+
+`-archiveName`
+
+Name of the created zip archive. When this parameter is omitted the plugin DLL file name without its extension is used as a name.
+
+## Manually generate the file
+
+While not recommended, it is possible to manually create the manifest by using your favorite tool. The manifest needs to follow the specifications that are described further below. It is important that the manifest follows the assembly meta data. Especially the "Identifier" and "Name" needs to be the same as inside the plugin assembly meta data. The rest can deviate from it, although strongly discouraged.
+
+## Manifest specification
+
+As specified in the [JSON Schema](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/manifest.schema.json) the manifest consists of a set of required and optional parameters. Each version of your plugin should have a separate manifest, or alternatively when you only want to support one leading version, one manifest that will be updated constantly with the newest version should be maintained.
+
+`Name` - **Required**
+
+The name of your plugin. This name will be used by the N.I.N.A. plugin manager to show inside the list of plugins as well as using the name as a folder name for putting the plugin content inside the general plugin folder
+
+`Identifier` - **Required**
+
+This is a unique identifier - using a GUID - of your plugin and must not be changed throughout the lifetime of your plugin for version increases. It is used to identify your assembly during the installation and deinstallation process.
+
+`Author` - **Required**
+
+The author (you) of the plugin
+
+`License` - **Required**
+
+A short name of the license in use (e.g.  MPL-2.0, MS-PL, MIT)
+
+`LicenseURL` - **Required**
+
+Link leading to the license text
+
+`Repository` - **Required**
+
+A link to the remote repository, where the source code of the plugin is available
+
+`Version` - **Required**
+
+It consists of four sub attributes (Major, Minor, Patch and Build) describing the plugin version.
+
+`MinimumApplicationVersion` - **Required**
+
+This field describes the minimum version of N.I.N.A. that this plugin is compatible with. Similar to the plugin version it consists of four sub attributes (Major, Minor, Patch and Build).  
+If multiple versions of a plugin are available, the plugin manager inside the application will serve the plugin manifest with the highest version that is compatible with the currently running application using the minimum application version.
+
+`Installer.URL` - **Required**
+
+A URL pointing to the plugin to download
+
+`Installer.Type` - **Required**
+
+Defines the type of the hosted plugin. Currently a direct DLL or a zip ARCHIVE is supported. This is used by the plugin manager to know which type of operation needs to be taken to install the plugin correctly.
+
+`Installer.Checksum` - **Required**
+
+The checksum of the remote file. If the checksum does not match the file download, the installation of a plugin via the plugin manager will fail.
+
+`Installer.ChecksumType` - **Required**
+
+The algorithm used to create the file checksum. Supported algorithms: MD5, SHA1, SHA256
+
+`Tags`
+
+Some quick search terms to enable users to quickly search for
+
+`Homepage`
+
+Homepage of the plugin creator where the plugin and more is found
+
+`Descriptions.ShortDescription` - **Required**
+
+A quick summary of your plugin's capabilities and features
+
+`Descriptions.LongDescription`
+
+An in-depth description of your plugin, with all the content description that is part of the plugin
+
+`Descriptions.FeaturedImageURL`
+
+URL to a logo for the plugin. This image will be shown prominently in the app next to the name 
+
+`Descriptions.ScreenshotURL`
+
+An image URL showing the plugin in action
+
+`Descriptions.AltScreenshotURL`
+
+An alternative image URL showing the plugin in action from a different angle compared to the ScreenshotURL
+
+# Test your manifest
+
+The manifest repository has a script, that will gather all available manifests inside the repository, validate their contant based on the schema definition and then puts all valid schemas into a big manifest file for upload to the server.
+This script can also be used to test your manifest, that it is valid.
+For the script to be able to run you need to install nodeJS and install the dependencies via `npm install`
+The log console will then output all found manifests and if they are valid. If your manifest is shown as valid you are ready to create your pull request.
+
+# Submit a pull request
+
+- Make sure that the manifest is valid
+- Your manifest should be put into the folder path matching the following pattern `manifests\<your plugin name>\<your plugin version>\manifest.json`. If you do not want to maintain multiple versions, you can omit the version folder.
+- Once changes are submitted to your fork you can create a pull request inside the main manifest repository
+- The pull request will undergo a review process. Be prepared to respond to feedback.

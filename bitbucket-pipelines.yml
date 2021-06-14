@@ -16,5 +16,6 @@ pipelines:
           image: dotsunited/git-ftp
           script:
             #- git ftp init --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
-            - git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
+            - git commit $BITBUCKET_CLONE_DIR/Plugins/manifest.json
+            - git ftp push --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
           
