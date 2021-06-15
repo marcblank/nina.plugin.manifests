@@ -8,12 +8,12 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.PolarAlignment.dll",
-        "Checksum": "A70A6A2E7BF6429B0F7212BD7255CCBB9748151ACB03734C11A8EEA6468EF48E",
+        "Checksum": "361E5181B574FD649183275C17795F36D6DC34A46D98BAE4F037050865CCB31D",
         "Type": "DLL"
     },
     "Version": {
         "Minor": "0",
-        "Build": "2",
+        "Build": "3",
         "Patch": "0",
         "Major": "1"
     },
@@ -23,7 +23,7 @@
         "Sequencer"
     ],
     "Descriptions": {
-        "FeaturedImageURL": "https://nighttime-imaging.eu/wp-content/uploads/2019/02/Logo_Nina.png",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/logo.png",
         "LongDescription": "Three Point Auto Polar Alignment almost anywhere in the sky\r\nThis method will use platesolving in combination with mount and camera control to automatically determine the polar alignment error\r\nThe procedure consists of the following steps\r\n    Step 1\r\n        - Slew to the specified alt/az coordinates\r\n        - Start telescope tracking\r\n    Step 2\r\n        - Take an image of current position\r\n        - Plate solve current position\r\n    Step 3\r\n        - Move the telescope by the [Move Rate] in East or West direction along the Right Ascension axis, based on [East Direction] until at least moved by [Target Distance]°\r\n        - Take an image of current position\r\n        - Plate solve current position\r\n    Step 4\r\n        - Move the telescope by the [Move Rate] in East or West direction along the Right Ascension axis, based on [East Direction] until at least moved by [Target Distance]°\r\n        - Take an image of current position\r\n        - Plate solve current position\r\n    Step 5\r\n        - Calculate the telescope axis out of the three points and compare it with the expected axis based on the user location\r\n    Step 6\r\n        - Continuously loop exposures, while tracking and plate solve them. Adjust the polar error according to the new solved result\r\n        - The user should now adjust the altitude and azimuth of the mount during the loop until precise enough polar alignment is reached\r\n    Step 7\r\n        - Once the window is closed the instruction will finish and is complete",
         "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Starlock2.png",
         "ShortDescription": "Three Point Auto Polar Alignment almost anywhere in the sky",
