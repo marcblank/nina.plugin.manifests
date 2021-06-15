@@ -5,10 +5,10 @@ N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography 
 
 # Submitting a plugin manifest
 To make a plugin available you can submit a manifest into this repository, by following the basic steps:
-1. Develop a plugin
-2. Create a manifest
-3. Test your manifest against the schema
-4. Submit a pull request against this repository with your manifest
+1. Develop a plugin  
+2. Create a manifest  
+3. Test your manifest against the schema  
+4. Submit a pull request against this repository with your manifest  
 5. Wait for the pull Request to be reviewed and merged
 
 # Develop a plugin
