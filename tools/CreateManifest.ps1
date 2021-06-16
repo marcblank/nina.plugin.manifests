@@ -83,6 +83,9 @@ foreach($val in $meta) {
 	if($val.AttributeType -like "System.Reflection.AssemblyMetadataAttribute" -And $val.ConstructorArguments[0].Value -like "LicenseURL" ) {
 		$manifest["LicenseURL"] = $val.ConstructorArguments[1].Value
 	}
+	if($val.AttributeType -like "System.Reflection.AssemblyMetadataAttribute" -And $val.ConstructorArguments[0].Value -like "ChangelogURL" ) {
+		$manifest["ChangelogURL"] = $val.ConstructorArguments[1].Value
+	}
 	if($val.AttributeType -like "System.Reflection.AssemblyMetadataAttribute" -And $val.ConstructorArguments[0].Value -like "Tags" ) {
         $manifest["Tags"] = $val.ConstructorArguments[1].Value.Split(",");
 	}
