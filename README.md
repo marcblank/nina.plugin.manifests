@@ -74,6 +74,10 @@ A short name of the license in use (e.g.  MPL-2.0, MS-PL, MIT)
 
 Link leading to the license text
 
+`ChangelogURL`
+
+If you want to maintain a list of detailed changelogs you can add a url to your manifest that leads to the list of changes
+
 `Repository` - **Required**
 
 A link to the remote repository, where the source code of the plugin is available
