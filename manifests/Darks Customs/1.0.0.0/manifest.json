@@ -1,0 +1,37 @@
+﻿{
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1093",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://darkarchon.internet-box.ch:8443/NINA.Plugin.DarksCustoms.dll",
+        "Checksum": "59DFC13DBE0663712883B11F993577B923AF8A57B5822BE3A96CAD73C42F8AA1",
+        "Type": "DLL"
+    },
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Tags": [
+        "Sequencer"
+    ],
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "",
+        "ScreenshotURL": "",
+        "ShortDescription": "Compilation of Sequencer 2 plugins; currently included: Filter Offset Calculator",
+        "AltScreenshotURL": ""
+    },
+    "Name": "Darks Customs",
+    "Homepage": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/src",
+    "Author": "S. Dimant",
+    "Repository": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/",
+    "License": "MPL-2.0",
+    "Identifier": "9516aaee-7abd-4ca3-9a19-51a86723d4c1"
+}
