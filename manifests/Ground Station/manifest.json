@@ -10,7 +10,7 @@
     "Name": "Ground Station",
     "Version": {
         "Minor": "0",
-        "Build": "3",
+        "Build": "4",
         "Patch": "0",
         "Major": "1"
     },
@@ -35,8 +35,8 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://daleghent.com/dist/ground-station/DaleGhent.NINA.GroundStation.zip",
-        "Checksum": "6A20A81C3C4F356F3A5621B877423A341E1CC191A29C82A3EFA23B334821AA81",
-        "Type": "DLL"
+        "Checksum": "C7CFF9E7F7744A5F7990A12616A16F838CB5705EA6AF5CED3002A5BBAED7BBEF",
+        "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
 }

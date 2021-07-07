@@ -22,11 +22,13 @@ Write-Output $file
 Write-Output "-------------"
 Write-Output "-------------"
 
-
+$installerType = "DLL"
 
 ## Create a zip archive if parameter is given and use that checksum instead
 if($createArchive) {
     Write-Output "Creating zip archive"
+    $installerType = "ARCHIVE"
+	
     if(!$archiveName) {
         $archiveName = [io.path]::GetFileNameWithoutExtension($file)
     }
@@ -128,7 +130,7 @@ foreach($val in $meta) {
 
 $manifest["Installer"] = @{
     URL = $installerUrl
-    Type = "DLL"
+    Type = $installerType
     Checksum = $checksum.Hash
     ChecksumType = $checksum.Algorithm
 }
