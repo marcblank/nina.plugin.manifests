@@ -1,0 +1,42 @@
+﻿{
+    "ChangelogURL": "https://github.com/daleghent/nina-plugins/blob/main/GroundStation/CHANGELOG.md",
+    "Tags": [
+        "notifications",
+        "alerts",
+        "ifttt",
+        "email",
+        "pushover"
+    ],
+    "Name": "Ground Station",
+    "Version": {
+        "Minor": "0",
+        "Build": "3",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Dale Ghent",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1106",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ground-station-logo1.png",
+        "LongDescription": "Ground Station provides remote messaging instructions and triggers for use in NINA\u0027s Advanced Sequencer. This allows you to send alerts to messaging platforms and orchestrate IoT devices and services directly from Advanced Sequencer.\r\n\r\nThe provided instructions and triggers can be broken down in to two general categories:\r\n\r\n- Instructions for sending free form messages to a variety of services\r\n- Triggers for sending messages to services when something in the sequence experiences a failure\r\n\r\nThe external services that are currently supported are:\r\n\r\n- Pushover: desktop and mobile device messaging\r\n- IFTTT Webhooks: If This Then That. An easy to use configurable webhooks-based gateway to a wide variety of messaging platforms and IoT services for automating popular home IoT systems\r\n- Email: Who doesn\u0027t love plain old email? Plain SMTP with user auth and SSL/TLS support\r\n\r\nUse of these services is done in conjunction with your own personal accounts with them. Some services might require a subscription to use. I do not provide technical support or trainig for using the services.",
+        "ScreenshotURL": "",
+        "ShortDescription": "Send failure events and free-form messages to a variety of messaging or automation services",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "2737AFDF-A1AA-48C3-BE17-0F5F03282AEB",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/daleghent/nina-plugins",
+    "Homepage": "https://daleghent.com/ground-station",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://daleghent.com/dist/ground-station/DaleGhent.NINA.GroundStation.zip",
+        "Checksum": "6A20A81C3C4F356F3A5621B877423A341E1CC191A29C82A3EFA23B334821AA81",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}

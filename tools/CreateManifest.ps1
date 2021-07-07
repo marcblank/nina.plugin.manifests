@@ -9,6 +9,9 @@ param(
     [Parameter(Mandatory=$false, ParameterSetName='Archive', HelpMessage="If the assembly should be packed into a zip file")]
     [switch]$createArchive,
 
+    [Parameter(Mandatory=$false, ParameterSetName='Archive', HelpMessage="If all files in the assembly's directory should be included in the zip file")]
+    [switch]$includeAll,
+
     [Parameter(ParameterSetName='Archive', HelpMessage="Name of the zip archive")]
     [string]$archiveName
 
@@ -33,7 +36,13 @@ if($createArchive) {
         Remove-Item $zipfile
     }
 
-    Compress-Archive -Path $file -Destination $zipfile
+	$compressFiles = $file
+	
+	if($includeAll) {
+		$compressFiles = [System.IO.Path]::GetDirectoryName($file) + "\*"
+	}
+	
+    Compress-Archive -Path $compressFiles -Destination $zipfile
     Write-Output "-------------"
     Write-Output "-------------"
     $checksum = Get-FileHash $zipfile
