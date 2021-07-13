@@ -9,6 +9,9 @@ param(
     [Parameter(Mandatory=$false, ParameterSetName='Archive', HelpMessage="If the assembly should be packed into a zip file")]
     [switch]$createArchive,
 
+    [Parameter(Mandatory=$false, ParameterSetName='Archive', HelpMessage="If all files in the assembly's directory should be included in the zip file")]
+    [switch]$includeAll,
+
     [Parameter(ParameterSetName='Archive', HelpMessage="Name of the zip archive")]
     [string]$archiveName
 
@@ -19,11 +22,13 @@ Write-Output $file
 Write-Output "-------------"
 Write-Output "-------------"
 
-
+$installerType = "DLL"
 
 ## Create a zip archive if parameter is given and use that checksum instead
 if($createArchive) {
     Write-Output "Creating zip archive"
+    $installerType = "ARCHIVE"
+	
     if(!$archiveName) {
         $archiveName = [io.path]::GetFileNameWithoutExtension($file)
     }
@@ -33,7 +38,13 @@ if($createArchive) {
         Remove-Item $zipfile
     }
 
-    Compress-Archive -Path $file -Destination $zipfile
+	$compressFiles = $file
+	
+	if($includeAll) {
+		$compressFiles = [System.IO.Path]::GetDirectoryName($file) + "\*"
+	}
+	
+    Compress-Archive -Path $compressFiles -Destination $zipfile
     Write-Output "-------------"
     Write-Output "-------------"
     $checksum = Get-FileHash $zipfile
@@ -119,7 +130,7 @@ foreach($val in $meta) {
 
 $manifest["Installer"] = @{
     URL = $installerUrl
-    Type = "DLL"
+    Type = $installerType
     Checksum = $checksum.Hash
     ChecksumType = $checksum.Algorithm
 }
