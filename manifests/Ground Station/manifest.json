@@ -10,7 +10,7 @@
     "Name": "Ground Station",
     "Version": {
         "Minor": "0",
-        "Build": "5",
+        "Build": "6",
         "Patch": "0",
         "Major": "1"
     },
@@ -23,7 +23,7 @@
     },
     "Descriptions": {
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ground-station-logo1.png",
-        "LongDescription": "Ground Station provides remote messaging instructions and triggers for use in NINA\u0027s Advanced Sequencer. This allows you to send alerts to messaging platforms and orchestrate IoT devices and services directly from Advanced Sequencer.\r\n\r\nThe provided instructions and triggers can be broken down in to two general categories:\r\n\r\n- Instructions for sending free form messages to a variety of services\r\n- Triggers for sending messages to services when something in the sequence experiences a failure\r\n\r\nThe external services that are currently supported are:\r\n\r\n- Pushover: desktop and mobile device messaging\r\n- IFTTT Webhooks: If This Then That. An easy to use configurable webhooks-based gateway to a wide variety of messaging platforms and IoT services for automating popular home IoT systems\r\n- Email: Who doesn\u0027t love plain old email? Plain SMTP with user auth and SSL/TLS support\r\n\r\nUse of these services is done in conjunction with your own personal accounts with them. Some services might require a subscription to use. I do not provide in-depth technical support or training for the services.",
+        "LongDescription": "Ground Station provides remote messaging instructions and triggers for use in NINA\u0027s Advanced Sequencer. This allows you to send alerts to messaging platforms and orchestrate IoT devices and services directly from Advanced Sequencer.\r\n\r\nThe provided instructions and triggers can be broken down in to two general categories:\r\n\r\n- Instructions for sending free form messages to a variety of services\r\n- Triggers for sending messages to services when something in the sequence experiences a failure\r\n\r\nThe external services that are currently supported are:\r\n\r\n- Pushover: desktop and mobile device messaging\r\n- IFTTT Webhooks: If This Then That. An easy to use configurable webhooks-based gateway to a wide variety of messaging platforms and IoT services for automating popular home IoT systems\r\n- Telegram: Utilize a Telegram bot (message @BotFather for information) to send messages to any specified chat channel\r\n- Email: Who doesn\u0027t love plain old email? Plain SMTP with user auth and SSL/TLS support\r\n\r\nUse of these services is done in conjunction with your own personal accounts with them. Some services might require a subscription to use. I do not provide in-depth technical support or training for the services.",
         "ScreenshotURL": "",
         "ShortDescription": "Send failure events and free-form messages to a variety of messaging or automation services",
         "AltScreenshotURL": ""
@@ -34,8 +34,8 @@
     "Homepage": "https://daleghent.com/ground-station",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.0.0.5.zip",
-        "Checksum": "24CF692807B201DD084D4D524D2A7A89B422007CE6DE6AD67265F420A6D6C869",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.0.0.6.zip",
+        "Checksum": "D39326096E4050602F46592D48EE3907963CA6969FD826863FD6F33363AD2AD1",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
