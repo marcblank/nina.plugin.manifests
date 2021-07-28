@@ -10,7 +10,7 @@
     "Name": "Ground Station",
     "Version": {
         "Minor": "0",
-        "Build": "6",
+        "Build": "7",
         "Patch": "0",
         "Major": "1"
     },
@@ -34,8 +34,8 @@
     "Homepage": "https://daleghent.com/ground-station",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.0.0.6.zip",
-        "Checksum": "D39326096E4050602F46592D48EE3907963CA6969FD826863FD6F33363AD2AD1",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.0.0.7.zip",
+        "Checksum": "96D8346DC8DDD648B59D2016F9CEE81E61BB85ACC1381AB055CD8EDDD98E394C",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
