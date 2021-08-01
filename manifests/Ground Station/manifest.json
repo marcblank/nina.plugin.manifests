@@ -9,21 +9,21 @@
     ],
     "Name": "Ground Station",
     "Version": {
-        "Minor": "0",
-        "Build": "7",
+        "Minor": "1",
+        "Build": "0",
         "Patch": "0",
         "Major": "1"
     },
     "Author": "Dale Ghent",
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1106",
+        "Build": "1116",
         "Patch": "0",
         "Major": "1"
     },
     "Descriptions": {
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ground-station-logo1.png",
-        "LongDescription": "Ground Station provides remote messaging instructions and triggers for use in NINA\u0027s Advanced Sequencer. This allows you to send alerts to messaging platforms and orchestrate IoT devices and services directly from Advanced Sequencer.\r\n\r\nThe provided instructions and triggers can be broken down in to two general categories:\r\n\r\n- Instructions for sending free form messages to a variety of services\r\n- Triggers for sending messages to services when something in the sequence experiences a failure\r\n\r\nThe external services that are currently supported are:\r\n\r\n- Pushover: desktop and mobile device messaging\r\n- IFTTT Webhooks: If This Then That. An easy to use configurable webhooks-based gateway to a wide variety of messaging platforms and IoT services for automating popular home IoT systems\r\n- Telegram: Utilize a Telegram bot (message @BotFather for information) to send messages to any specified chat channel\r\n- Email: Who doesn\u0027t love plain old email? Plain SMTP with user auth and SSL/TLS support\r\n\r\nUse of these services is done in conjunction with your own personal accounts with them. Some services might require a subscription to use. I do not provide in-depth technical support or training for the services.",
+        "LongDescription": "Ground Station provides remote messaging instructions and triggers for use in NINA\u0027s Advanced Sequencer. This allows you to send alerts to messaging platforms and orchestrate IoT devices and services directly from Advanced Sequencer.\r\n\r\nThe provided instructions and triggers can be broken down in to two general categories:\r\n\r\n- Instructions for sending free form messages to a variety of services\r\n- Triggers for sending messages to services when something in the sequence experiences a failure\r\n\r\nThe external services that are currently supported are:\r\n\r\n- Pushover: desktop and mobile device messaging\r\n- Telegram: Utilize a Telegram bot (message @BotFather for information) to send messages to any specified chat channel\r\n- Email: Who doesn\u0027t love plain old email? Plain SMTP with user auth and SSL/TLS support\r\n- IFTTT Webhooks: If This Then That. An easy to use configurable webhooks-based gateway to a wide variety of messaging platforms and IoT services for automating popular home IoT systems\r\n- MQTT: Publish free-form payloads to a topic on a MQTT broker. Failures are published to a specified topic with information packaged in a JSON object\r\n\r\nUse of these services is done in conjunction with your own personal accounts with them. Some services might require a subscription to use. I do not provide in-depth technical support or training for the services.",
         "ScreenshotURL": "",
         "ShortDescription": "Send failure events and free-form messages to a variety of messaging or automation services",
         "AltScreenshotURL": ""
@@ -34,8 +34,8 @@
     "Homepage": "https://daleghent.com/ground-station",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.0.0.7.zip",
-        "Checksum": "96D8346DC8DDD648B59D2016F9CEE81E61BB85ACC1381AB055CD8EDDD98E394C",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.1.0.0.zip",
+        "Checksum": "273BD582DC5EF4D0E4DE6BC238A580C4567F0002F3C0A353720DC1D91B31733B",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
