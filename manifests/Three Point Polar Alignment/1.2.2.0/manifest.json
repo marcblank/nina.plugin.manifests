@@ -8,7 +8,7 @@
     "Version": {
         "Minor": "2",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Stefan Berg",
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.PolarAlignment.1.2.1.0.dll",
-        "Checksum": "2014BB90CDEBA3D1A4EB0A51A83A8FAE01C22119B429AFAFFBA112D75737ED51",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.PolarAlignment.1.2.2.0.dll",
+        "Checksum": "BCACEF807A02770355056E3462DA70A7F7F44DF4782C567F5586AE61F9C38F20",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
