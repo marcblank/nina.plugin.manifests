@@ -11,7 +11,7 @@
     "Version": {
         "Minor": "4",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Dale Ghent",
@@ -34,8 +34,8 @@
     "Homepage": "https://daleghent.com/ground-station",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.4.1.0.zip",
-        "Checksum": "02A75F0483D93C1CAFA84E3548DB6B4258D7792D90666B0686EF2417862C172A",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.4.2.0.zip",
+        "Checksum": "17917C5EA8A579D15F45F063A0538AC03A94825E4A995DABDABBBA887D3A6A8B",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
