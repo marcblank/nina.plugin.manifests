@@ -1,0 +1,39 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.PolarAlignment/Changelog.md",
+    "Tags": [
+        "Polar alignment",
+        "Sequencer"
+    ],
+    "Name": "Three Point Polar Alignment",
+    "Version": {
+        "Minor": "3",
+        "Build": "1",
+        "Patch": "1",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1112",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/logo.png",
+        "LongDescription": "Three Point Auto Polar Alignment almost anywhere in the sky  \r\n\r\nA new instruction will be available for the advanced sequencer as well as a new tool pane inside the imaging tab that will assist in polar alignment.  \r\n\r\nWhen the instruction is called, a new window will be visible, that will guide you through the process.   \r\nInside the imaging tab there will be a button inside the tool pane to show the polar alignment assistant with parameters and a button to start the process.  \r\n\r\n*Prerequisites*: \r\n- Camera has to be connected and ready\r\n- A goto mount that can move along the right ascension axis via its ASCOM driver has to be connected\r\n- Alternatively a manual mode can be enabled to manually move the mount along the right ascension axis\r\n- Platesolving must be setup (Astrometry.NET is not supported as primary solver for this, as it is too slow)\r\n\r\nThis method will use platesolving in combination with mount and camera control to automatically determine the polar alignment error  \r\nThe procedure consists of the following steps  \r\n\r\n*Step 1*  \r\n- Slew to the specified alt/az coordinates\r\n- Start telescope tracking  \r\n*Step 2*  \r\n- Take an image of current position\r\n- Plate solve current position  \r\n*Step 3*  \r\n- Move the telescope by the [Move Rate] in East or West direction along the Right Ascension axis, based on [East Direction] until at least moved by [Target Distance]°\r\n- Take an image of current position\r\n- Plate solve current position  \r\n*Step 4*  \r\n- Move the telescope by the [Move Rate] in East or West direction along the Right Ascension axis, based on [East Direction] until at least moved by [Target Distance]°\r\n- Take an image of current position\r\n- Plate solve current position  \r\n*Step 5*  \r\n- Calculate the telescope axis out of the three points and compare it with the expected axis based on the user location  \r\n*Step 6*  \r\n- Continuously loop exposures, while tracking and plate solve them. Adjust the polar error according to the new solved result\r\n- The user should now adjust the altitude and azimuth of the mount during the loop until precise enough polar alignment is reached\r\n- By left clicking on a star, the visual indicators will follow the star for each incremental adjustment  \r\n*Step 7*  \r\n- Once the window is closed the instruction will finish and is complete",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Starlock2.png",
+        "ShortDescription": "Three Point Auto Polar Alignment almost anywhere in the sky",
+        "AltScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Imaging.png"
+    },
+    "Identifier": "1de8d7d3-f11e-494c-a371-95cb48dffa18",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.PolarAlignment/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.PolarAlignment.1.3.2.0.dll",
+        "Checksum": "C7FBF8AFEBBCBECB37AA36384A16B804DFB7A960960379EA1F80A4E848B96579",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
