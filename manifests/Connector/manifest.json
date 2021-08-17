@@ -1,0 +1,40 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.Connector/Changelog.md",
+    "Tags": [
+        "Connect",
+        " Equipment",
+        " Disconnect"
+    ],
+    "Name": "Connector",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1127",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "A plugin that adds a connect and disconnect instructions to the advanced sequencer  \r\n  \r\nMake sure your equipment is properly setup, so that it is automatically selected when scanning for it. The instruction will scan for the selected equipment and try to connect to the device that was connected successfully the last time.   \r\nTo use the instructions, just drag them in and select the type of device you want to connect to or disconnect from.\r\n\r\n  \r\n**Be careful when using these instructions**! Failing to connect to equipment will make your sequence impossible to run properly. It is recommended to have some sort of notification mechanism like GNS or Ground Station available to be notified of a failed connection! ",
+        "ScreenshotURL": "",
+        "ShortDescription": "Equipment connection manager",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "52c17ee7-6d6c-4ee1-8fa0-85bcf6677bef",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.Connector/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.0.0.0.dll",
+        "Checksum": "FB8E500EC1254EABBC8E8570A56B10D43885E6AB91EEB13C96292408C6BD5760",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
