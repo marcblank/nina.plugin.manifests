@@ -140,8 +140,14 @@ An alternative image URL showing the plugin in action from a different angle com
 The manifest repository has a script, that will gather all available manifests inside the repository, validate their contant based on the schema definition and then puts all valid schemas into a big manifest file for upload to the server.
 This script can also be used to test your manifest, that it is valid.
 For the script to be able to run you need to install [nodeJS](https://nodejs.org/en/) and install the dependencies.
-```
+```bash
+# if you have not installed nodejs yet, you can easily do so using winget (for windows)
+winget install nodejs
+
+# install dependencies via node package manager
 npm install
+
+# run the node script to validate manifests
 node gather.js
 ```
 The log console will then output all found manifests and logs if they are valid or not. If your manifest is shown as valid you are ready to create your pull request.
