@@ -144,7 +144,7 @@ For the script to be able to run you need to install [nodeJS](https://nodejs.org
 # if you have not installed nodejs yet, you can easily do so using winget (for windows)
 winget install nodejs
 
-# install dependency via node pacakge manager
+# install dependencies via node package manager
 npm install
 
 # run the node script to validate manifests
