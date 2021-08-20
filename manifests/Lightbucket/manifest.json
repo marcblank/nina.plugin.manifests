@@ -1,0 +1,29 @@
+﻿{
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1120",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-0.1.15.zip",
+        "Checksum": "E4911B089971B8AB95B0759429D20EF9E4F85897BF567A595ABAF3D6B49FA737",
+        "Type": "ARCHIVE"
+    },
+    "Version": {
+        "Minor": "1",
+        "Build": "0",
+        "Patch": "15",
+        "Major": "0"
+    },
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Descriptions": {
+        "ShortDescription": "Send session information to the Lightbucket API"
+    },
+    "Name": "Lightbucket",
+    "Author": "Lightbucket",
+    "Repository": "https://github.com/lightbucket-co/lightbucket-nina-plugin",
+    "License": "MPL-2.0",
+    "Identifier": "2d7210df-05e0-4b02-b8e5-fbf914b54fb0"
+}
