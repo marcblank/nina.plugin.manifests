@@ -1,27 +1,29 @@
 ﻿{
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1129",
+        "Build": "1120",
         "Patch": "0",
         "Major": "1"
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-0.2.0.zip",
-        "Checksum": "E705DD9983F4EC2D0B395825B32AD180F1F765D4E8697C213E4F755411905352",
+        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-0.2.1.zip",
+        "Checksum": "CFF3A9CC1810B4CEEC6B18FD350B42AD5821DA5AD981EA0A862E441EF935DDA6",
         "Type": "ARCHIVE"
     },
     "Version": {
         "Minor": "2",
         "Build": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Major": "0"
     },
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Descriptions": {
-        "ShortDescription": "Send session information to the Lightbucket API"
+        "ShortDescription": "Send session information to the Lightbucket API",
+        "LongDescription": "Lightbucket is a tool for tracking your astrophotography imaging sessions so you can easily see data about your journey through the cosmos.\r\nAfter installing this plugin and configuring your API credentials, NINA will send information about your LIGHT frames as they are saved over\r\nthe course of a sequence.\r\n\r\nThe following information will be sent to Lightbucket when images are saved:\r\n\r\n- Target Name, RA, Dec, and Rotation\r\n- Telescope Name (from your Profile)\r\n- Camera Name\r\n- Image Filter, Duration, Gain, Offset, Binning, and Total RMS (in arcseconds)\r\n- A small (300px) thumbnail of the stretched frame.\r\n\r\nThis logging is automatically enabled and can be toggled on or off using the Enabled setting below."
     },
     "Name": "Lightbucket",
+    "Homepage": "https://app.lightbucket.co",
     "Author": "Lightbucket",
     "Repository": "https://github.com/lightbucket-co/lightbucket-nina-plugin",
     "License": "MPL-2.0",
