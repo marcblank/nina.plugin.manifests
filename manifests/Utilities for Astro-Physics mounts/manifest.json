@@ -8,7 +8,7 @@
     ],
     "Name": "Utilities for Astro-Physics mounts",
     "Version": {
-        "Minor": "1",
+        "Minor": "3",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
@@ -16,13 +16,13 @@
     "Author": "Dale Ghent",
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1116",
+        "Build": "1125",
         "Patch": "0",
         "Major": "1"
     },
     "Descriptions": {
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ap-logo.jpg",
-        "LongDescription": "Utilities for Astro-Physics mounts is a (probably) growing collection of Instructions and other things for running from within NINA\u0027s Advanced Sequencer.\r\n\r\nPlease refer to this plugin\u0027s website for detailed documentation.\r\n\r\nRequirements:\r\n    - NINA 1.11\r\n    - APCC Pro 1.9\r\n    - Enable Server be turned on in NINA\u0027s options\r\n\r\nProvided functions:\r\n\r\n- Create APPM Model\r\n    A sequence instruction that will run Astro-Physics Point Mapper (APPM) in an automated mode. When ran, APPM will use its existing default settings to run a point mapping session and will load the results into APCC Pro when complete. If the default settings and point map are not desired, an APPM settings or a point map file may be optionally specified below in this plugin\u0027s settings.\r\n\r\n\r\nThe Astro-Physics logo is copyright © Astro-Physics, Inc. Used with permission.",
+        "LongDescription": "Utilities for Astro-Physics mounts is a (probably) growing collection of Instructions and other things for running from within NINA\u0027s Advanced Sequencer.\r\n\r\nPlease refer to this [plugin\u0027s website](https://daleghent.com/utilities-for-astro-physics-mounts) for detailed documentation. I also maintain a [website with tips](https://daleghent.com/nina-and-astro-physics-mounts) on using NINA with Astro-Physics mounts.\r\n\r\n# Requirements #\r\n\r\n* NINA 1.11\r\n* APCC Pro 1.9 or APCC Standard 1.8 (APCC Pro is required for the use of APPM)\r\n* The **Enable Server** setting is **On** in NINA\u0027s options (refer to Options \u003e General)\r\n\r\n# Provided functions #\r\n\r\n* Start APCC\r\n    * Starts APCC and connects NINA to the Astro-Physics ASCOM driver. Assumes that APCC\u0027s **Auto-Connect** setting is selected in both the **Mount** and **AP V2 Driver** option areas in the Setup tab\r\n* Create APPM Model\r\n    * A sequence instruction that will run Astro-Physics Point Mapper (APPM) in an automated mode. When ran, APPM will use its existing default settings to run a point mapping session and will load the results into APCC Pro when complete. If the default settings and point map are not desired, an APPM settings or a point map file may be optionally specified below in this plugin\u0027s settings.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.com/invite/rWRbVbw), Astro-Physics\u0027 [AP-GTO forum](https://ap-gto.groups.io/g/main), or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-plugins/issues).\r\n\r\n* Utilities for Astro-Physics mounts is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/daleghent/nina-plugins/blob/main/LICENSE.txt)\r\n* Source code for this plugin is available in my NINA plugins [source code repository](https://github.com/daleghent/nina-plugins)\r\n\r\nThe Astro-Physics logo is copyright © Astro-Physics, Inc. Used with permission.",
         "ScreenshotURL": "https://daleghent.github.io/nina-plugins/assets/images/U4APMscreen1.png",
         "ShortDescription": "A collection of useful Advanced Sequencer utilities for users of Astro-Physics mounts and APCC Pro",
         "AltScreenshotURL": ""
@@ -33,8 +33,8 @@
     "Homepage": "https://daleghent.com/utilities-for-astro-physics-mounts",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/u4apm/u4apm-1.1.0.0.zip",
-        "Checksum": "612E81A8E73E8E1EE8D01846B28B4B57358D45F79567F396E441399FAC076A15",
+        "URL": "https://daleghent.com/dist/u4apm/u4apm-1.3.0.0.zip",
+        "Checksum": "576A7BFA4142EB22791D36DD8DD020B9229CD77A9D5D51FBD09234E1B5253EDF",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
