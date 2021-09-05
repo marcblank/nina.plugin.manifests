@@ -9,7 +9,7 @@
     "Version": {
         "Minor": "0",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Stefan Berg",
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.0.1.0.dll",
-        "Checksum": "2AB26F43CB4A7D62AC454505BFF8EBB69227C5EACABE5B629E52B234BCC1D91B",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.0.2.0.dll",
+        "Checksum": "A4B74BDD07F6FA4E681C49387FA854EA804F74ABAE89ECC0E9906747C4F77EA2",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
