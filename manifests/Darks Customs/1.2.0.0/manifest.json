@@ -8,7 +8,7 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://darkarchon.internet-box.ch:8443/NINA.Plugin.DarksCustoms.dll",
-        "Checksum": "7413AE29AAA97CD18F6EF802A6D838EEC542AB68FCCDE114E631543C50A35810",
+        "Checksum": "D246DFEBCD5945FE0CE7A102B4398E2D23BE2EBBCAEFFEACF939FB85A9A72081",
         "Type": "DLL"
     },
     "Version": {
