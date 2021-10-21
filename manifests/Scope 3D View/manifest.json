@@ -1,0 +1,39 @@
+﻿{
+    "ChangelogURL": "https://github.com/Santi871/Scope3DView/commits/master",
+    "Tags": [
+        "Template",
+        "Sequencer"
+    ],
+    "Name": "Scope 3D View",
+    "Version": {
+        "Minor": "1",
+        "Build": "0",
+        "Patch": "1",
+        "Major": "1"
+    },
+    "Author": "Santiago Vegega",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1165",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://github.com/Santi871/Scope3DView/blob/master/Images/Screenshot1.png?raw=true",
+        "LongDescription": "This plugin adds a dockable 3D view of the connected telescope to the imaging tab. Ported from [GSPoint3D](https://github.com/rmorgan001/GS.Point3d).\r\n\r\nThe dockable can be enabled in the imaging tab by clicking the \u00273D\u0027 icon in the info bar.",
+        "ScreenshotURL": "https://github.com/Santi871/Scope3DView/blob/master/Images/Screenshot2.png?raw=true",
+        "ShortDescription": "Dockable real-time 3D telescope view based on GSPoint3D",
+        "AltScreenshotURL": "https://github.com/Santi871/Scope3DView/blob/master/Images/Screenshot3.png?raw=true"
+    },
+    "Identifier": "35db5c57-a1a5-4504-b65f-c1bef3407eaa",
+    "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "Repository": "https://github.com/Santi871/Scope3DView",
+    "Homepage": "",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/Santi871/Scope3DView/releases/download/v1.1.1.0/Scope3DView.zip",
+        "Checksum": "695216071078EBF4BD8AACDA9DDE9C7FEB551E570512102A43EB35BF83A32988",
+        "Type": "ARCHIVE"
+    },
+    "License": "GPL-3.0"
+}
