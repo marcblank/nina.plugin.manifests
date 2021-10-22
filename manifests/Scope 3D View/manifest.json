@@ -1,5 +1,5 @@
 ﻿{
-    "ChangelogURL": "https://github.com/Santi871/Scope3DView/commits/master",
+    "ChangelogURL": "https://github.com/Santi871/Scope3DView/releases/",
     "Tags": [
         "Template",
         "Sequencer"
@@ -8,13 +8,13 @@
     "Version": {
         "Minor": "1",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Santiago Vegega",
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1165",
+        "Build": "1168",
         "Patch": "0",
         "Major": "1"
     },
@@ -31,8 +31,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/Santi871/Scope3DView/releases/download/v1.1.1.0/Scope3DView.zip",
-        "Checksum": "695216071078EBF4BD8AACDA9DDE9C7FEB551E570512102A43EB35BF83A32988",
+        "URL": "https://github.com/Santi871/Scope3DView/releases/download/v1.1.2.0/Scope3DView.zip",
+        "Checksum": "E7E0D68E97CA9691E5CE54A82934EDA1E136ABFAF4193FDDF21F68E5613CDDB8",
         "Type": "ARCHIVE"
     },
     "License": "GPL-3.0"
