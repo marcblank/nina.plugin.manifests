@@ -17,4 +17,14 @@ pipelines:
           script:
             #- git ftp init --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
             - git ftp push --force --syncroot $BITBUCKET_CLONE_DIR/Plugins/ --user $ftp_user --passwd $ftp_pw $ftp_host
+  pull-request:
+    '**': # this runs as default for any branch not elsewhere defined
+      - step:
+          name: validate pr
+          image: node:14-alpine
+
+          script:
+            - npm install
+            - node validate-for-pr.js
+
           

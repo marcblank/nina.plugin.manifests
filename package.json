@@ -18,6 +18,7 @@
   "homepage": "https://bitbucket.org/Isbeorn/nina.plugin.manifests#readme",
   "dependencies": {
     "ajv": "^8.6.0",
-    "ajv-formats": "^2.1.0"
+    "ajv-formats": "^2.1.0",
+    "request": "^2.88.2"
   }
 }
