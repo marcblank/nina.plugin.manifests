@@ -46,7 +46,6 @@ exec('git diff --name-only origin/main .', async (error, stdout, stderr) => {
                 }                
 
                 console.log("\x1b[32m",'Manifest valid at ' + fullPath);
-                manifests.push(json);
             }    
         } catch(e) {
             hasErrors = true;
