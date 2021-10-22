@@ -1,9 +1,9 @@
 pipelines:
-  pull-request:
+  pull-requests:
     '**': # this runs as default for any branch not elsewhere defined
       - step:
           name: validate pr
-          image: node:14-alpine
+          image: tarampampam/node:14-alpine
 
           script:
             - npm install

@@ -16,7 +16,7 @@ const validate = ajv.compile(schema);
 
 const { exec } = require("child_process");
 
-exec('git diff --name-only main .', async (error, stdout, stderr) => {
+exec('git diff --name-only origin/main .', async (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         process.exit(1);
