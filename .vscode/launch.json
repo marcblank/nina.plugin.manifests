@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\validate-for-pr.js"
+            "program": "${workspaceFolder}\\validate-latest-manifest.js"
         }
     ]
 }

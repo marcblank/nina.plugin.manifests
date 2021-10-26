@@ -1,15 +1,13 @@
 pipelines:
-  pull-requests:
-    '**': # this runs as default for any branch not elsewhere defined
+  branches: # Pipelines that run automatically on a commit to a branch can also be triggered manually
+    main:
       - step:
-          name: validate pr
+          name: latest manifest validation
           image: tarampampam/node:14-alpine
 
           script:
             - npm install
-            - node validate-for-pr.js
-  branches: # Pipelines that run automatically on a commit to a branch can also be triggered manually
-    main:
+            - node validate-latest-manifest.js
       - step:
           name: manifest creation
           image: node:14-alpine
