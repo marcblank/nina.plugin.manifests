@@ -58,17 +58,30 @@ async function scanDir(dir) {
     return {manifests, report};
 }
 
+function validateIds(manifests) {
+    const ids = {};
+    for(let manifest of manifests) {
+        if(ids[manifest.Identifier]) {
+            if(manifest.Name !== ids[manifest.Identifier]) {
+                console.log('\x1b[33m',`Id collision for manifest! ${manifest.Name} and ${ids[manifest.Identifier]}`);
+            }
+        }
+        ids[manifest.Identifier] = manifest.Name;
+    }
+}
+
 (async ()=>{
     console.log('Scanning for manifests in ' + root);
     const {manifests, report} = await scanDir(root);
+    validateIds(manifests);
     const targetDir = __dirname + '/Plugins';
     if (!fs.existsSync(targetDir)){
         fs.mkdirSync(targetDir);
     }
     await writeFile(targetDir + '/manifests.json', JSON.stringify(manifests), function(err, result) {
         if(err) console.log('\x1b[31m','error', err);
-      });
-      console.log('\x1b[0m',`done - total: ${report.total} total, ${report.successful} successful, ${report.failed} failed, ${report.invalid} invalid`);
+    });
+    console.log('\x1b[0m',`done - total: ${report.total} total, ${report.successful} successful, ${report.failed} failed, ${report.invalid} invalid`);
 })();
 
 

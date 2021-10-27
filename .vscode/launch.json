@@ -7,11 +7,20 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Validate",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\validate-latest-manifest.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Gather",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\gather.js"
         }
     ]
 }
