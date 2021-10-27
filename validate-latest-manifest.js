@@ -27,7 +27,7 @@ exec('git diff --name-only --diff-filter=ACM HEAD~1..HEAD', async (error, stdout
     }
 
     let hasErrors = false;
-    const files = stdout.split(/\r?\n/).filter(x => x.indexOf('.json') > -1 && x !== 'package.json' && x !== 'manifest.schema.json');
+    const files = stdout.split(/\r?\n/).filter(x => x.indexOf('.json') > -1 && x !== 'package.json' && x !== 'manifest.schema.json' && x !== '.vscode/launch.json');
 
     for(const file of files) {
         const fullPath = path.join( __dirname, file );
