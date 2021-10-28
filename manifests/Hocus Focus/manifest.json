@@ -1,0 +1,39 @@
+﻿{
+    "ChangelogURL": "https://github.com/ghilios/joko.nina.plugins/commits/develop",
+    "Tags": [
+        "StarDetection",
+        "AutoFocus"
+    ],
+    "Name": "Hocus Focus",
+    "Version": {
+        "Minor": "11",
+        "Build": "1",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "George Hilios (jokogeo)",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1167",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "This plugin improved Star Detection and Star Annotation for NINA. Faster Auto Focus is on the way as well \r\n\r\n*Features*:\r\n* Faster for large sensors, particularly APS-C and Full Frame\r\n* Higher accuracy (lower HFR Standard Deviation) if parameters are set properly\r\n* Advanced control over star detection parameters\r\n* Sophisticated star annotation to simplify parameter tuning\r\n* Can use the new Star Detector or Annotator without requiring both. Keep what you like\r\n* Faster AutoFocus on its way soon\r\n* Eccentricity on its way soon\r\n\r\nTo enable these features, go to Options -\u003e Imaging -\u003e Image Options. After this plugin is installed, there will be Star Detector and Star Annotator dropdown boxes you can select \"Hocus Focus\" for.\r\n",
+        "ScreenshotURL": "",
+        "ShortDescription": "Improved Star Detection and Star Annotation for NINA",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "0f1d10b6-d306-4168-b751-d454cbac9670",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/ghilios/joko.nina.plugins",
+    "Homepage": "",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.1/Joko.NINA.Plugins.HocusFocus.zip",
+        "Checksum": "D8AE41D29F659B8E70C14547E45D433391048401B8CED2FD4A8B9A1077709EB0",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
