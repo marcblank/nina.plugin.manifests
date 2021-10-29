@@ -1,0 +1,42 @@
+﻿{
+    "ChangelogURL": "https://github.com/daleghent/nina-plugins/blob/main/PlaneWaveTools/CHANGELOG.md",
+    "Tags": [
+        "planewave",
+        "pw3",
+        "delta-t",
+        "sequencer",
+        "fans"
+    ],
+    "Name": "PlaneWave Tools",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Dale Ghent",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1172",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/planewavetools.png",
+        "LongDescription": "PlaneWave Tools provides several instructions for controlling the EFA fans and Delta T heater controller via PlaneWave\u0027s PWI3 app.\r\n\r\n# Requirements #\r\n\r\n* PWI3 \u003e= 3.5.0 for fan control\r\n* PWI3 \u003e= 3.5.3 for fan and DeltaT control\r\n\r\n# Sequence Instructions #\r\n\r\n* Start PWI3, Stop PWI3 - Starts and stops the PWI3.exe application\r\n* Fan Control - Turns the OTA fans on or off\r\n* DeltaT Control - Sets the per-heater operating modes of the Delta T heater controller\r\n\r\nOpen to ideas for additional controls!\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.com/invite/rWRbVbw) or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-plugins/issues).",
+        "ScreenshotURL": "",
+        "ShortDescription": "A collection of useful tools for managing PlaneWave telescope systems",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/daleghent/nina-plugins",
+    "Homepage": "https://daleghent.com/planewave-tools",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-1.0.0.0.zip",
+        "Checksum": "4F8D752E5D28F31AE90D656D81B2C6244D1BA1A29F52CFBCC5703582D62013EE",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}

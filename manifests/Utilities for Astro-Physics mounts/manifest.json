@@ -10,13 +10,13 @@
     "Version": {
         "Minor": "3",
         "Build": "0",
-        "Patch": "0",
+        "Patch": "5",
         "Major": "1"
     },
     "Author": "Dale Ghent",
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1125",
+        "Build": "1172",
         "Patch": "0",
         "Major": "1"
     },
@@ -33,8 +33,8 @@
     "Homepage": "https://daleghent.com/utilities-for-astro-physics-mounts",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/u4apm/u4apm-1.3.0.0.zip",
-        "Checksum": "576A7BFA4142EB22791D36DD8DD020B9229CD77A9D5D51FBD09234E1B5253EDF",
+        "URL": "https://daleghent.com/dist/u4apm/u4apm-1.3.5.0.zip",
+        "Checksum": "AECE513F009246DF2930F4C0576315187EFF62C8AB0BA0A8CD1DE2B7182DEFD3",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
