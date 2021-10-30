@@ -60,20 +60,23 @@ async function scanDir(dir) {
 
 function validateIds(manifests) {
     const ids = {};
+    let idcollision = false;
     for(let manifest of manifests) {
         if(ids[manifest.Identifier]) {
             if(manifest.Name !== ids[manifest.Identifier]) {
-                console.log('\x1b[33m',`Id collision for manifest! ${manifest.Name} and ${ids[manifest.Identifier]}`);
+                console.log('\x1b[31m',`Id collision for manifest! ${manifest.Name} and ${ids[manifest.Identifier]}`);
+                idcollision = true;
             }
         }
         ids[manifest.Identifier] = manifest.Name;
     }
+    return idcollision;
 }
 
 (async ()=>{
     console.log('Scanning for manifests in ' + root);
     const {manifests, report} = await scanDir(root);
-    validateIds(manifests);
+    const idcollision = validateIds(manifests);
     const targetDir = __dirname + '/Plugins';
     if (!fs.existsSync(targetDir)){
         fs.mkdirSync(targetDir);
@@ -82,6 +85,9 @@ function validateIds(manifests) {
         if(err) console.log('\x1b[31m','error', err);
     });
     console.log('\x1b[0m',`done - total: ${report.total} total, ${report.successful} successful, ${report.failed} failed, ${report.invalid} invalid`);
+    if(report.failed > 0 || report.invalid > 0 || idcollision) {
+        process.exit(1);
+    }
 })();
 
 
