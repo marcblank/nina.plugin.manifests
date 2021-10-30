@@ -32,7 +32,7 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Synchronization.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Synchronization.0.2.0.0.zip",
         "Checksum": "764572AE7979CFAA40C7E4F15B9BA28E5440154D3331CEAAD86BB9D66061438B",
         "Type": "ARCHIVE"
     },
