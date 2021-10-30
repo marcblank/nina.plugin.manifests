@@ -2,8 +2,8 @@
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.Synchronization/Changelog.md",
     "Tags": [
         "Dither",
-        "Synchronization",
-        "Multiple Cameras"
+        " Synchronization",
+        " Multiple Cameras"
     ],
     "Name": "Synchronization",
     "Version": {
@@ -33,7 +33,7 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Synchronization.zip",
-        "Checksum": "B78245432B404CE05E7BA6F1FAF088A2325D6D5CE66F977655989C999230835C",
+        "Checksum": "764572AE7979CFAA40C7E4F15B9BA28E5440154D3331CEAAD86BB9D66061438B",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
