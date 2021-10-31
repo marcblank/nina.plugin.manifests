@@ -7,20 +7,20 @@
     ],
     "Name": "Connector",
     "Version": {
-        "Minor": "0",
+        "Minor": "1",
         "Build": "0",
-        "Patch": "2",
+        "Patch": "0",
         "Major": "1"
     },
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1127",
+        "Build": "1178",
         "Patch": "0",
         "Major": "1"
     },
     "Descriptions": {
-        "FeaturedImageURL": "",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/connect.jpg",
         "LongDescription": "A plugin that adds a connect and disconnect instructions to the advanced sequencer  \r\n  \r\nMake sure your equipment is properly setup, so that it is automatically selected when scanning for it. The instruction will scan for the selected equipment and try to connect to the device that was connected successfully the last time.   \r\nTo use the instructions, just drag them in and select the type of device you want to connect to or disconnect from.\r\n\r\n  \r\n**Be careful when using these instructions**! Failing to connect to equipment will make your sequence impossible to run properly. It is recommended to have some sort of notification mechanism like GNS or Ground Station available to be notified of a failed connection! ",
         "ScreenshotURL": "",
         "ShortDescription": "Equipment connection manager",
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.0.2.0.dll",
-        "Checksum": "A4B74BDD07F6FA4E681C49387FA854EA804F74ABAE89ECC0E9906747C4F77EA2",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.1.0.0.dll",
+        "Checksum": "FB39C95084E3FA7AA391243B911C3A9B82F883BC52EC13D8D9E042458F448FA9",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
