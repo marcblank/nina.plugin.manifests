@@ -7,7 +7,7 @@
     "Name": "Hocus Focus",
     "Version": {
         "Minor": "11",
-        "Build": "2",
+        "Build": "4",
         "Patch": "0",
         "Major": "1"
     },
@@ -20,9 +20,9 @@
     },
     "Descriptions": {
         "FeaturedImageURL": "",
-        "LongDescription": "This plugin improved Star Detection and Star Annotation for NINA. Faster Auto Focus is on the way as well \r\n\r\n*Features*:\r\n* Faster for large sensors, particularly APS-C and Full Frame\r\n* Higher accuracy (lower HFR Standard Deviation) if parameters are set properly\r\n* Advanced control over star detection parameters\r\n* Sophisticated star annotation to simplify parameter tuning\r\n* Can use the new Star Detector or Annotator without requiring both. Keep what you like\r\n* Faster AutoFocus on its way soon\r\n* Eccentricity on its way soon\r\n\r\nTo enable these features, go to Options -\u003e Imaging -\u003e Image Options. After this plugin is installed, there will be Star Detector and Star Annotator dropdown boxes you can select \"Hocus Focus\" for.\r\n",
+        "LongDescription": "This plugin improves Star Annotation for NINA. Improved star detection and a faster Auto Focus is on the way as well \r\n\r\n**Features**\r\n\r\n* Customizable colors and fonts for star annotations\r\n* Dynamic reloading of star annotations without needing to re-run star detection\r\n\r\n**Features coming soon**\r\n\r\n*Improved star detection*\r\n\r\n* Faster for large sensors, particularly APS-C and Full Frame\r\n* Higher accuracy (lower HFR Standard Deviation) if parameters are set properly\r\n* Advanced control over star detection parameters\r\n* Can use the new Star Detector or Annotator without requiring both. Keep what you like\r\n* Eccentricity calculation\r\n\r\n*AutoFocus*\r\n\r\n* Much faster during image acquisition by utilizing a fast 2nd pass that doesn\u0027t wait for star detection and processing in between exposures when already close to focus\r\n* Incorporation of measurement error into quality measurement of focusing results\r\n* Focusing individual color channels instead of just luminance for OSC, since that is skewed towards green focus\r\n\r\nTo enable these features, go to Options -\u003e Imaging -\u003e Image Options. After this plugin is installed, there will be a Star Annotator dropdown box you can select \"Hocus Focus\" for.\r\n",
         "ScreenshotURL": "",
-        "ShortDescription": "Improved Star Detection and Star Annotation for NINA",
+        "ShortDescription": "Improved Star Annotation for NINA",
         "AltScreenshotURL": ""
     },
     "Identifier": "0f1d10b6-d306-4168-b751-d454cbac9670",
@@ -31,8 +31,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.2/Joko.NINA.Plugins.HocusFocus.zip",
-        "Checksum": "6F34B8921F47014A926D4B8C70582A21C92538B60B3CF3B71832945711F09A98",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.4/Joko.NINA.Plugins.HocusFocus.zip",
+        "Checksum": "B1D48801EA00F3B46087A49C7843F26E3B8508A5D89C01D2CA99CBC07FF9828B",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
