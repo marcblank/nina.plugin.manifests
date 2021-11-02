@@ -1,0 +1,39 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/ScopeControl/Changelog.md",
+    "Tags": [
+        "Telescope",
+        "Handbox"
+    ],
+    "Name": "Scope Control",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "11",
+        "Build": "1181",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/scopecontrol_featured.png",
+        "LongDescription": "",
+        "ScreenshotURL": "",
+        "ShortDescription": "",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/ScopeControl/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/ScopeControl.1.0.0.dll",
+        "Checksum": "56D526BF286F16D7737720DD6328335897DB37C514FFC28CC88F4573F64DD33E",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
