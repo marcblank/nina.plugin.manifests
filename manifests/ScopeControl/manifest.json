@@ -6,7 +6,7 @@
     ],
     "Name": "Scope Control",
     "Version": {
-        "Minor": "0",
+        "Minor": "1",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
@@ -14,7 +14,7 @@
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
         "Minor": "11",
-        "Build": "1181",
+        "Build": "1190",
         "Patch": "0",
         "Major": "1"
     },
@@ -22,7 +22,7 @@
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/scopecontrol_featured.png",
         "LongDescription": "",
         "ScreenshotURL": "",
-        "ShortDescription": "",
+        "ShortDescription": "Adds a small tool panel to the imaging tab with basic mount control",
         "AltScreenshotURL": ""
     },
     "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/ScopeControl.1.0.0.0.dll",
-        "Checksum": "56D526BF286F16D7737720DD6328335897DB37C514FFC28CC88F4573F64DD33E",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/ScopeControl.1.1.0.0.dll",
+        "Checksum": "C00616F755B11C88551DA17F59607DF514B3F01490CBFCF136E580E9DD67CCD0",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
