@@ -7,7 +7,7 @@
     "Name": "Hocus Focus",
     "Version": {
         "Minor": "11",
-        "Build": "7",
+        "Build": "8",
         "Patch": "0",
         "Major": "1"
     },
@@ -31,8 +31,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.7/Joko.NINA.Plugins.HocusFocus.zip",
-        "Checksum": "020BB9F2DFB18F69D542B6996CEA7BE988D634C742186E3BBA0E5E714CB92DC1",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.8/Joko.NINA.Plugins.HocusFocus.zip",
+        "Checksum": "11770A770F2818B42AF6C5F9331C36F95774E1DD073054180C785961E1EF4B64",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
