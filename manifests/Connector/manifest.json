@@ -9,15 +9,15 @@
     "Version": {
         "Minor": "1",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
-        "Minor": "11",
-        "Build": "1188",
+        "Minor": "0",
+        "Build": "2001",
         "Patch": "0",
-        "Major": "1"
+        "Major": "2"
     },
     "Descriptions": {
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/connect.jpg",
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.1.1.0.dll",
-        "Checksum": "E7998734E14755DA9A98CE9A7D42D1BDB77427F5E1498DDAC02816370BA87AE5",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.1.2.0.dll",
+        "Checksum": "3D9A04562BA9D40A74B14BB0D66F493BCC8FDC6A86F0EE200103483ECB3150BB",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
