@@ -9,15 +9,15 @@
     "Version": {
         "Minor": "0",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
-        "Minor": "11",
-        "Build": "1155",
+        "Minor": "0",
+        "Build": "2001",
         "Patch": "0",
-        "Major": "1"
+        "Major": "2"
     },
     "Descriptions": {
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/CrystalBall.jpg",
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Orbuculum.1.0.1.0.dll",
-        "Checksum": "DF308B210143FF1D85AE75EA41C5296E3278F8CEA6CB0FC12946292C14E16783",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Orbuculum.1.0.2.0.dll",
+        "Checksum": "0F32B3C1678B0D31190AA15E6F24E5388B7962506DD21923DA06140DFC82E20A",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
