@@ -1,9 +1,9 @@
 ﻿{
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.Connector/Changelog.md",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/src/master/Connector/Changelog.md",
     "Tags": [
         "Connect",
-        " Equipment",
-        " Disconnect"
+        "Equipment",
+        "Disconnect"
     ],
     "Name": "Connector",
     "Version": {
@@ -20,7 +20,7 @@
         "Major": "2"
     },
     "Descriptions": {
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/connect.jpg",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/connect.jpg",
         "LongDescription": "A plugin that adds a connect and disconnect instructions to the advanced sequencer  \r\n  \r\nMake sure your equipment is properly setup, so that it is automatically selected when scanning for it. The instruction will scan for the selected equipment and try to connect to the device that was connected successfully the last time.   \r\nTo use the instructions, just drag them in and select the type of device you want to connect to or disconnect from.\r\n\r\n  \r\n**Be careful when using these instructions**! Failing to connect to equipment will make your sequence impossible to run properly. It is recommended to have some sort of notification mechanism like GNS or Ground Station available to be notified of a failed connection! ",
         "ScreenshotURL": "",
         "ShortDescription": "Equipment connection manager",
@@ -28,11 +28,11 @@
     },
     "Identifier": "52c17ee7-6d6c-4ee1-8fa0-85bcf6677bef",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.Connector/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.connector/",
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/NINA.Plugins.Connector.1.1.2.0.dll",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.1.2.0.dll",
         "Checksum": "3D9A04562BA9D40A74B14BB0D66F493BCC8FDC6A86F0EE200103483ECB3150BB",
         "Type": "DLL"
     },

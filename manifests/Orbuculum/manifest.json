@@ -1,9 +1,9 @@
 ﻿{
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/Orbuculum/Changelog.md",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/src/master/Orbuculum/Changelog.md",
     "Tags": [
         "Scrying",
-        " Divination",
-        " Crystallomancy"
+        "Divination",
+        "Crystallomancy"
     ],
     "Name": "Orbuculum",
     "Version": {
@@ -20,7 +20,7 @@
         "Major": "2"
     },
     "Descriptions": {
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/CrystalBall.jpg",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/CrystalBall.jpg",
         "LongDescription": "This plugin is intended to provide some basic tools to improve multi target planning by scrying future targets and predicting their state to react on these.  \r\n\r\nFor example - you know that a target is obstructed until it reaches a certain altitude, so you want to loop another target for as long as that target is below that specific altitude.",
         "ScreenshotURL": "",
         "ShortDescription": "A plugin that will provide sequencer instructions that are able to look for future targets and react accordingly.",
@@ -28,11 +28,11 @@
     },
     "Identifier": "a6c614f3-c3ab-423a-8be1-d480a253f07c",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/Orbuculum/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/",
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/Orbuculum.1.0.2.0.dll",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/Orbuculum.1.0.2.0.dll",
         "Checksum": "0F32B3C1678B0D31190AA15E6F24E5388B7962506DD21923DA06140DFC82E20A",
         "Type": "DLL"
     },

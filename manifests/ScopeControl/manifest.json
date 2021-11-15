@@ -1,5 +1,5 @@
 ﻿{
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/ScopeControl/Changelog.md",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/src/master/ScopeControl/Changelog.md",
     "Tags": [
         "Telescope",
         "Handbox"
@@ -19,7 +19,7 @@
         "Major": "2"
     },
     "Descriptions": {
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/scopecontrol_featured.png",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
         "LongDescription": "",
         "ScreenshotURL": "",
         "ShortDescription": "Adds a small tool panel to the imaging tab with basic mount control",
@@ -27,11 +27,11 @@
     },
     "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/ScopeControl/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugins/downloads/ScopeControl.1.1.2.0.dll",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.1.2.0.dll",
         "Checksum": "9649335711CD8527C8904CAA3DAD12862D49D80D19B7719A85EDC8F23BD75B3D",
         "Type": "DLL"
     },
