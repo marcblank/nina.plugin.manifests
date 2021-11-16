@@ -7,7 +7,7 @@
     "Name": "Three Point Polar Alignment",
     "Version": {
         "Minor": "5",
-        "Build": "0",
+        "Build": "1",
         "Patch": "2",
         "Major": "1"
     },
@@ -20,9 +20,9 @@
     },
     "Descriptions": {
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/logo.png",
-        "LongDescription": "Three Point Auto Polar Alignment almost anywhere in the sky  \r\n\r\nA new instruction will be available for the advanced sequencer as well as a new tool pane inside the imaging tab that will assist in polar alignment.  \r\n\r\nWhen the instruction is called, a new window will be visible, that will guide you through the process.   \r\nInside the imaging tab there will be a button inside the tool pane to show the polar alignment assistant with parameters and a button to start the process.  \r\n\r\n[*Frequently Asked Questions*](https://bitbucket.org/Isbeorn/nina.plugins/src/master/NINA.Plugin.Notification/NINA.Plugins.PolarAlignment/FAQ.md)\r\n\r\n*Prerequisites*  \r\n* Camera has to be connected and ready\r\n* A goto mount that can move along the right ascension axis via its ASCOM driver has to be connected\r\n    + Alternatively a manual mode can be enabled to manually move the mount along the right ascension axis\r\n    + Manual mode works with either a connected telescope or without any telescope connection at all\r\n* Platesolving must be setup (Astrometry.NET is not supported as primary solver for this, as it is too slow)\r\n\r\nThis method will use platesolving in combination with mount and camera control to automatically determine the polar alignment error.",
+        "LongDescription": "Three Point Auto Polar Alignment almost anywhere in the sky  \r\n\r\nA new instruction will be available for the advanced sequencer as well as a new tool pane inside the imaging tab that will assist in polar alignment.  \r\n\r\nWhen the instruction is called, a new window will be visible, that will guide you through the process.   \r\nInside the imaging tab there will be a button inside the tool pane to show the polar alignment assistant with parameters and a button to start the process.  \r\n\r\n[*Frequently Asked Questions*](https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/src/master/PolarAlignment/FAQ.md)\r\n\r\n*Prerequisites*  \r\n* Camera has to be connected and ready\r\n* A goto mount that can move along the right ascension axis via its ASCOM driver has to be connected\r\n    + Alternatively a manual mode can be enabled to manually move the mount along the right ascension axis\r\n    + Manual mode works with either a connected telescope or without any telescope connection at all\r\n* Platesolving must be setup (Astrometry.NET is not supported as primary solver for this, as it is too slow)\r\n\r\nThis method will use platesolving in combination with mount and camera control to automatically determine the polar alignment error.",
         "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/Starlock2.png",
-        "ShortDescription": "Three Point Auto Polar Alignment almost anywhere in the sky",
+        "ShortDescription": "Three Point Polar Alignment almost anywhere in the sky",
         "AltScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/Imaging.png"
     },
     "Identifier": "1de8d7d3-f11e-494c-a371-95cb48dffa18",
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/NINA.Plugins.PolarAlignment.1.5.2.0.dll",
-        "Checksum": "E22E2ED0DA516507CAC2C039DD842D2B9FF60B3EA81D8F2B994DCD40989C3DB9",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/NINA.Plugins.PolarAlignment.1.5.2.1.dll",
+        "Checksum": "C26C693D2DD2E052A63D7C1F126DB80FD36098A97E9456D16C7ABF34D7CF653C",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
