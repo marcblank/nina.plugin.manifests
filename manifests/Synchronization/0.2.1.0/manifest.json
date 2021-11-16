@@ -2,13 +2,13 @@
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/src/master/Synchronization/Changelog.md",
     "Tags": [
         "Dither",
-        " Synchronization",
-        " Multiple Cameras"
+        "Synchronization",
+        "Multiple Cameras"
     ],
     "Name": "Synchronization",
     "Version": {
         "Minor": "2",
-        "Build": "0",
+        "Build": "1",
         "Patch": "1",
         "Major": "0"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.0.2.1.0.zip",
-        "Checksum": "D47BF4C7D2D043686C314812C3DFB19F5232BB2335437D65FE479214859975A9",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.0.2.1.1.zip",
+        "Checksum": "14152670EE02BA8BDC9088E13A48C8514F3266DEEF6035393077612FDFCAFF4C",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
