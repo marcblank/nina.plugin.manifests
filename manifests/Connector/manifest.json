@@ -2,13 +2,13 @@
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/src/master/Connector/Changelog.md",
     "Tags": [
         "Connect",
-        "Equipment",
-        "Disconnect"
+        " Equipment",
+        " Disconnect"
     ],
     "Name": "Connector",
     "Version": {
         "Minor": "1",
-        "Build": "0",
+        "Build": "1",
         "Patch": "2",
         "Major": "1"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.1.2.0.dll",
-        "Checksum": "3D9A04562BA9D40A74B14BB0D66F493BCC8FDC6A86F0EE200103483ECB3150BB",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.1.2.1.dll",
+        "Checksum": "17D0F07B8B316C764BF8982BBAB327FEEBF2A3A22958EEE0CC2E91715F5AD707",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
