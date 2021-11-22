@@ -1,0 +1,38 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/MrSzymon/nina.plugin.seqnr/commits/branch/master",
+    "Tags": [
+        "Template",
+        "Sequencer"
+    ],
+    "Name": "Starting Sequence Number",
+    "Version": {
+        "Minor": "0",
+        "Build": "2",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Simon Kapadia",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2001",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/MrSzymon/nina.plugin.seqnr/downloads/SeqNrLogo.png",
+        "LongDescription": "This plugin allows you to continue a previous night\u0027s imaging by starting your file sequence numbering from a specified number.\r\nFor example, if your previous nights last good image was *\\*_0071.xisf*, you can specify *72* here and the next image will be saved\r\nwith index number *\\*_0072.xisf*.  Note that this value is actualy a simple offset from the default index, 0.\r\n\r\nThe plugin lives under the \u0027Utility\u0027 category and should be dragged to the start of a container where there are TakeExposure, \r\nTakeManyExposures or SmartExposure instructions.  Any files saved by these instructions will then use the new begining index\r\nfor sequence numbering.\r\n",
+        "ScreenshotURL": "https://bitbucket.org/MrSzymon/nina.plugin.seqnr/downloads/SeqNr.jpg",
+        "ShortDescription": "Plugin to enable starting a file index sequencing numbering at a specified value."
+    },
+    "Identifier": "7f14fd8b-384f-41f7-a1ad-c0f88698ff46",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/MrSzymon/nina.plugin.seqnr/",
+    "Homepage": "http://astrophotos.uk",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/MrSzymon/nina.plugin.seqnr/downloads/SeqNrPlugin.dll",
+        "Checksum": "7D2916CBCB2040B00A10F9310B19C3D9D99A237BB6233FCC651ABB9125058DDC",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
