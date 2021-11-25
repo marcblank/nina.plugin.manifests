@@ -1,0 +1,41 @@
+﻿{
+    "ChangelogURL": "https://github.com/daleghent/nina-astro-physics-tools/blob/main/CHANGELOG.md",
+    "Tags": [
+        "appm",
+        "astro-physics",
+        "apcc",
+        "sequencer"
+    ],
+    "Name": "Astro-Physics Tools",
+    "Version": {
+        "Minor": "1",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "0"
+    },
+    "Author": "Dale Ghent",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2004",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ap-logo.jpg",
+        "LongDescription": "Astro-Physics Tools is a collection of Advanced Sequencer instructions that are designed for use with [Astro-Physics](https://www.astro-physics.com/) mounts and [APCC Pro](https://www.astro-physics.com/apcc).\r\n\r\n## **NOTE: THIS PLUGIN IS IN BETA AND CURRENTLY REQUIRES A BETA VERSION OF APCC PRO TO FUNCTION. PLEASE REFER TO THIS PLUGIN\u0027S WEBSITE FOR FURTHER INFORMATION** ##\r\n\r\n# Requirements #\r\n\r\n* NINA 2.0\r\n* APCC Pro 1.9.2.3 or later\r\n* The **Enable Server** setting is **On** in NINA\u0027s options (refer to Options \u003e General)\r\n\r\n# Provided functions #\r\n\r\n* Start APCC\r\n    * Starts APCC and connects NINA to the Astro-Physics ASCOM driver. Assumes that APCC\u0027s **Auto-Connect** setting is selected in both the **Mount** and **AP V2 Driver** option areas in the Setup tab\r\n* Create All-Sky Model\r\n    * Automatically runs an all-sky model session based on the configured parameters\r\n* Create Dec Arc Model\r\n    * Automatically generates a dec arc model based on several parameters for the target that the instruction is subordinate to\r\n\r\n# Getting help #\r\n\r\nPlease refer to this [plugin\u0027s website](https://daleghent.com/astro-physics-tools) for detailed documentation. I also maintain a [website with tips](https://daleghent.com/nina-and-astro-physics-mounts) on using NINA with Astro-Physics mounts.\r\n\r\nIf you have questions about this plugin, come ask them in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.com/invite/rWRbVbw) or on Astro-Physics\u0027 [AP-GTO forum](https://ap-gto.groups.io/g/main), or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-plugins/issues).\r\n\r\n* Astro-Physics Tools is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/daleghent/nina-astro-physics-tools/blob/main/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin\u0027s [source code repository](https://github.com/daleghent/nina-astro-physics-tools)\r\n\r\nThe Astro-Physics logo is copyright © Astro-Physics, Inc. Used with permission.\r\n\r\nThis plugin was coded while listening to the very fine ambient music artists of [Ultimae Records](https://soundcloud.com/ultimae).",
+        "ScreenshotURL": "https://daleghent.github.io/nina-plugins/assets/images/U4APMscreen1.png",
+        "ShortDescription": "A collection of useful Advanced Sequencer utilities for users of Astro-Physics mounts and APCC Pro",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "99688A5D-BD28-4D8D-80D5-3D4192BB987D",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/daleghent/nina-astro-physics-tools",
+    "Homepage": "https://daleghent.com/astro-physics-tools",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://daleghent.com/dist/astro-physics-tools/AstroPhysicsTools-0.1.0.0.zip",
+        "Checksum": "F46377D4D17AB006174C16898A0E124CD92D86A75C1F2FAE48DCB791B458199E",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
