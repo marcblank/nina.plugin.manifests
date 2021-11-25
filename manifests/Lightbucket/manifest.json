@@ -7,20 +7,21 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-0.2.1.zip",
-        "Checksum": "CFF3A9CC1810B4CEEC6B18FD350B42AD5821DA5AD981EA0A862E441EF935DDA6",
+        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-1.0.0.zip",
+        "Checksum": "4F2FBE11FEED0DBAD197D6EADA0C08D3DE5D9F50423E2E892ECF202B72ADE362",
         "Type": "ARCHIVE"
     },
     "Version": {
-        "Minor": "2",
+        "Minor": "0",
         "Build": "0",
-        "Patch": "1",
-        "Major": "0"
+        "Patch": "0",
+        "Major": "1"
     },
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Descriptions": {
-        "ShortDescription": "Send session information to the Lightbucket API",
-        "LongDescription": "Lightbucket is a tool for tracking your astrophotography imaging sessions so you can easily see data about your journey through the cosmos.\r\nAfter installing this plugin and configuring your API credentials, NINA will send information about your LIGHT frames as they are saved over\r\nthe course of a sequence.\r\n\r\nThe following information will be sent to Lightbucket when images are saved:\r\n\r\n- Target Name, RA, Dec, and Rotation\r\n- Telescope Name (from your Profile)\r\n- Camera Name\r\n- Image Filter, Duration, Gain, Offset, Binning, and Total RMS (in arcseconds)\r\n- A small (300px) thumbnail of the stretched frame.\r\n\r\nThis logging is automatically enabled and can be toggled on or off using the Enabled setting below."
+        "FeaturedImageURL": "https://app.lightbucket.co/nina_plugin/lightbucket-logo.png",
+        "LongDescription": "Lightbucket is a tool for tracking your astrophotography imaging sessions so you can easily see data about your journey through the cosmos.\r\nAfter installing this plugin and configuring your API credentials, NINA will send information about your LIGHT frames as they are saved over\r\nthe course of a sequence.\r\n\r\nThe following information will be sent to Lightbucket when images are saved:\r\n\r\n- Target Name, RA, Dec, and Rotation\r\n- Telescope Name (from your Profile)\r\n- Camera Name\r\n- Image Filter, Duration, Gain, Offset, Binning, and Total RMS (in arcseconds)\r\n- A small (300px) thumbnail of the stretched frame.\r\n\r\nThis logging is automatically enabled and can be toggled on or off using the Enabled setting below.",
+        "ShortDescription": "Send session information to the Lightbucket API"
     },
     "Name": "Lightbucket",
     "Homepage": "https://app.lightbucket.co",
