@@ -1,0 +1,30 @@
+﻿{
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2001",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v1.0.0.0/NINA.Plugin.SessionMetaData-1.0.0.0.zip",
+        "Checksum": "222B30EBEE8B18250D98E27F54C0F83555B334C48944E8F46B22BB86DEA6C60B",
+        "Type": "ARCHIVE"
+    },
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "ShortDescription": "Write additional metadata for an imaging session",
+        "LongDescription": "Session Metadata will output additional acquisition and per-image information associated with an imaging session.  The files will be written to the folder containing your images. If Session Metadata is enabled, two types of metadata will be written:\n\n* AcquisitionDetails: Additional information assciated with the session, including target, telescope, camera, and observing location.  This file will be written once for each new imaging folder.\n* ImageMetaData: Additional information assciated with each captured image, including exposure details, ADU statistics, HFR, detected stars, guiding RMS and more. An aggregate file will be updated for each image written to the folder.\n\n# Output Formats #\nEither or both output types can be enabled.\n* If CSV output is enabled, CSV files will be written: AcquisitionDetails.csv and ImageMetaData.csv (containing one row per image).\n* If JSON output is enabled, JSON files will be written: AcquisitionDetails.json and ImageMetaData.json (containing one list element per image).\n\n# Getting Help #\n* Ask for help in the #plugin-discussions channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\n* [Source code](https://github.com/tcpalmer/nina.plugin.sessionmetadata)\n* [Change log](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/CHANGELOG.md)\n\nSession Metadata is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/LICENSE.txt)\n"
+    },
+    "Name": "Session Metadata",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Author": "Tom Palmer",
+    "Repository": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/",
+    "License": "MPL-2.0",
+    "Identifier": "DCB1D37B-F121-4966-99EC-D11410C562B6"
+}
