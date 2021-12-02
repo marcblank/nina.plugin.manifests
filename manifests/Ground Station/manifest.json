@@ -1,5 +1,5 @@
 ﻿{
-    "ChangelogURL": "https://github.com/daleghent/nina-plugins/blob/main/GroundStation/CHANGELOG.md",
+    "ChangelogURL": "https://github.com/daleghent/nina-ground-station/blob/main/CHANGELOG.md",
     "Tags": [
         "notifications",
         "alerts",
@@ -10,17 +10,17 @@
     ],
     "Name": "Ground Station",
     "Version": {
-        "Minor": "7",
+        "Minor": "8",
         "Build": "0",
-        "Patch": "5",
+        "Patch": "0",
         "Major": "1"
     },
     "Author": "Dale Ghent",
     "MinimumApplicationVersion": {
-        "Minor": "11",
-        "Build": "1172",
+        "Minor": "0",
+        "Build": "2011",
         "Patch": "0",
-        "Major": "1"
+        "Major": "2"
     },
     "Descriptions": {
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ground-station-logo1.png",
@@ -31,12 +31,12 @@
     },
     "Identifier": "2737AFDF-A1AA-48C3-BE17-0F5F03282AEB",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://github.com/daleghent/nina-plugins",
+    "Repository": "https://github.com/daleghent/nina-ground-station",
     "Homepage": "https://daleghent.com/ground-station",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.7.5.0.zip",
-        "Checksum": "D536361E76DC5382DFDBEE7CAF689CF6D7581E0F708739BC224EF048711BE0E5",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.8.0.0.zip",
+        "Checksum": "8B47716C45D6BAAEA0FC1C4571BBDFDADA75C0EA072EAD10D532EFA3787347FF",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
