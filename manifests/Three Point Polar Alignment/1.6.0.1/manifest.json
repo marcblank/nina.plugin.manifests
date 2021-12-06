@@ -7,7 +7,7 @@
     "Name": "Three Point Polar Alignment",
     "Version": {
         "Minor": "6",
-        "Build": "0",
+        "Build": "1",
         "Patch": "0",
         "Major": "1"
     },
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/NINA.Plugins.PolarAlignment.1.6.0.0.dll",
-        "Checksum": "108A9457FCE4962C27EB4B4DBD53779B16F600A1F0C004441A309B7DD706CD28",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/NINA.Plugins.PolarAlignment.1.6.0.1.dll",
+        "Checksum": "B5CA544D2030898ED3A647296B50B012411E526A866DDD0DF9CA757D0EE7616C",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
