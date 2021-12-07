@@ -8,14 +8,14 @@
     "Name": "Connector",
     "Version": {
         "Minor": "1",
-        "Build": "1",
-        "Patch": "2",
+        "Build": "0",
+        "Patch": "3",
         "Major": "1"
     },
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2001",
+        "Build": "2013",
         "Patch": "0",
         "Major": "2"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.1.2.1.dll",
-        "Checksum": "17D0F07B8B316C764BF8982BBAB327FEEBF2A3A22958EEE0CC2E91715F5AD707",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.1.3.0.dll",
+        "Checksum": "9C6BF714C4539B9D5FEDF9B0C08A8108333996B5722C8A55A849018D156A7CD2",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
