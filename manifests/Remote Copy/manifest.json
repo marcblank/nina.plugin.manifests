@@ -1,0 +1,31 @@
+﻿{
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2001",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/tcpalmer/nina.plugin.remotecopy/releases/download/v1.0.0.0/NINA.Plugin.RemoteCopy-1.0.0.0.zip",
+        "Checksum": "677BCA3A73305D6389FC435DC12980E3DCAEF6CDD4C69285892F265B481CA68B",
+        "Type": "ARCHIVE"
+    },
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.remotecopy/main/NINA.Plugin.RemoteCopy/assets/remote-copy-logo.png?raw=true",
+        "LongDescription": "Remote Copy supports replication of your image files to another location or server while your sequence is running.  This can be useful to automatically copy the images to the server used for postprocessing, to support live stacking, or for long term archiving.\n\n# Robocopy #\nRobocopy is a file and directory replication tool provided with all Windows installations.  Robocopy can be configured (as it is here) to continuously monitor a source folder for changes and then replicate automatically.  Through the use of the \u0027Robocopy Start\u0027 and \u0027Robocopy Stop\u0027 sequence instructions, you can easily replicate your image files to a another location on the same system or a mapped drive on another server.\n\nSee the Windows [robocopy documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) for more information.\n\n## Robocopy Instructions ##\nThe plugin provides two instructions for robocopy, both in the \u0027Remote Copy\u0027 group:\n* Robocopy Start.  You provide the source and destination folders and when executed, this instruction will start a robocopy process in the background to replicate files from the source to the destination.  Via the options, you can choose to display the command window (where you can watch progress) or not.  If the window isn\u0027t shown, log output will be written to robocopy-yyyyMMdd-HHmmss.log in the same location as the main NINA log.  You can also override the default options passed to robocopy.  *Consult the documentation and be sure you know what you\u0027re doing before changing this.*\n\n* Robocopy Stop.  Insert this instruction at the end of your sequence to stop the background robocopy process.  You can set a wait time before the process will be stopped.  Since robocopy can only check for changes once per minute, it is important to give the last image file(s) time to replicate - especially if your destination is non-local.  Ideally, this instruction would be included in the same parallel instruction set containing your other shutdown instructions like park scope and warm camera.\n\nIf you\u0027re replicating to a remote server, successful operation of course depends on having a decent network connection.  The default options will retry a failed copy up to two times but this plugin does not guarantee replication: at the end of your session, you are encouraged to verify that you have all files where you want them.\n\nOther things to be aware of:\n* The plugin watches the background robocopy process and if it detects that it has stopped, it will restart it.\n* If you execute another Robocopy Start instruction before stopping an existing one, it will stop the current one before starting another.\n* The plugin will only manage robocopy processes that it started so if you run robocopy for other needs, it shouldn\u0027t interfere.  However, it would probably be bad to have overlapping source/destination folders.\n* If you forget to include the Robocopy Stop instruction, the plugin will attempt to stop the robocopy process when NINA ends - but it\u0027s best to explicitly stop it with the instruction.\n* Robocopy has been tested with remote destinations like OneDrive and does work - just be sure to set a sufficiently large delay in your Robocopy Stop instruction to give it time to replicate your final image(s).\n* If you see problems, it\u0027s likely because robocopy isn\u0027t happy for some reason.  Please test the robocopy command by itself outside of NINA before blaming the plugin.\n\n# SCP #\nSupport for SCP (secure copy) might be added if there\u0027s sufficient interest.  This would enable replication to arbitrary remote systems (e.g. cloud storage) without requiring the destination to be a mounted file system.\n\n# Getting Help #\n* Ask for help in the #plugin-discussions channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\n* [Source code](https://github.com/tcpalmer/nina.plugin.remotecopy)\n* [Change log](https://github.com/tcpalmer/nina.plugin.remotecopy/blob/main/CHANGELOG.md)\n\nRemote Copy is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/LICENSE.txt)\n",
+        "ShortDescription": "Copy acquired files to another location"
+    },
+    "Name": "Remote Copy",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Author": "Tom Palmer",
+    "Repository": "https://github.com/tcpalmer/nina.plugin.remotecopy/",
+    "License": "MPL-2.0",
+    "Identifier": "F35D0A07-E238-436C-A4BD-BAA4AA2A6255"
+}
