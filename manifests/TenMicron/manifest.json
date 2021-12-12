@@ -34,7 +34,7 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv0.2.0.0/NINA.Joko.Plugin.TenMicron.zip",
-        "Checksum": "C42FB51473CF8A1AD088B2B1C015BB9DBA7FE6D83C4313AD9D924DA29FCB067E",
+        "Checksum": "5D6EC4976304D8032E95B06D1039395696F9C6BA05ED4F69D0ABAC67B493A39E",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
