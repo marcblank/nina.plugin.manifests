@@ -7,23 +7,24 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v1.1.0.0/NINA.Plugin.SessionMetaData-1.1.0.0.zip",
-        "Checksum": "078B79E6DEA556179E9DD950D36992A651CA499FFC08997D0903A3EBADBEB966",
+        "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v1.2.0.0/NINA.Plugin.SessionMetaData-1.2.0.0.zip",
+        "Checksum": "B781CEF180E985D249D93E2F3858DC65A3587D9FFF10F761E7B62F5548E8F173",
         "Type": "ARCHIVE"
     },
     "Version": {
-        "Minor": "1",
+        "Minor": "2",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
     },
     "Descriptions": {
-        "ShortDescription": "Write additional metadata for an imaging session",
-        "LongDescription": "Session Metadata will output additional acquisition and per-image information associated with an imaging session.  The files will be written to the folder containing your images. If Session Metadata is enabled, two types of metadata will be written:\r\n\r\n* Acquisition Details: Additional information assciated with the session, including target, telescope, camera, and observing location.  This file will be written once for each new imaging folder.\r\n* Image Metadata: Additional information assciated with each captured image, including exposure details, ADU statistics, HFR, detected stars, guiding RMS and more. An aggregate file will be updated for each image written to the folder.\r\n\r\nThere is certainly overlap between this plugin and other parts of NINA.  For example, NINA will write metadata to the FITS or XISF image headers - but it\u0027s not really convenient to access for a set of images.  You can also click save in the HFR History panel in the Imaging tab to save a CSV file of image metadata - but you have to remember to do it.  This plugin automates the metadata capture process and makes it easy to view and compare data.\r\n\r\n# Output Formats #\r\nEither or both output types can be enabled.\r\n* If CSV output is enabled, CSV files will be written: AcquisitionDetails.csv and ImageMetaData.csv (containing one row per image).\r\n* If JSON output is enabled, JSON files will be written: AcquisitionDetails.json and ImageMetaData.json (containing one list element per image).\r\n\r\nThe output file names can be customized - see above.\r\n\r\n# Getting Help #\r\n* Ask for help in the #plugin-discussions channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\r\n* [Source code](https://github.com/tcpalmer/nina.plugin.sessionmetadata)\r\n* [Change log](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/CHANGELOG.md)\r\n\r\nSession Metadata is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/LICENSE.txt)\r\n"
+        "FeaturedImageURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.sessionmetadata/main/NINA.Plugin.SessionMetaData/assets/metadata-tag-icon.png?raw=true",
+        "LongDescription": "Session Metadata will output additional acquisition and per-image information associated with an imaging session.  The files will be written to the folder containing your images. If Session Metadata is enabled, two types of metadata will be written:\r\n\r\n* Acquisition Details: Additional information assciated with the session, including target, telescope, camera, and observing location.  This file will be written once for each new imaging folder.\r\n* Image Metadata: Additional information assciated with each captured image, including exposure details, ADU statistics, HFR, detected stars, guiding RMS and more. An aggregate file will be updated for each image written to the folder.\r\n\r\nThere is certainly overlap between this plugin and other parts of NINA.  For example, NINA will write metadata to the FITS or XISF image headers - but it\u0027s not really convenient to access for a set of images.  You can also click save in the HFR History panel in the Imaging tab to save a CSV file of image metadata - but you have to remember to do it.  This plugin automates the metadata capture process and makes it easy to view and compare data.\r\n\r\n# Output Formats #\r\nEither or both output types can be enabled.\r\n* If CSV output is enabled, CSV files will be written: AcquisitionDetails.csv and ImageMetaData.csv (containing one row per image).\r\n* If JSON output is enabled, JSON files will be written: AcquisitionDetails.json and ImageMetaData.json (containing one list element per image).\r\n\r\nThe output file names can be customized - see above.\r\n\r\n# Getting Help #\r\n* Ask for help in the #plugin-discussions channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\r\n* [Source code](https://github.com/tcpalmer/nina.plugin.sessionmetadata)\r\n* [Change log](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/CHANGELOG.md)\r\n\r\nSession Metadata is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/LICENSE.txt)\r\n",
+        "ShortDescription": "Write additional metadata for an imaging session"
     },
     "Name": "Session Metadata",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Author": "Tom Palmer",
+    "Author": "Tom Palmer @tcpalmer",
     "Repository": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/",
     "License": "MPL-2.0",
     "Identifier": "DCB1D37B-F121-4966-99EC-D11410C562B6"
