@@ -6,9 +6,9 @@
     ],
     "Name": "Scope Control",
     "Version": {
-        "Minor": "1",
-        "Build": "1",
-        "Patch": "2",
+        "Minor": "2",
+        "Build": "0",
+        "Patch": "0",
         "Major": "1"
     },
     "Author": "Stefan Berg",
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.1.2.1.dll",
-        "Checksum": "4CEE1A21F1CA136957C249C5319C9D125A258D56243484A54C7D7E223DAC8153",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.2.0.0.dll",
+        "Checksum": "C52B438E07081DB369BA80B2E87953334CF777A967F2775925DD975D0A44C708",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
