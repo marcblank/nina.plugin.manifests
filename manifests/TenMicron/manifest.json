@@ -8,7 +8,7 @@
     ],
     "Name": "10 Micron Tools",
     "Version": {
-        "Minor": "3",
+        "Minor": "4",
         "Build": "0",
         "Patch": "0",
         "Major": "0"
@@ -22,7 +22,7 @@
     },
     "Descriptions": {
         "FeaturedImageURL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/resources/GM1000HPS.jpg",
-        "LongDescription": "This plugin provides tools for 10 micron mounts, such as building pointing models.\r\n\r\n* NOTE: This plugin is still in active development *\r\n\r\n# Features #\r\n\r\n* Build full sky models using Golden Spiral in an Imaging tab dock\r\n* Sidereal Path model point generation that creates points along the sidereal path of a DSO\r\n* Advanced Sequencer items to build, load, and save models as part of a sequence\r\n* MW4 and NINA horizons supported. Load the horizon file in NINA Options -\u003e General\r\n* Dome optimization to reduce dome slews during model build\r\n* View and save loaded alignment models\r\n* Load and Delete existing alignment models\r\n* Remove the worst alignment star from a loaded alignment model\r\n* Retry individual points that have high RMS\r\n* Retry model build failures using only the failed points, unless a maximum number of failures is exceeded\r\n\r\n# Coming Soon #\r\n\r\n* Altitude-aware dome shutter calculations. By setting a dome shutter width in the model builder settings, a wider dome slit clearance will be used for higher altitudes to further reduce the number of dome slews\r\n* Advanced Sequencer item to build full-sky models\r\n* Advanced Sequencer item to set tracking rates not exposed by the ASCOM driver\r\n\r\n# Getting Help #\r\n\r\nIf you have questions, come ask in the **#plugin-discussions** channel on the NINA [Discord chat server](https://discord.com/invite/rWRbVbw).\r\n* 10 Micron Tools is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin\u0027s [source code repository](https://github.com/ghilios/NINA.Joko.Plugin.TenMicron)\r\n",
+        "LongDescription": "This plugin provides tools for 10 micron mounts, such as building pointing models.\r\n\r\n* NOTE: This plugin is still in active development *\r\n\r\n# Features #\r\n\r\n* Build full sky models using Golden Spiral in an Imaging tab dock\r\n* Sidereal Path model point generation that creates points along the sidereal path of a DSO\r\n* Advanced Sequencer items to build, load, and save models as part of a sequence\r\n* MW4 and NINA horizons supported. Load the horizon file in NINA Options -\u003e General\r\n* Dome optimization to reduce dome slews during model build\r\n* View and save loaded alignment models\r\n* Load and Delete existing alignment models\r\n* Remove the worst alignment star from a loaded alignment model\r\n* Retry individual points that have high RMS\r\n* Retry model build failures using only the failed points, unless a maximum number of failures is exceeded\r\n* Advanced Sequencer item to set tracking rates not exposed by the ASCOM driver\r\n\r\n# Coming Soon #\r\n\r\n* Altitude-aware dome shutter calculations. By setting a dome shutter width in the model builder settings, a wider dome slit clearance will be used for higher altitudes to further reduce the number of dome slews\r\n* Advanced Sequencer item to build full-sky models\r\n\r\n# Getting Help #\r\n\r\nIf you have questions, come ask in the **#plugin-discussions** channel on the NINA [Discord chat server](https://discord.com/invite/rWRbVbw).\r\n* 10 Micron Tools is provided \u0027as is\u0027 under the terms of the [Mozilla Public License 2.0](https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin\u0027s [source code repository](https://github.com/ghilios/NINA.Joko.Plugin.TenMicron)\r\n",
         "ScreenshotURL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/resources/TenMicronToolsScreenshot.JPG",
         "ShortDescription": "10 Micron Mount Tools, including model building",
         "AltScreenshotURL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/resources/TenMicronToolsAltScreenshot.JPG"
@@ -33,8 +33,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv0.3.0.0/NINA.Joko.Plugin.TenMicron.zip",
-        "Checksum": "501850D2279823E5EE8E3D0FD97680DB48FB24EBB59A78A92D764996E48CF26E",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv0.4.0.0/NINA.Joko.Plugin.TenMicron.zip",
+        "Checksum": "AE20A17C94051E26737705D080AB19B199EFC124218ED7458D18EB5DF134472F",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
