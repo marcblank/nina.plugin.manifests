@@ -1,0 +1,39 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/zorkmid/nina.plugin.vars/commits/branch/master",
+    "Tags": [
+        "Constants",
+        "Sequencer"
+    ],
+    "Name": "Constants for Exposure Instructions",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Marc Blank",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2015",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "The Constants plugin, an experimental feature set, provides a mechanism for defining named Constants as well as updated versions of the TakeExposure, TakeManyExposures, and SmartExposure instructions.\r\n\r\nConstant names are alphanumeric (case insensitive) and their value can be numeric or numeric expressions, which may themselves include other Constants (e.g. 12, 55.5, C*2).\r\n\r\nThese Constants can currently be used in the \u0027#Iterations\u0027, \u0027Exposure Time\u0027, and \u0027Dither After\u0027 fields of the various Exposure commands.\r\n\r\nScreenshot: https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/Constants2.PNG",
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/Constants2.PNG",
+        "ShortDescription": "This plugin allows for the creation of numerical constants that can then be used within the various \u0027Exposure\u0027 instructions to avoid repetitive entry and the potential mistakes that go with it.",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "3cdf2220-6210-4236-b3f8-3466f8fb1a0f",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.vars/src/master/",
+    "Homepage": "",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
+        "Checksum": "FB3CC94ADE12D3392EA951C59039C3B6F80DF2FF3FE4D8879974D26390676BD6",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
