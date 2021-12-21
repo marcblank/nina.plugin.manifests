@@ -1,0 +1,35 @@
+{
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2004",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.0.0/Lens.AF.dll",
+        "Checksum": "D14E96BC2F762E6E3D670C26C066C1592863BF9B1262E42AF05EC6AAAA9D24CF",
+        "Type": "DLL"
+    },
+    "Version": {
+        "Minor": "0",
+        "Build": "1",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Tags": [
+        "AF",
+        "Sequencer",
+        "Canon"
+    ],
+    "Descriptions": {
+        "ShortDescription": "Run AF with your Camera Lens!",
+        "LongDescription": "This Plugin provides an instruction to run an AF with your camera lens attached to a Canon Camera\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs. This plugin may not work for everyone!**\r\n\r\n\r\n**Requirements**: \r\n- A Canon Camera,  \r\n- A Camera Lens that supports AF\r\n- The Camera has to be connected to NINA before the sequence gets loaded in to be correctly picked by the plugin\r\n\r\nThe plugin was tested using the following camera and lenses:\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n\r\n\r\nKnown issues:\r\n- Some cameras or lenses may try to refocus, when taking images if the lens is set to AF\r\n\r\n\r\n\r\n#Troubleshooting:\r\nWhat to try if:\r\n- ...the focus doesn\u0027t move: Try a different step size (3 or 4 always worked for me) or try switching your lens from AF/MF to MF/AF\r\n- ...the plugin didn\u0027t result in good focus: Try a different step size (3 or 4 always worked for me)\r\n- ...the sequence item doesn\u0027t detect the camera: Try to delete and add the sequence item again"
+    },
+    "Name": "Lens AF",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Author": "Christian Palm",
+    "Repository": "https://github.com/rennmaus-coder/Camera-Lens-AF",
+    "License": "MPL-2.0",
+    "Identifier": "df0bb056-bd8b-4939-95f6-a175ca252fa5"
+}
