@@ -4,10 +4,10 @@
         "Constants",
         "Sequencer"
     ],
-    "Name": "Constants for Exposure Instructions",
+    "Name": "Constants for Exposures",
     "Version": {
         "Minor": "0",
-        "Build": "0",
+        "Build": "1",
         "Patch": "0",
         "Major": "1"
     },
@@ -29,11 +29,11 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.vars/src/master/",
     "Homepage": "",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
-        "Checksum": "F2D0D12C753293591901CAC3C2795F5020BC8F8A7CA2B6C45330EB67CFF97DA4",
-        "Type": "DLL"
-    },
+  "Installer": {
+    "ChecksumType": "SHA256",
+    "URL": "https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
+    "Checksum": "D4F05CD305F0BEB0BB5A3CB25E8AF66E812AA8B389976A38F638AC2C3ADBD1E3",
+    "Type": "DLL"
+  },
     "License": "MPL-2.0"
 }
