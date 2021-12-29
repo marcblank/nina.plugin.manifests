@@ -8,7 +8,7 @@
     "Name": "Connector",
     "Version": {
         "Minor": "2",
-        "Build": "0",
+        "Build": "1",
         "Patch": "0",
         "Major": "1"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.2.0.0.dll",
-        "Checksum": "E56B8CFE933F4C2D3A75FE24D1E1205C028949C283F6FA093F09DFC11EA2FA81",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.1.2.0.1.dll",
+        "Checksum": "6A23854805F9D9E438A8FF0E4B9CF24173791A981A0B9D9C094342D335ECA30F",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
