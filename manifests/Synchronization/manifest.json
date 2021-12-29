@@ -8,14 +8,14 @@
     "Name": "Synchronization",
     "Version": {
         "Minor": "2",
-        "Build": "1",
+        "Build": "2",
         "Patch": "1",
         "Major": "0"
     },
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2001",
+        "Build": "2020",
         "Patch": "0",
         "Major": "2"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.0.2.1.1.zip",
-        "Checksum": "14152670EE02BA8BDC9088E13A48C8514F3266DEEF6035393077612FDFCAFF4C",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.0.2.1.2.zip",
+        "Checksum": "503EBBBC6770CF22D6A17C8C8AB823B383114B584062327D334C264B7F9662E7",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
