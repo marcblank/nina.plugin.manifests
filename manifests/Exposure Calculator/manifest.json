@@ -1,0 +1,38 @@
+﻿{
+    "ChangelogURL": "",
+    "Tags": [
+        ""
+    ],
+    "Name": "Exposure Calculator",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2021",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "This tool will suggest a recommended exposure time based on the read noise from your sensor and the average skyglow.\r\nIf you have SharpCap Pro installed and perform a Sensor Analysis, then use the drop down below to retrieve the read noise and full well capacity for the specified gain.\r\nYou can also calculate the bias by clicking the Snapshot button next to Bias Mean.",
+        "ScreenshotURL": "",
+        "ShortDescription": "A tool to recommend an exposure time based on read noise and sky glow.",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "2b4b2fd6-46ce-4f34-b184-4a8b3058dc86",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.exposurecalculator/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.exposurecalculator/downloads/NINA.Plugin.ExposureCalculator.1.0.0.0.dll",
+        "Checksum": "09634B60D8B163D38D8F529BF754453923F8486E069E803A57E2D7280B679F84",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
