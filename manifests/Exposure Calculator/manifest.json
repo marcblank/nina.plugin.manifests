@@ -1,8 +1,6 @@
 ﻿{
     "ChangelogURL": "",
-    "Tags": [
-        ""
-    ],
+    "Tags": [],
     "Name": "Exposure Calculator",
     "Version": {
         "Minor": "0",
@@ -31,8 +29,8 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://bitbucket.org/Isbeorn/nina.plugin.exposurecalculator/downloads/NINA.Plugin.ExposureCalculator.1.0.0.0.dll",
-        "Checksum": "09634B60D8B163D38D8F529BF754453923F8486E069E803A57E2D7280B679F84",
-        "Type": "ARCHIVE"
+        "Checksum": "453A5E6B63EF2B3D830E5C8FA806407865202B3028928F6980FF7DF0606E78FF",
+        "Type": "DLL"
     },
     "License": "MPL-2.0"
 }
