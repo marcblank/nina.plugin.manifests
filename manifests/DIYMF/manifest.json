@@ -30,11 +30,11 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.diymf/",
     "Homepage": "",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "URL": "",
-        "Checksum": "F2ADE646157F4C84245942704B85F49FD5C54C82A5AE375D7BC5F4CAFE2E5C8B",
-        "Type": "DLL"
-    },
+  "Installer": {
+    "ChecksumType": "SHA256",
+    "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin.dll",
+    "Checksum": "F2ADE646157F4C84245942704B85F49FD5C54C82A5AE375D7BC5F4CAFE2E5C8B",
+    "Type": "DLL"
+  },
     "License": "MPL-2.0"
 }
