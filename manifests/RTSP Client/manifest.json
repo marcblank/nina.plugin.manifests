@@ -1,0 +1,38 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/src/master/NINA.Plugin.RTSP/Changelog.md",
+    "Tags": [
+        "RTSP"
+    ],
+    "Name": "RTSP Client",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2021",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "",
+        "ScreenshotURL": "",
+        "ShortDescription": "A plugin that adds a new dock window to the imaging tab to show RTSP video streams",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "b1b32467-2343-4d57-bcd9-a45e2773fa98",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/src/master/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.1.0.0.0.zip",
+        "Checksum": "9842DD2D9C9FADB4606B2FF3251A1C0F549410D7185825B258E415D09FCD658D",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
