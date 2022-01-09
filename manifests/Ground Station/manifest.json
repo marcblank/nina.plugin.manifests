@@ -10,15 +10,15 @@
     ],
     "Name": "Ground Station",
     "Version": {
-        "Minor": "9",
+        "Minor": "10",
         "Build": "0",
-        "Patch": "5",
+        "Patch": "0",
         "Major": "1"
     },
     "Author": "Dale Ghent",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2017",
+        "Build": "2021",
         "Patch": "0",
         "Major": "2"
     },
@@ -35,8 +35,8 @@
     "Homepage": "https://daleghent.com/ground-station",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.9.5.0.zip",
-        "Checksum": "E718C02A9F1471E188F8AF7B4D43D9F27DC7E0B6BEFA97C812CAFAD14849FCEE",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.10.0.0.zip",
+        "Checksum": "27CB8451FCC9D7DC7314671B7953C79CBE48FCDE43EC63AA82FAEF7000A6A639",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
