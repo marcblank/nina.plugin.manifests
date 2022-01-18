@@ -1,0 +1,45 @@
+﻿{
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2021",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.0.0.0.zip",
+        "Checksum": "7AE351E22F9430671B00D3A3C441C3D3A6F09EB73845EABB13371D21D29EA582",
+        "Type": "ARCHIVE"
+    },
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "ChangelogURL": "https://github.com/daleghent/nina-moon-angle/blob/main/CHANGELOG.md",
+    "Tags": [
+        "moon",
+        "luna",
+        "lune",
+        "maan",
+        "mond",
+        "月亮",
+        "月",
+        "φεγγάρι",
+        "Луна"
+    ],
+    "Descriptions": {
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/moonangle-logo.png",
+        "LongDescription": "Moon Angle provides a loop condition that allows you to start or end loops based on the target\u0027s angular distance from the Moon.\r\n\r\nThis loop condition appears under the **Loop Condition** category of instructions.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-moon-angle/issues).",
+        "ScreenshotURL": "",
+        "ShortDescription": "Instructions that consider the angular separation between the target object and the moon",
+        "AltScreenshotURL": ""
+    },
+    "Name": "Moon Angle",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Author": "Dale Ghent",
+    "Repository": "https://github.com/daleghent/nina-moon-angle",
+    "License": "MPL-2.0",
+    "Identifier": "036af399-91b0-4a29-a7d3-44af0bfde13e"
+}
