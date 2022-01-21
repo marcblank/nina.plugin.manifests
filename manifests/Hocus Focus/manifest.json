@@ -7,7 +7,7 @@
     "Name": "Hocus Focus",
     "Version": {
         "Minor": "11",
-        "Build": "13",
+        "Build": "14",
         "Patch": "0",
         "Major": "1"
     },
@@ -20,7 +20,7 @@
     },
     "Descriptions": {
         "FeaturedImageURL": "",
-        "LongDescription": "This plugin improves Star Detection, Star Annotation, and Auto Focus for NINA. Additional Star Detection and Auto Focus features are on the way as well\r\n\r\n**Features**\r\n\r\n*AutoFocus*\r\n\r\n* Can be faster than the built-in NINA Auto Focuser by analyzing exposures while next focus points are being exposed\r\n* The concurrent Auto Focus is particularly useful when using the Hocus Focus star detector, which can be more resource intensive\r\n\r\n*Improved star detection*\r\n\r\n* Simpler configuration, with an advanced mode for fine tuning\r\n* Higher accuracy (lower HFR Standard Deviation) if parameters are set properly\r\n* Advanced control over star detection parameters\r\n* Can use the new Star Detector or Annotator without requiring both. Keep what you like\r\n\r\n*Customizable Star Annotation*\r\n* Customizable colors and fonts for star annotations\r\n* Dynamic reloading of star annotations without needing to re-run star detection\r\n\r\nTo enable these features, go to Options -\u003e Imaging -\u003e Image Options. After this plugin is installed, there will be Star Annotator and Auto Focus dropdown boxes you can select \"Hocus Focus\" for.\r\n\r\n**Features coming soon**\r\n\r\n*Star detection*\r\n\r\n* Eccentricity and FWHM calculation\r\n\r\n*AutoFocus*\r\n\r\n* Fast focus mode when still close to a recent auto focus that can utilize fewer steps, smaller step sizes, and a different fitting as the regular \"blind\" focus\r\n* Incorporation of measurement error into quality measurement of focusing results\r\n* Focusing individual color channels instead of just luminance for OSC, since that is skewed towards green focus\r\n",
+        "LongDescription": "This plugin improves Star Detection, Star Annotation, and Auto Focus for NINA. Additional Auto Focus features are on the way as well\r\n\r\n**Features**\r\n\r\n*AutoFocus*\r\n\r\n* Can be faster than the built-in NINA Auto Focuser by analyzing exposures while next focus points are being exposed\r\n* The concurrent Auto Focus is particularly useful when using the Hocus Focus star detector, which can be more resource intensive\r\n\r\n*Improved star detection*\r\n\r\n* Fit PSFs to stars using Gaussian and Moffat 0.4. If enabled, fit failures lead to rejected stars and a better HFR calculation\r\n* Eccentricity and FWHM calculation when PSF modeling is enabled\r\n* Simpler configuration, with an advanced mode for fine tuning\r\n* Higher accuracy (lower HFR Standard Deviation) if parameters are set properly\r\n* Advanced control over star detection parameters\r\n* Can use the new Star Detector or Annotator without requiring both. Keep what you like\r\n\r\n*Customizable Star Annotation*\r\n* Customizable colors and fonts for star annotations\r\n* Dynamic reloading of star annotations without needing to re-run star detection\r\n\r\nTo enable these features, go to Options -\u003e Imaging -\u003e Image Options. After this plugin is installed, there will be Star Annotator and Auto Focus dropdown boxes you can select \"Hocus Focus\" for.\r\n\r\n**Features coming soon**\r\n\r\n*AutoFocus*\r\n\r\n* Fast focus mode when still close to a recent auto focus that can utilize fewer steps, smaller step sizes, and a different fitting as the regular \"blind\" focus\r\n* Incorporation of measurement error into quality measurement of focusing results\r\n* Focusing individual color channels instead of just luminance for OSC, since that is skewed towards green focus\r\n",
         "ScreenshotURL": "",
         "ShortDescription": "Improved Star Detection, Star Annotation and Auto Focus for NINA",
         "AltScreenshotURL": ""
@@ -31,8 +31,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.13/NINA.Joko.Plugins.HocusFocus.zip",
-        "Checksum": "1F754E5D6F6CA398E48CA3638D8C348560E7D9E9CAD0AB4272D32AF618AC0DFA",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.14/NINA.Joko.Plugins.HocusFocus.zip",
+        "Checksum": "B261B302472A0EA4DBB44387454DF21FF2C318E4E75AE821AC894151B7C25E81",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
