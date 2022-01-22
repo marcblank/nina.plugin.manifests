@@ -7,13 +7,13 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/tcpalmer/nina.plugin.Web/releases/download/v1.0.1.0/NINA.Plugin.Web-1.0.1.0.zip",
-        "Checksum": "88BA2BDED627F0AAF8B00FACC493696F9F2AF260D6B869EB34BE0C6EE2DC1A50",
+        "URL": "https://github.com/tcpalmer/nina.plugin.Web/releases/download/v1.0.1.1/NINA.Plugin.Web-1.0.1.1.zip",
+        "Checksum": "1456B78B0F8620AEEA6A8D52EEC89C3853C7617B0BCB0D0DE7F327B83CCF87A0",
         "Type": "ARCHIVE"
     },
     "Version": {
         "Minor": "0",
-        "Build": "0",
+        "Build": "1",
         "Patch": "1",
         "Major": "1"
     },
