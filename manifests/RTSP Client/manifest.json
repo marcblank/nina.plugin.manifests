@@ -6,7 +6,7 @@
     "Name": "RTSP Client",
     "Version": {
         "Minor": "0",
-        "Build": "4",
+        "Build": "5",
         "Patch": "0",
         "Major": "1"
     },
@@ -30,8 +30,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.1.0.0.4.zip",
-        "Checksum": "199FC16AE04F484BF662B92733885EEECC58B0D97C6ABE4EDBE77749D97CBC10",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.1.0.0.5.zip",
+        "Checksum": "2D4FA721410B190933FA46B8E8EE5C7ABC820F7B82E2EAC8E947693307839B6B",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
