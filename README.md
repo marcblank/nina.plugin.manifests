@@ -46,6 +46,14 @@ Add this if the dll should be bundled into a zip archive
 
 Name of the created zip archive. When this parameter is omitted the plugin DLL file name without its extension is used as a name.
 
+### Example usage
+
+*Creating a manifest out of a plugin DLL that has no further included files*  
+`.\tools\CreateManifest.ps1 -file C:\Users\Isbeorn\AppData\Local\NINA\Plugins\Orbuculum.1.0.3.3.dll -installerUrl https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/Orbuculum.1.0.3.3.dll`
+
+*Creating an archive and the matching manifest based on the plugin DLL and all files inside the plugin folder*  
+`.\tools\CreateManifest.ps1 -createArchive -includeAll -file "C:\Users\Isbeorn\AppData\Local\NINA\Plugins\PixInsight Tools\PixInsightTools.0.1.6.1.dll" -installerUrl https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/PixInsightTools.0.1.6.1.zip`
+
 ## Manually generate the file
 
 While not recommended, it is possible to manually create the manifest by using your favorite tool. The manifest needs to follow the specifications that are described further below. It is important that the manifest follows the assembly meta data. Especially the "Identifier" and "Name" needs to be the same as inside the plugin assembly meta data. The rest can deviate from it, although strongly discouraged.
