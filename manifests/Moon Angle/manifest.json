@@ -1,18 +1,18 @@
 ﻿{
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2021",
+        "Build": "2048",
         "Patch": "0",
         "Major": "2"
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.0.0.0.zip",
-        "Checksum": "7AE351E22F9430671B00D3A3C441C3D3A6F09EB73845EABB13371D21D29EA582",
+        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.1.0.0.zip",
+        "Checksum": "C186F61D150D1633DEE115F8D15E7EBD3DD34BA30E87457579032E25DB00B29C",
         "Type": "ARCHIVE"
     },
     "Version": {
-        "Minor": "0",
+        "Minor": "1",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
