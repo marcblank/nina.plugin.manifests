@@ -9,7 +9,7 @@
     ],
     "Name": "PlaneWave Tools",
     "Version": {
-        "Minor": "1",
+        "Minor": "2",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
@@ -34,8 +34,8 @@
     "Homepage": "https://daleghent.com/planewave-tools",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-1.1.0.0.zip",
-        "Checksum": "E09567CCC5E2274D891676B7385FC05915375D84224E2C1F3E91E40227571671",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-1.2.0.0.zip",
+        "Checksum": "4604BA8A5B3C7005807E0CD2CD939363374C6DC1157517833A9EED8F6D95D35F",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
