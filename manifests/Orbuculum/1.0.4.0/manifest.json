@@ -1,0 +1,40 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/src/master/Orbuculum/Changelog.md",
+    "Tags": [
+        "Scrying",
+        "Divination",
+        "Crystallomancy"
+    ],
+    "Name": "Orbuculum",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "4",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2050",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/CrystalBall.jpg",
+        "LongDescription": "This plugin is intended to provide some basic tools to improve multi target planning by scrying future targets and predicting their state to react on these.  \r\n\r\nFor example - you know that a target is obstructed until it reaches a certain altitude, so you want to loop another target for as long as that target is below that specific altitude.\r\n\r\n## Loop Conditions\r\n+ Loop While Hour Angle\r\n    + Loop the current target until a certain hour angle is reached\r\n+ Loop While Next Target Hour Angle\r\n    + Loop the current target until a certain hour angle for the next target is reached\r\n+ Loop While Next Target Below Altitude\r\n    + Loop the current target until the next target rises above a specified altitude\r\n+ Loop While Next Target Below Horizon\r\n    + Loop the current target until the next target rises above the horizon\r\n\r\n## Instructions\r\n+ Auto Balancing Exposure\r\n    + An imaging instruction that will automatically balance the exposures by the given exposure definitions\r\n    + This is useful if you want to have a specific ratio between filters for example\r\n    + To add a new exposure definition hit the \u0027+\u0027 button above the table\r\n    + Put the instruction inside a loop and it will automatically pick a fitting exposure definition each time it is executed\r\n    + The exposure is picked by simply finding the minimum detail by (Progress / Ratio)\r\n    + A ratio of 0 will deactivate the row",
+        "ScreenshotURL": "",
+        "ShortDescription": "A plugin that will provide sequencer instructions that are able to look for future targets and react accordingly.",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "a6c614f3-c3ab-423a-8be1-d480a253f07c",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/Orbuculum.1.0.4.0.dll",
+        "Checksum": "639C8C1FC64C650C7948F48E2EE8F50B0D09D41AD855C856D036F21860CC8B17",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
