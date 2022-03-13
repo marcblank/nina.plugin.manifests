@@ -9,13 +9,13 @@
     "Version": {
         "Minor": "1",
         "Build": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Major": "1"
     },
     "Author": "Marc Blank",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2020",
+        "Build": "2050",
         "Patch": "0",
         "Major": "2"
     },
@@ -33,7 +33,7 @@
   "Installer": {
     "ChecksumType": "SHA256",
     "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin.dll",
-    "Checksum": "96468AA9DB255C8E920FCF0A31121DACFF5D755463BD99F8DE8CF2C64B9C70FF",
+    "Checksum": "3A5DDCCA63BF9ED273F0C4C7D548CF96B9DADDC7170B1CCBEBE34B6A5528D355",
     "Type": "DLL"
   },
     "License": "MPL-2.0"
