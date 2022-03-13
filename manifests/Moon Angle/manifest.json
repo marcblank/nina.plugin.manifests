@@ -7,12 +7,12 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.1.0.0.zip",
-        "Checksum": "C186F61D150D1633DEE115F8D15E7EBD3DD34BA30E87457579032E25DB00B29C",
+        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.2.0.0.zip",
+        "Checksum": "F92FB4AF765561ED00EEB075FB0D076ADC64ADF8FE99F85B3BB819A3B60D5AFD",
         "Type": "ARCHIVE"
     },
     "Version": {
-        "Minor": "1",
+        "Minor": "2",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
@@ -24,6 +24,10 @@
         "lune",
         "maan",
         "mond",
+        "місяць",
+        "księżyc",
+        "tungl",
+        "ukwezi",
         "月亮",
         "月",
         "φεγγάρι",
@@ -31,7 +35,7 @@
     ],
     "Descriptions": {
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/moonangle-logo.png",
-        "LongDescription": "Moon Angle provides a loop condition that allows you to start or end loops based on the target\u0027s angular distance from the Moon.\r\n\r\nThis loop condition appears under the **Loop Condition** category of instructions.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-moon-angle/issues).",
+        "LongDescription": "Moon Angle provides a loop condition that allows you to start or end loops based on the target\u0027s angular distance from the Moon.\r\n\r\nThis loop condition appears under the **Loop Condition** category of instructions.\r\n\r\n# Lorentzian Moon Avoidance #\r\n\r\nThe **Lorentzian** option modifies the calculated target-moon separation angle based on the Lorentzian Moon Avoidance (LMA) algorithm, forumlated by the [Berkely Automated Imaging Telescope](https://w.astro.berkeley.edu/bait/) team.\r\nWhen enabled, N.I.N.A. will assume that the specified separation distance assumes a full moon at its most luminous phase. The LMA algorithm will use _current_ phase of the lunar cycle to reduce the specified separaration angle.\r\nThe result is that the condition will allow imaging to take place closer to the moon the less full, and thus less bright, it is.\r\n\r\nThe separation is reduced such that by **width** days before (or after) the full moon the specified separation distance will be halved. The default width of 14 days is a reasonable starting point.\r\nThe calculation uses [the LMA formula](http://bobdenny.com/ar/RefDocs/HelpFiles/ACPScheduler81Help/Constraints.htm) provided, with thanks, by Bob Denny of [DC3 Dreams](http://dc3.com/).\r\n\r\nMany thanks to Simon Kapadia for this implementation.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-moon-angle/issues).",
         "ScreenshotURL": "",
         "ShortDescription": "Instructions that consider the angular separation between the target object and the moon",
         "AltScreenshotURL": ""
