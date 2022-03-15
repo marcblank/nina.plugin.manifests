@@ -8,7 +8,7 @@
     ],
     "Name": "Astro-Physics Tools",
     "Version": {
-        "Minor": "4",
+        "Minor": "5",
         "Build": "0",
         "Patch": "0",
         "Major": "0"
@@ -16,7 +16,7 @@
     "Author": "Dale Ghent",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2045",
+        "Build": "2050",
         "Patch": "0",
         "Major": "2"
     },
@@ -33,8 +33,8 @@
     "Homepage": "https://daleghent.com/astro-physics-tools",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/astro-physics-tools/AstroPhysicsTools-0.4.0.0.zip",
-        "Checksum": "869F7151D9F2179DF2982B1C01BBD4DF1C5B5BF3371E65C7C21E7BF064831D06",
+        "URL": "https://daleghent.com/dist/astro-physics-tools/AstroPhysicsTools-0.5.0.0.zip",
+        "Checksum": "8FCC61F3D4686BFEAD20DC8C3503DE065BC0BA27F0A7D65DD85D2E1EAB137996",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
