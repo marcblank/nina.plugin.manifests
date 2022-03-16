@@ -7,14 +7,14 @@
     "Name": "Constants for Exposures",
     "Version": {
         "Minor": "0",
-        "Build": "1",
-        "Patch": "0",
+        "Build": "0",
+        "Patch": "1",
         "Major": "1"
     },
     "Author": "Marc Blank",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2015",
+        "Build": "2050",
         "Patch": "0",
         "Major": "2"
     },
@@ -29,11 +29,11 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.vars/src/master/",
     "Homepage": "",
-  "Installer": {
-    "ChecksumType": "SHA256",
-    "URL": "https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
-    "Checksum": "D4F05CD305F0BEB0BB5A3CB25E8AF66E812AA8B389976A38F638AC2C3ADBD1E3",
-    "Type": "DLL"
-  },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
+        "Checksum": "3B47DE967A498D70BB345C7F07E3ABD983E00441D65B9F83F63401E5C76DC6F6",
+        "Type": "DLL"
+    },
     "License": "MPL-2.0"
 }
