@@ -31,7 +31,7 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.vars/downloads/ConstantsPlugin.dll",
         "Checksum": "3B47DE967A498D70BB345C7F07E3ABD983E00441D65B9F83F63401E5C76DC6F6",
         "Type": "DLL"
     },
