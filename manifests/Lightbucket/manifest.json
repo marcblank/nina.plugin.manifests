@@ -1,18 +1,18 @@
 ﻿{
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2007",
+        "Build": "2050",
         "Patch": "0",
         "Major": "2"
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-1.1.0.zip",
-        "Checksum": "EE5B0DFC0B14CC4375FCA74AF9A844C129F636CA63343C65BE1CBFEA70D756A5",
+        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-1.2.0.zip",
+        "Checksum": "E40A0DC88F4E6F8B0EA959E26EEC877D614CF0D095CEE192CEAC66D218A97354",
         "Type": "ARCHIVE"
     },
     "Version": {
-        "Minor": "1",
+        "Minor": "2",
         "Build": "0",
         "Patch": "0",
         "Major": "1"
