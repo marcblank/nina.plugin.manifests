@@ -7,14 +7,14 @@
     "Name": "PixInsight Tools",
     "Version": {
         "Minor": "1",
-        "Build": "1",
+        "Build": "2",
         "Patch": "6",
         "Major": "0"
     },
     "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2020",
+        "Build": "2050",
         "Patch": "0",
         "Major": "2"
     },
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/PixInsightTools.0.1.6.1.zip",
-        "Checksum": "F8419B8E084403E8B1A36A0C73DB27AE55DDE5BCF7472FCDB0424801316D05F8",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/PixInsightTools.0.1.6.2.zip",
+        "Checksum": "C494E2EB23307438AC04BF77598387A5BAD42072B6A88064A0694EC8FEA4EC91",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
