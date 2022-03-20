@@ -10,14 +10,14 @@
     "Name": "Hocus Focus",
     "Version": {
         "Minor": "11",
-        "Build": "30",
+        "Build": "31",
         "Patch": "0",
         "Major": "1"
     },
     "Author": "George Hilios (jokogeo)",
     "MinimumApplicationVersion": {
         "Minor": "0",
-        "Build": "2048",
+        "Build": "2051",
         "Patch": "0",
         "Major": "2"
     },
@@ -34,8 +34,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.30/NINA.Joko.Plugins.HocusFocus.zip",
-        "Checksum": "710C295300471E99AE5CD8BAA5BC4D452F4331818110FC671E01B508FD88C933",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv1.11.0.31/NINA.Joko.Plugins.HocusFocus.zip",
+        "Checksum": "3B58618D45D658E4B63A6F0E8F5413BCE6814F1EFF090FCA250052D39B45B0B9",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
