@@ -1,0 +1,38 @@
+﻿{
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/src/master/Nina.Plugin.Framingcachegenerator/Changelog.md",
+    "Tags": [
+        "Framing"
+    ],
+    "Name": "Framing Cache Generator",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2056",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/downloads/CacheGen.png",
+        "LongDescription": "With the added capabilities to show cached images inside the offline sky map in the framing assistant a user might have the desire to generate a full sky spanning repository of cached images to be used for framing.\r\n\r\nThis tool provides a method to automatically download and generate these cache entries, so they can be later used in the field for framing without having to rely on internet connectivity.\r\nJust specify the size your plates should be and if they should only include plates for targets that can rise above a certain altitude at any point in time.\r\nA plate size of 5° with the altitude filter set to enabled and 10° minimum altitude should suffice for most needs.\r\n\r\nPlease note that the download process can take quite a while and the total amount of files can be multiple gigabytes in total size. So make sure you have enough disk space and a reliable internet connection during the download.\r\nIn addition the download process can be stopped and resumed at a later point too and will pick up where it left when the same plate size was specified.\r\n\r\n\r\nThis plugin makes use of [hips2fits](https://alasky.u-strasbg.fr/hips-image-services/hips2fits) a service provided by CDS.",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/downloads/OfflineFraming.jpg",
+        "ShortDescription": "Automatically generate offline cache entries for the whole sky to use it for offline framing",
+        "AltScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/downloads/OfflineFraming2.jpg"
+    },
+    "Identifier": "b71ce4a9-17bd-4152-a372-e9e6e127ddfb",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/downloads/NINA.Plugin.FramingCacheGenerator.1.0.0.0.dll",
+        "Checksum": "28412A0E8B25056F7B8AE4FB0FAA937018A9C14EED7388E2D2300E522061738B",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
