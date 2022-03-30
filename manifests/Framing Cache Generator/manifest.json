@@ -6,7 +6,7 @@
     "Name": "Framing Cache Generator",
     "Version": {
         "Minor": "0",
-        "Build": "1",
+        "Build": "2",
         "Patch": "0",
         "Major": "1"
     },
@@ -30,8 +30,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/downloads/NINA.Plugin.FramingCacheGenerator.1.0.0.1.dll",
-        "Checksum": "97B80A110499481B577465FA94CFD34B1C749B511B5700B1C5F16B46AA4BA8A4",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.framingcachegenerator/downloads/NINA.Plugin.FramingCacheGenerator.1.0.0.2.dll",
+        "Checksum": "4A67012D1493FA310DE80FB9235500EEBFAA57CCDD1CA233152367FBB0E89B86",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
