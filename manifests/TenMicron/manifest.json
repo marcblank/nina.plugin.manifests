@@ -8,7 +8,7 @@
     ],
     "Name": "10 Micron Tools",
     "Version": {
-        "Minor": "19",
+        "Minor": "20",
         "Build": "0",
         "Patch": "0",
         "Major": "0"
@@ -33,8 +33,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv0.19.0.0/NINA.Joko.Plugin.TenMicron.zip",
-        "Checksum": "2D09926F79E90FF2763DB4D135ACB44C7D9D19153329BA30567DB02D0ED10654",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv0.20.0.0/NINA.Joko.Plugin.TenMicron.zip",
+        "Checksum": "59B90C2909BF5105233015B07F75B61B45BD7D9CBB3935169E3851A6DEF058E7",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
