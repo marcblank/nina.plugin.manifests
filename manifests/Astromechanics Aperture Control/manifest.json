@@ -1,0 +1,40 @@
+﻿{
+    "ChangelogURL": "https://github.com/daleghent/nina-astromechanics-aperture-control/blob/main/CHANGELOG.md",
+    "Tags": [
+        "ASCOM",
+        " action",
+        " commandblind",
+        " commandbool",
+        " commandstring"
+    ],
+    "Name": "Astromechanics Aperture Control",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Dale Ghent",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "2056",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/aac-logo.png",
+        "LongDescription": "# Astromechanics Aperture Control\r\n\r\n**NOTE:** This plugin is useless without the **Enhanced ASCOM Lens Driver**. Please refer to [this plugin\u0027s website](https://daleghent.com/astromechanics-aperture-control) for full details on installation and use.\r\n\r\n## Getting help\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-astromechanics-aperture-control/issues)",
+        "ShortDescription": "Controls the focal ratio of a Canon lens when using an Astromechanics Canon Lens Controller and a custom ASCOM driver"
+    },
+    "Identifier": "CD21B234-F4A2-47B0-89B9-D2E77B97FE4A",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/daleghent/nina-astromechanics-aperture-control",
+    "Homepage": "https://daleghent.com/astromechanics-aperture-control",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://daleghent.com/dist/aac/AstromechanicsApertureControl-1.0.0.0.zip",
+        "Checksum": "81055F51CB7B91198557D7613ED7E7831E44B3A6D8312B9AD1DE8B4297B23A2E",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
