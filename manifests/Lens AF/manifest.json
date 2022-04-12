@@ -7,14 +7,14 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.5.2.0/LensAF.dll",
-        "Checksum": "47B81A270B6136FBC10A6E8DB483CFED56767FC5E7CA635266B2AEFDF13E2CCA",
+        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.5.3.0/LensAF.dll",
+        "Checksum": "0F9B9C42ADE63A908BDEAD46172E765DCBCEF98E7E52198377211F19BEE3123F",
         "Type": "DLL"
     },
     "Version": {
         "Minor": "5",
         "Build": "0",
-        "Patch": "2",
+        "Patch": "3",
         "Major": "1"
     },
     "Tags": [
@@ -24,7 +24,7 @@
     ],
     "Descriptions": {
         "ShortDescription": "Run AF with your Camera Lens!",
-        "LongDescription": "This Plugin provides an instruction and triggers for the Advanced to run an AF with your camera lens attached to a Canon Camera\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs, because this plugin may not work for everyone! This plugin doesn\u0027t work with ASCOM.DSLR unfortuantely!**  \r\nIf you have questions/feedback/issues, you can ask on the [NINA discord](https://discord.com/invite/nighttime-imaging) in #plugin-discussions, take a look in the [wiki](https://github.com/rennmaus-coder/Camera-Lens-AF/wiki) or create an issue [here](https://github.com/rennmaus-coder/Camera-Lens-AF/issues)\r\n\r\n\r\n**Requirements**: \r\n- A Canon Camera,  \r\n- A Camera Lens that supports AF\r\n- The plugin only runs in the advanced sequencer and the imaging tab\r\n\r\nThe plugin was tested using the following camera and lenses:\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n\r\n\r\nKnown issues:\r\n- Some cameras or lenses may try to refocus, when taking images if the lens is set to AF\r\n\r\n\r\n\r\n\r\n#Troubleshooting:\r\nWhat to try if:\r\n- ...the focus doesn\u0027t move: Try a different step size (2 always worked for me) or try switching your lens from AF/MF to MF/AF\r\n- ...the plugin didn\u0027t result in good focus: Try a different step size (2 always worked for me)"
+        "LongDescription": "This Plugin provides an instruction and triggers for the Advanced to run an AF with your camera lens attached to a Canon Camera\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs, because this plugin may not work for everyone! This plugin doesn\u0027t work with ASCOM.DSLR unfortuantely!**  \r\nIf you have questions/feedback/issues, you can ask on the [NINA discord](https://discord.com/invite/nighttime-imaging) in #plugin-discussions, take a look in the [wiki](https://github.com/rennmaus-coder/Camera-Lens-AF/wiki) or create an issue [here](https://github.com/rennmaus-coder/Camera-Lens-AF/issues)\r\n\r\n\r\n**Requirements**: \r\n- A Canon Camera,  \r\n- A Camera Lens that supports AF\r\n- The plugin only runs in the advanced sequencer and the imaging tab\r\n\r\nThe plugin was tested using the following camera and lenses:\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n\r\n## Manual Focus Control controls\r\n- Mousewheel/Trackpad: Zoom in/out\r\n- Left mousebutton: Pan around\r\n- Right mousebutton: reset\r\n\r\n\r\nKnown issues:\r\n- Some cameras or lenses may try to refocus, when taking images if the lens is set to AF\r\n\r\n\r\n\r\n\r\n#Troubleshooting:\r\nWhat to try if:\r\n- ...the focus doesn\u0027t move: Try a different step size (2 always worked for me) or try switching your lens from AF/MF to MF/AF\r\n- ...the plugin didn\u0027t result in good focus: Try a different step size (2 always worked for me)"
     },
     "Name": "Lens AF",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
