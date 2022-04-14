@@ -32,8 +32,8 @@
     "Homepage": "https://daleghent.com/astromechanics-aperture-control",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/aac/AstromechanicsApertureControl-1.0.0.0.zip",
-        "Checksum": "81055F51CB7B91198557D7613ED7E7831E44B3A6D8312B9AD1DE8B4297B23A2E",
+        "URL": "https://daleghent.com/dist/aac/AstromechanicsApertureControl-1.0.0.1.zip",
+        "Checksum": "0F0B69B2211BF6EEB8173246F9D8E764E79E49E6C991B5346521F3649B05694B",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
