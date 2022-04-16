@@ -10,7 +10,7 @@
     ],
     "Name": "Orbitals",
     "Version": {
-        "Minor": "8",
+        "Minor": "9",
         "Build": "0",
         "Patch": "0",
         "Major": "0"
@@ -33,8 +33,8 @@
     "Homepage": "",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv0.8.0.0/NINA.Joko.Plugin.Orbitals.zip",
-        "Checksum": "285857A25CE3C3A1576A3FC0A18ADAA2A92DD380004009D7BB67BD137B3731E3",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv0.9.0.0/NINA.Joko.Plugin.Orbitals.zip",
+        "Checksum": "04DD73239A6A158E84AF9EEF0CCC37EE710A56053FB36DBD68523BB2E1415D16",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
