@@ -7,14 +7,14 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.5.3.0/LensAF.dll",
-        "Checksum": "0F9B9C42ADE63A908BDEAD46172E765DCBCEF98E7E52198377211F19BEE3123F",
+        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.5.4.0/LensAF.dll",
+        "Checksum": "C56FAC798A1EB42162BBD04FAE1A51150D91F2F0A4C876B1C396B2A4E0404CD0",
         "Type": "DLL"
     },
     "Version": {
         "Minor": "5",
         "Build": "0",
-        "Patch": "3",
+        "Patch": "4",
         "Major": "1"
     },
     "Tags": [
