@@ -8,7 +8,7 @@
     "Name": "Orbuculum",
     "Version": {
         "Minor": "0",
-        "Build": "2",
+        "Build": "3",
         "Patch": "4",
         "Major": "1"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/Orbuculum.1.0.4.2.dll",
-        "Checksum": "3EE60C6CE5299009286864225C66EB444CEE0E8F799EB24A903749ADA049F55E",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/Orbuculum.1.0.4.3.dll",
+        "Checksum": "7FAD515AC606B42700DBC01D36C03735B760C02C6FD64A07482F5EED66373F47",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
