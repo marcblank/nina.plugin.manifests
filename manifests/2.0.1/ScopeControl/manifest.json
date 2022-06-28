@@ -8,7 +8,7 @@
     "Version": {
         "Minor": "3",
         "Build": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Major": "1"
     },
     "Author": "Stefan Berg",
@@ -22,7 +22,7 @@
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
         "LongDescription": "",
         "ScreenshotURL": "",
-        "ShortDescription": "Adds a small tool panel to the imaging tab with basic mount control",
+        "ShortDescription": "Adds a small tool panel to the imaging tab with basic mount control as well as an altitude chart for the telescope position",
         "AltScreenshotURL": ""
     },
     "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
@@ -31,8 +31,8 @@
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.3.0.0.dll",
-        "Checksum": "99DEE12CCC7B9C5ECFB3458E4BCDBD088A4008EA3B3DD502FE3E981EAEA90518",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.3.1.0.dll",
+        "Checksum": "0DA5BF659F8CBBCE56BE35F3B41CB71D5E7C9DBC61A387BD4478A702158A5913",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
