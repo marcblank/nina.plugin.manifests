@@ -9,7 +9,7 @@
     "Version": {
         "Minor": "1",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Major": "1"
     },
     "Author": "Marc Blank",
@@ -30,11 +30,11 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.diymf/",
     "Homepage": "",
-  "Installer": {
-    "ChecksumType": "SHA256",
-    "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin.dll",
-    "Checksum": "3A5DDCCA63BF9ED273F0C4C7D548CF96B9DADDC7170B1CCBEBE34B6A5528D355",
-    "Type": "DLL"
-  },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin.dll",
+        "Checksum": "DA10DCAC6819053470A96A777012C47212A17514D3207FCD27892DFDA8910A34",
+        "Type": "DLL"
+    },
     "License": "MPL-2.0"
 }
