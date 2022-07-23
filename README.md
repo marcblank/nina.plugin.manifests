@@ -12,7 +12,7 @@ To make a plugin available you can submit a manifest into this repository, by fo
 5. Wait for the pull Request to be reviewed and merged
 
 # Develop a plugin
-For more details on how to develop a plugin, there is a separate repository containing a basic template and guidelines to follow.  
+For more details on how to develop a plugin, there is a separate repository containing a basic template using a visual studio extension and guidelines to follow.  
 The repository can be found [here](https://bitbucket.org/Isbeorn/nina.plugin.template)
 
 # Fork the repository
