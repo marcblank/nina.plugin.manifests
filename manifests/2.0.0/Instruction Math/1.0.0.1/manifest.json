@@ -1,0 +1,42 @@
+﻿{
+    "ChangelogURL": "https://github.com/FlyingKiwis/NINA.InstructionMath/blob/master/CHANGELOG.md",
+    "Tags": [
+        "Math",
+        "Sequence",
+        "Loop",
+        "Calculate",
+        "Instruction"
+    ],
+    "Name": "Instruction Math",
+    "Version": {
+        "Minor": "0",
+        "Build": "1",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Drew McDermott",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "9001",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "# Instruction Math\r\n\r\nThis plugin\u0027s purpose is to provide users with NINA instructions that operate based on a math equation\r\n\r\n## Expressions\r\n\r\nEach instruction is controlled by a math expressions.  This plugin uses mXparser to evaluate the expressions.\r\n\r\n- [Supported built-in functions of mXparser can be found here](https://mathparser.org/mxparser-math-collection/)\r\n\r\n## Instructions\r\n\r\nInstructions added by this plugin\r\n\r\n### Math Loop\r\n\r\nThis will loop while the expression evaluates to true\r\n\r\n- The expression is compared against a target value to determine truthfulness\r\n- Available comparisons are \u003e, \u003c, \u003e= (greater than or equal), \u003c=, =, != (not equal)\r\n\r\n## Keywords *or* Constants, Variables \u0026 Functions\r\n\r\nIn addition to the built in constants and variables this plugin adds some useful ones:\r\n\r\nNote: all times are represented as [milliseconds since epoch](https://en.wikipedia.org/wiki/Unix_time)\r\n\r\n- **[count]** - The number of times an instruction has been executed\r\n- **[time]** - the current time\r\n- **[astro_dawn]** - The next astronomical dawn\r\n- **[astro_dusk]** - The next astronomical dusk\r\n\r\n## Future\r\n\r\nThe next steps of this plugin are to add more Keywords so that users can come up with more advanced expressions\r\n\r\n## Suggestions / Pull Requests\r\n\r\nIf you would like for me to add a feature [please create an issue with an enhancement label](https://github.com/FlyingKiwis/NINA.InstructionMath/issues)\r\n\r\nI\u0027m also open to pull requests if you want to work on new features as well.",
+        "ScreenshotURL": "",
+        "ShortDescription": "Adds instructions which evaluate a math expression",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "0b7be7c9-de8f-490f-830c-cbb5229c2c1a",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/FlyingKiwis/NINA.InstructionMath",
+    "Homepage": "https://github.com/FlyingKiwis/NINA.InstructionMath",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/FlyingKiwis/Nina.InstructionMath/releases/download/v1.0.0/Instruction_Math-1.0.0.zip",
+        "Checksum": "8E0EF0B459E95A3C48E3763DE687B41A5F1B652FE7EA6E3D2ECB07149B221F8E",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
