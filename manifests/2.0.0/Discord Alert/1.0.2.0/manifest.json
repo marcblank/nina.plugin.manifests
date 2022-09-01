@@ -1,0 +1,41 @@
+﻿{
+    "ChangelogURL": "https://github.com/FlyingKiwis/Nina.DiscordAlert/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Discord",
+        "Alert",
+        "Message",
+        "Webhook"
+    ],
+    "Name": "Discord Alert",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "2",
+        "Major": "1"
+    },
+    "Author": "Drew McDermott",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "9001",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "",
+        "ScreenshotURL": "",
+        "ShortDescription": "Sends alerts to discord",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "bbca7e0a-b89f-4e7c-92f1-0d5b24db6911",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/FlyingKiwis/Nina.DiscordAlert",
+    "Homepage": "https://github.com/FlyingKiwis/Nina.DiscordAlert",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/FlyingKiwis/Nina.DiscordAlert/releases/download/v1.0.2/Discord.Alert.zip",
+        "Checksum": "374F149469A077A0AE5AEBEECAA80CC66EC2D264939F7C23A914D6A7AD173C75",
+        "Type": "ARCHIVE"
+    },
+    "License": "MPL-2.0"
+}
