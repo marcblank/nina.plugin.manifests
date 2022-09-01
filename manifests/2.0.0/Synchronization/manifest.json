@@ -1,40 +1,40 @@
-﻿{
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/src/master/Synchronization/Changelog.md",
+{
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationLogo.jpg",
+        "AltScreenshotURL": "",
+        "ShortDescription": "A plugin that introduces synchronization instructions for multi camera imaging rigs",
+        "LongDescription": "This plugin is intended for people that want to dither on a setup with multiple cameras on one single mount. \r\nFor that it has to be ensured that all imaging instances will sync up on each other before commencing a dither operation.  \r\n  \r\n*Note:* The plugin needs robust testing in live conditions. Feedback for failure scenarios are appreciated in the #plugin-discusissions N.I.N.A. discord channel. Thanks!\r\n\r\n*Prerequisites*:\r\n* At least one instance of N.I.N.A. needs to be connected to the guider\r\n* Only one instance should handle and be connected to the mount\r\n\r\n*Usage*:\r\n* The first instance of N.I.N.A. that starts will register a server that orchestrates the dither workflow. This instance must remain active for the complete duration of your imaging acquisition.  \r\n* To make use of the synchronized dithering a new instruction trigger is available for advanced sequences  \r\n* Simply replace your normal dither trigger with the 'Synchronized Dither' trigger  \r\n* Each trigger will register itself against the server when the instruction set where the trigger is placed in is active and unregister itself automatically when the instruction set is left  \r\n* Make sure that your **exposure time * dither after exposures** roughly matches for each instance, as every time the trigger is fired the trigger will wait for all instances to be synced up  \r\n* When the triggers are synced up, one instance will be picked as the leader, among those that are connected to a guider, that will run the dither command. The others will wait for the dither to finish and then continue with the sequence  \r\n\r\n",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationSample.jpg"
+    },
+    "Installer": {
+        "Type": "ARCHIVE",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.0.2.6.0.zip",
+        "Checksum": "58D501C0963C6DB478DF0E366C3DB591B8E761F345137A97527AA94F955C7765",
+        "ChecksumType": "SHA256"
+    },
     "Tags": [
         "Dither",
         "Synchronization",
         "Multiple Cameras"
     ],
-    "Name": "Synchronization",
-    "Version": {
-        "Minor": "2",
-        "Build": "1",
-        "Patch": "5",
-        "Major": "0"
-    },
-    "Author": "Stefan Berg",
     "MinimumApplicationVersion": {
-        "Minor": "0",
-        "Build": "9001",
         "Patch": "0",
-        "Major": "2"
-    },
-    "Descriptions": {
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationLogo.jpg",
-        "LongDescription": "This plugin is intended for people that want to dither on a setup with multiple cameras on one single mount. \r\nFor that it has to be ensured that all imaging instances will sync up on each other before commencing a dither operation.  \r\n  \r\n*Note:* The plugin needs robust testing in live conditions. Feedback for failure scenarios are appreciated in the #plugin-discusissions N.I.N.A. discord channel. Thanks!\r\n\r\n*Prerequisites*:\r\n* At least one instance of N.I.N.A. needs to be connected to the guider\r\n* Only one instance should handle and be connected to the mount\r\n\r\n*Usage*:\r\n* The first instance of N.I.N.A. that starts will register a server that orchestrates the dither workflow. This instance must remain active for the complete duration of your imaging acquisition.  \r\n* To make use of the synchronized dithering a new instruction trigger is available for advanced sequences  \r\n* Simply replace your normal dither trigger with the \u0027Synchronized Dither\u0027 trigger  \r\n* Each trigger will register itself against the server when the instruction set where the trigger is placed in is active and unregister itself automatically when the instruction set is left  \r\n* Make sure that your **exposure time * dither after exposures** roughly matches for each instance, as every time the trigger is fired the trigger will wait for all instances to be synced up  \r\n* When the triggers are synced up, one instance will be picked as the leader, among those that are connected to a guider, that will run the dither command. The others will wait for the dither to finish and then continue with the sequence  \r\n\r\n",
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationSample.jpg",
-        "ShortDescription": "A plugin that introduces synchronization instructions for multi camera imaging rigs",
-        "AltScreenshotURL": ""
+        "Build": "9001",
+        "Major": "2",
+        "Minor": "0"
     },
     "Identifier": "c60db3b2-9a08-4b24-8938-bfb01e770eb9",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/",
+    "Name": "Synchronization",
+    "License": "MPL-2.0",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/src/master/Synchronization/Changelog.md",
     "Homepage": "https://www.patreon.com/stefanberg/",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.0.2.5.1.zip",
-        "Checksum": "3031CDF8A9BA9A2A0A546BEB4B1DBA16479DC90CE993E9B2AFA3C4AFF949E16B",
-        "Type": "ARCHIVE"
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Version": {
+        "Patch": "6",
+        "Build": "0",
+        "Major": "0",
+        "Minor": "2"
     },
-    "License": "MPL-2.0"
+    "Author": "Stefan Berg",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/"
 }
