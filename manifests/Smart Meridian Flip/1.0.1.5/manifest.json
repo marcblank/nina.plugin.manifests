@@ -8,7 +8,7 @@
     "Installer": {
         "ChecksumType": "SHA256",
         "URL": "https://bitbucket.org/fmeschia/smartmeridianflip/downloads/Fmeschia.NINA.Plugin.SmartMeridianFlip-1.0.1.5.dll",
-        "Checksum": "7FDA24BF325057F2A305F89309F73044CF532C153D52E3B33E5D4A09E5025811",
+        "Checksum": "33E32018AF81DBB0AD22B5CFF768A4DBE87EB3C211EF575A983D4C767A77E13F",
         "Type": "DLL"
     },
     "Version": {
