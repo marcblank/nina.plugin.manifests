@@ -7,14 +7,14 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.5.0.0.zip",
-        "Checksum": "842131CFD1CFBE5AE89F5936E6DC6FE4A19E4523C3BDEB5248E4C06894668B8B",
+        "URL": "https://daleghent.com/dist/moon-angle/MoonAngle-1.5.1.0.zip",
+        "Checksum": "191745938E481C8545F9655F4580961DAB75D26A5813CDB374E7159623FF3C5D",
         "Type": "ARCHIVE"
     },
     "Version": {
         "Minor": "5",
         "Build": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Major": "1"
     },
     "ChangelogURL": "https://github.com/daleghent/nina-moon-angle/blob/main/CHANGELOG.md",
