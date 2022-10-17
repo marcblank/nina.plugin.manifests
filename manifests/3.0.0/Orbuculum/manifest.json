@@ -1,0 +1,40 @@
+{
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Identifier": "a6c614f3-c3ab-423a-8be1-d480a253f07c",
+    "Name": "Orbuculum",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/src/master/Orbuculum/Changelog.md",
+    "MinimumApplicationVersion": {
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "3",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg",
+    "Tags": [
+        "Scrying",
+        "Divination",
+        "Crystallomancy"
+    ],
+    "Version": {
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "2",
+        "Build": "0"
+    },
+    "Installer": {
+        "Checksum": "9E5C9FEF117576755F8A6E441D22866728B001BAB27BEA54D8CCEA55A37C60B6",
+        "Type": "ARCHIVE",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/Orbuculum.2.0.0.0.zip",
+        "ChecksumType": "SHA256"
+    },
+    "Descriptions": {
+        "LongDescription": "This plugin is intended to provide some basic tools to improve multi target planning by scrying future targets and predicting their state to react on these.  \r\n\r\nFor example - you know that a target is obstructed until it reaches a certain altitude, so you want to loop another target for as long as that target is below that specific altitude.\r\n\r\n## Loop Conditions\r\n+ Loop While Hour Angle\r\n    + Loop the current target until a certain hour angle is reached\r\n+ Loop While Next Target Hour Angle\r\n    + Loop the current target until a certain hour angle for the next target is reached\r\n+ Loop While Next Target Below Altitude\r\n    + Loop the current target until the next target rises above a specified altitude\r\n+ Loop While Next Target Below Horizon\r\n    + Loop the current target until the next target rises above the horizon\r\n\r\n## Instructions\r\n+ Auto Balancing Exposure\r\n    + An imaging instruction that will automatically balance the exposures by the given exposure definitions\r\n    + This is useful if you want to have a specific ratio between filters for example\r\n    + To add a new exposure definition hit the '+' button above the table\r\n    + Put the instruction inside a loop and it will automatically pick a fitting exposure definition each time it is executed\r\n    + The exposure is picked by simply finding the minimum detail by (Progress / Ratio)\r\n    + A ratio of 0 will deactivate the row",
+        "ShortDescription": "A plugin that will provide sequencer instructions that are able to look for future targets and react accordingly.",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.orbuculum/downloads/CrystalBall.jpg",
+        "AltScreenshotURL": "",
+        "ScreenshotURL": ""
+    },
+    "License": "MPL-2.0"
+}

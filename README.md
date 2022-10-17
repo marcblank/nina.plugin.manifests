@@ -21,7 +21,8 @@ How to fork a repository is described [here](https://support.atlassian.com/bitbu
 
 # Create a manifest
 A manifest file contains a JSON describing all the necessary metadata of a plugin. 
-To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps.
+To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps.  
+For the nightly .NET7 plugins use the [adjusted powershell script for .NET7]([powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateNET7Manifest.ps1))
 
 ***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
 
@@ -45,6 +46,35 @@ Add this if the dll should be bundled into a zip archive
 `-archiveName`
 
 Name of the created zip archive. When this parameter is omitted the plugin DLL file name without its extension is used as a name.
+
+`-includeAll`
+
+Include all files in the folder of the file into the archive
+
+`-appendVersionToArchive`
+
+When set, the archive will have the plugin version appended to the file name (e.g. MyPlugin.zip -> MyPlugin.1.0.0.0.zip)
+
+`-uploadToBitbucket`
+
+If the file should be directly pushed to your bitbucket download section
+
+
+`-bitbucketUserName` **required when uploadToBitbucket is passed**
+
+Your bitbucket user name
+
+`-bitbucketPassword` **required when uploadToBitbucket is passed**
+
+Your bitbucket app password to upload (see https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)
+
+`-bitbucketRepositoryOwner` **required when uploadToBitbucket is passed**
+
+The owner of the repository
+
+`-bitbucketRepository` **required when uploadToBitbucket is passed**
+
+The name of the repository
 
 ### Example usage
 

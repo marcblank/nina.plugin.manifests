@@ -1,0 +1,38 @@
+{
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/src/master/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Identifier": "b1b32467-2343-4d57-bcd9-a45e2773fa98",
+    "Name": "RTSP Client",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/src/master/NINA.Plugin.RTSP/Changelog.md",
+    "MinimumApplicationVersion": {
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "3",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg",
+    "Tags": [
+        "RTSP"
+    ],
+    "Version": {
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "2",
+        "Build": "0"
+    },
+    "Installer": {
+        "Checksum": "25041EE71836D7826B01CA1977A58710DD7AF1A159353E36665FCC47F9E06616",
+        "Type": "ARCHIVE",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.2.0.0.0.zip",
+        "ChecksumType": "SHA256"
+    },
+    "Descriptions": {
+        "LongDescription": "\r\nWith this plugin you can show RTSP video streams using compatible video devices inside N.I.N.A.  \r\nHead to the imaging tab, open the new RTSP Player panel that will be available and provide the details like username password and the url to the stream.  \r\nIf your camera does not require authentication, just leave the username and password fields blank.\r\n  \r\nThe plugin is made possible by utilizing the [FFMPEG](https://www.ffmpeg.org/) solution to stream audio and video.  \r\nFurthermore the video player integration is done using the great [FFMediaElement](https://github.com/unosquare/ffmediaelement) project.  \r\n",
+        "ShortDescription": "A plugin that adds a new dock window to the imaging tab to show RTSP video streams",
+        "FeaturedImageURL": "",
+        "AltScreenshotURL": "",
+        "ScreenshotURL": ""
+    },
+    "License": "MPL-2.0"
+}
