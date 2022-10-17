@@ -1,39 +1,39 @@
 {
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
-    "Homepage": "https://www.patreon.com/stefanberg/",
-    "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
-    "Name": "Scope Control",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/src/master/ScopeControl/Changelog.md",
-    "MinimumApplicationVersion": {
-        "Patch": "0",
-        "Minor": "0",
-        "Major": "3",
-        "Build": "0"
-    },
-    "Author": "Stefan Berg",
+    "Name": "Scope Control",
     "Tags": [
         "Telescope",
         "Handbox"
     ],
-    "Version": {
-        "Patch": "0",
+    "MinimumApplicationVersion": {
+        "Major": "3",
         "Minor": "0",
-        "Major": "2",
-        "Build": "0"
+        "Build": "0",
+        "Patch": "0"
     },
-    "Installer": {
-        "Checksum": "DDEF70E8120AF9EDCE7426C920BD8B959E35665A57D19E0D99AD17B02D0974CC",
-        "Type": "ARCHIVE",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.0.0.zip",
-        "ChecksumType": "SHA256"
+    "Version": {
+        "Major": "2",
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0"
     },
     "Descriptions": {
         "LongDescription": "",
-        "ShortDescription": "Adds a small tool panel to the imaging tab with basic mount control as well as an altitude chart for the telescope position",
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
+        "ShortDescription": "Adds a small tool panel to the imaging tab with basic mount control as well as an altitude chart for the telescope position",
         "AltScreenshotURL": "",
         "ScreenshotURL": ""
     },
-    "License": "MPL-2.0"
+    "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "ChecksumType": "SHA256",
+        "Checksum": "5434DC5090072C173EA455F07616E21698FD6FF1A59FC096D188DA3D4A17378E"
+    },
+    "Author": "Stefan Berg",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/"
 }
