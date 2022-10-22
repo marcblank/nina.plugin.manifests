@@ -1,0 +1,38 @@
+{
+    "License": "MPL-2.0",
+    "Version": {
+        "Build": "0",
+        "Minor": "0",
+        "Major": "1",
+        "Patch": "0"
+    },
+    "Author": "Stefan Berg",
+    "MinimumApplicationVersion": {
+        "Build": "0",
+        "Minor": "0",
+        "Major": "3",
+        "Patch": "0"
+    },
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/CHANGELOG.md",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Autofocus Report Analysis.1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "ChecksumType": "SHA256",
+        "Checksum": "0FD3799F3C8B449AA69A1AF1BAD4235FBA1830A0841E2421CE1C436DEA91D464"
+    },
+    "Tags": [
+        "Autofocus"
+    ],
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis",
+    "Descriptions": {
+        "AltScreenshotURL": "",
+        "LongDescription": "This plugin can help you determining the temperature slope and offset of your equipment by analyzing past autofocus reports that were created by N.I.N.A.\r\n\r\nSimply hit the button with the three dots and point to the folder that contains your autofocus report files in JSON format.\r\nWhen a folder is selected the plugin will load in all reports, plot a chart and determine the slope and offset via linear regression.\r\nFurther filters can be applied afterwards, like only having a specific date range, temperature range or focuser position range.\r\n\r\n*Please note that you should not blindly follow the suggested slope and offset without reviewing how well the data could be fitted. A low R² value for example should not be relied on and it should be as close to 1 as possible.*",
+        "ShortDescription": "Analyse temperature slope of autofocus runs from the autofocus logs",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/AutofocusReportAnalysisIcon.png",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Screenshot1.png"
+    },
+    "Homepage": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis",
+    "Name": "Autofocus Report Analysis",
+    "Identifier": "97021132-0C25-4443-B947-FE5EFBE0A3D6"
+}
