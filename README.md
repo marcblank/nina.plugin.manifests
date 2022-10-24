@@ -5,11 +5,21 @@ N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography 
 
 # Submitting a plugin manifest
 To make a plugin available you can submit a manifest into this repository, by following the basic steps:
-1. Develop a plugin  
-2. Create a manifest  
-3. Test your manifest against the schema  
-4. Submit a pull request against this repository with your manifest  
-5. Wait for the pull Request to be reviewed and merged
+1. Meet the prerequisites
+2. Develop a plugin  
+3. Create a manifest  
+4. Test your manifest against the schema  
+5. Submit a pull request against this repository with your manifest  
+6. Wait for the pull Request to be reviewed and merged
+
+# Meet the prerequisites
+
+N.I.N.A. is free open source software. The spirit of open source is highly encouraged when writing a plugin for N.I.N.A. and an appropriate open source license should be chosen. [MIT](https://opensource.org/licenses/MIT), [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) and [MPL-2.0](https://opensource.org/licenses/MPL-2.0) are some of the popular choices, to name a few - choose whichever fits best for your needs.  
+
+Having a plugin as open source doesn't necessarily mean that it cannot be used for commercial purposes. Maybe it will interface with an online service that has a subscription model or it is interfacing with a closed source app, to give a few examples. In this case the plugin is just the mediator between the two worlds. The intent to be as open as possible should be clear.  
+
+**Closed source plugins will not be accepted for the manifest repository and no support in any form will be given by the community.**  
+*It should be mentioned that if the number of closed source plugins get out of hand, further restrictions might be added to these in the future, as this would contradict the open source intent of the N.I.N.A. project*
 
 # Develop a plugin
 For more details on how to develop a plugin, there is a separate repository containing a basic template using a visual studio extension and guidelines to follow.  
