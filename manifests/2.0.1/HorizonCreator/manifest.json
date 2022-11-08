@@ -1,4 +1,4 @@
-{
+﻿{
     "MinimumApplicationVersion": {
         "Minor": "0",
         "Build": "2001",
@@ -7,14 +7,14 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/rennmaus-coder/HorizonCreator/releases/download/1.1.0.1/Horizon.Creator.dll",
-        "Checksum": "A34F551BE3FEAD9F37DDD753DBD76B9E7D1C8B912929B707D4AE115E0802E3F3",
+        "URL": "https://github.com/rennmaus-coder/HorizonCreator/releases/download/1.1.1.0/Horizon.Creator.dll",
+        "Checksum": "FB2CF6FD7D47F3D3EFABBBEEE840AC9F48F8D39C904913AEE6CFCD70B507D038",
         "Type": "DLL"
     },
     "Version": {
         "Minor": "1",
-        "Build": "1",
-        "Patch": "0",
+        "Build": "0",
+        "Patch": "1",
         "Major": "1"
     },
     "Tags": [
@@ -23,7 +23,7 @@
     ],
     "Descriptions": {
         "ShortDescription": "Create a horizon from within NINA only using your scope and mount!",
-        "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press \u0027Add Point\u0027. Repeat for all points you want to create a horizon from.\r\n3. Click \u0027Save\u0027 and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece"
+        "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press \u0027Add Point\u0027. Repeat for all points you want to create a horizon from.\r\n3. Click \u0027Save\u0027 and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece\r\n\r\nThanks to Isbeorn for helping me with the development of this plugin!"
     },
     "Name": "Horizon Creator",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
