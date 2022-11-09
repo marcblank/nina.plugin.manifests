@@ -38,7 +38,7 @@ For the nightly .NET7 plugins use the [adjusted powershell script for .NET7]([po
 
 ## Using the powershell script - *recommended*
 This is the most simple way of creating the manifest file. It will make use of the compiled assembly and its meta data attributes and will fill out most of the manifest with the available meta data.
-The only thing that needs to be added manually is the installer URL which points to the location where the plugin dll is hosted online - a script paramter to directly insert this is also available.
+The only thing that needs to be added manually is the installer URL which points to the location where the plugin dll is hosted online - a script paramter to directly insert this is also available. Alternatively the .NET7 version of the file has the option to directly upload to bitbucket and the URL will be generated.
 The script has the following set of parameters:
 
 `-file` - **required**
@@ -61,28 +61,28 @@ Name of the created zip archive. When this parameter is omitted the plugin DLL f
 
 Include all files in the folder of the file into the archive
 
-`-appendVersionToArchive`
+`-appendVersionToArchive` (only for NET7)
 
 When set, the archive will have the plugin version appended to the file name (e.g. MyPlugin.zip -> MyPlugin.1.0.0.0.zip)
 
-`-uploadToBitbucket`
+`-uploadToBitbucket` (only for NET7)
 
 If the file should be directly pushed to your bitbucket download section
 
 
-`-bitbucketUserName` **required when uploadToBitbucket is passed**
+`-bitbucketUserName` **required when uploadToBitbucket is passed** (only for NET7)
 
 Your bitbucket user name
 
-`-bitbucketPassword` **required when uploadToBitbucket is passed**
+`-bitbucketPassword` **required when uploadToBitbucket is passed** (only for NET7)
 
 Your bitbucket app password to upload (see https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)
 
-`-bitbucketRepositoryOwner` **required when uploadToBitbucket is passed**
+`-bitbucketRepositoryOwner` **required when uploadToBitbucket is passed** (only for NET7)
 
 The owner of the repository
 
-`-bitbucketRepository` **required when uploadToBitbucket is passed**
+`-bitbucketRepository` **required when uploadToBitbucket is passed** (only for NET7)
 
 The name of the repository
 
