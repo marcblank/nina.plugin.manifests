@@ -1,0 +1,40 @@
+{
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "Checksum": "250C113392DFD69F0F9A090387E00EA4F62C6EF7561CCECC48AA2DF5261C6DF5",
+        "URL": "https://daleghent.com/dist/aac/AstromechanicsApertureControl-2.0.0.0.zip",
+        "Type": "ARCHIVE"
+    },
+    "Author": "Dale Ghent",
+    "Version": {
+        "Build": "0",
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "2"
+    },
+    "Name": "Astromechanics Aperture Control",
+    "License": "MPL-2.0",
+    "ChangelogURL": "https://github.com/daleghent/nina-astromechanics-aperture-control/blob/main/CHANGELOG.md",
+    "Tags": [
+        "ASCOM",
+        " action",
+        " commandblind",
+        " commandbool",
+        " commandstring"
+    ],
+    "Identifier": "CD21B234-F4A2-47B0-89B9-D2E77B97FE4A",
+    "Descriptions": {
+        "ShortDescription": "Controls the focal ratio of a Canon lens when using an Astromechanics Canon Lens Controller and a custom ASCOM driver",
+        "LongDescription": "# Astromechanics Aperture Control\r\n\r\n**NOTE:** This plugin is useless without the **Enhanced ASCOM Lens Driver**. Please refer to [this plugin's website](https://daleghent.com/astromechanics-aperture-control) for full details on installation and use.\r\n\r\n## Getting help\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-astromechanics-aperture-control/issues)",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/aac-logo.png"
+    },
+    "Homepage": "https://daleghent.com/astromechanics-aperture-control",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/daleghent/nina-astromechanics-aperture-control",
+    "MinimumApplicationVersion": {
+        "Build": "1001",
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "3"
+    }
+}
