@@ -1,39 +1,39 @@
-﻿{
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/src/master/PixInsightTools/Changelog.md",
+{
     "Tags": [
         "PixInsight",
         "Sequencer"
     ],
     "Name": "PixInsight Tools",
-    "Version": {
-        "Minor": "1",
-        "Build": "2",
-        "Patch": "7",
-        "Major": "0"
-    },
     "Author": "Stefan Berg",
-    "MinimumApplicationVersion": {
-        "Minor": "0",
-        "Build": "9001",
-        "Patch": "0",
-        "Major": "2"
+    "Installer": {
+        "Checksum": "50B8C63465104AF381C7A7214EA9EFCB952EA6562E1BCADF3881C891AF7567C6",
+        "Type": "ARCHIVE",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/PixInsightTools.0.1.8.0.zip",
+        "ChecksumType": "SHA256"
     },
-    "Descriptions": {
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/logo.png",
-        "LongDescription": "This plugin provides instructions and capabilities to interact with PixInsight and use the output to display a live stack inside N.I.N.A.\r\n\r\n## **This plugin is provided as is. It is tested with various scenarios in mind, however for some use cases it might not work.**\r\n**Use this plugin only on an imaging rig that has enough processing power to interact with PixInsight in parallel to imaging!**\r\n**Furthermore you need long enough exposures for the live stack to process everything in between, otherwise the machine will always be busy catching up.**\r\n\r\n## Prerequisites\r\n\r\n* PixInsight needs to be installed and up-to-date\r\n* Set up your PixInsight location\r\n* Set a working directory - this folder will be used to store calibration files, temporary files as well as the live stack files\r\n* Adjust the remaining settings on the plugin page to your needs\r\n* Add BIAS, DARK or FLAT master files (optional)\r\n\r\n## Sequencer Instructions\r\n\r\n* Stack Flats\r\n    + Place this inside a set of instructions that take FLAT frames below the last flat capture instruction\r\n    + While flats are being taken, the instruction will gather these frames and calibrate them in the background. Filter meta data will automatically be considered to separate these.\r\n    + Once the instruction is reached, it will take all flats that have been gathered up to that point and will stack them together\r\n    + After the stack has been created it will be automatically put into the session library of the live stack panel\r\n\r\n* Start Live Stack\r\n    + This instruction will start the live stack command in the imaging panel\r\n\r\n* Stop Live Stack\r\n    + This instruction will stop the live stack command in the imaging panel\r\n\r\n## Live Stacking Panel\r\n* Expander options\r\n    + Inside the expander you can manually add single session flat masters, or alternatively automatically let them be filled by the **Stack Flats** instruction\r\n    + *Note* - Multi Session Flat Masters are not shown here, but will be used when you have set them in the options page\r\n    + Quality Gates can be added to filter out images for the stacks that do not meet certain criteria\r\n    + Furthermore a color combination can be specified when there are at least two different filters for one target available. The color stack will be created after the next frame is stacked.\r\n\r\n* Start live stack\r\n    + Once the live stack is started, the plugin will listen for any light frame that is being captured. \r\n    + Any frame that is gathered will be calibrated and put into a stack. Filters and Target Names are considered automatically. So you can create stacks for multiple filters and also multiple targets.\r\n    + Inside a stack window you can also see the number of already stacked frames as well as specifying to apply an ABE to the image",
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/LiveStackTab.png",
-        "ShortDescription": "A bundle of tools to interact with PixInsight from N.I.N.A. for the purpose of live stacking",
-        "AltScreenshotURL": ""
+    "License": "MPL-2.0",
+    "Version": {
+        "Major": "0",
+        "Minor": "1",
+        "Patch": "8",
+        "Build": "0"
     },
     "Identifier": "6ac8f0ab-4455-4072-9fb0-734b9e97e3ce",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/src/master/",
     "Homepage": "https://www.patreon.com/stefanberg/",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/PixInsightTools.0.1.7.2.zip",
-        "Checksum": "5BB15BECB737E79EDCC6619F6AA5E9F96563D2BC2DA8524DFFCF8784A541DCBB",
-        "Type": "ARCHIVE"
+    "Descriptions": {
+        "LongDescription": "This plugin provides instructions and capabilities to interact with PixInsight and use the output to display a live stack inside N.I.N.A.\r\n\r\n## **This plugin is provided as is. It is tested with various scenarios in mind, however for some use cases it might not work.**\r\n**Use this plugin only on an imaging rig that has enough processing power to interact with PixInsight in parallel to imaging!**\r\n**Furthermore you need long enough exposures for the live stack to process everything in between, otherwise the machine will always be busy catching up.**\r\n\r\n## Prerequisites\r\n\r\n* PixInsight needs to be installed and up-to-date\r\n* Set up your PixInsight location\r\n* Set a working directory - this folder will be used to store calibration files, temporary files as well as the live stack files\r\n* Adjust the remaining settings on the plugin page to your needs\r\n* Add BIAS, DARK or FLAT master files (optional)\r\n\r\n## Sequencer Instructions\r\n\r\n* Stack Flats\r\n    + Place this inside a set of instructions that take FLAT frames below the last flat capture instruction\r\n    + While flats are being taken, the instruction will gather these frames and calibrate them in the background. Filter meta data will automatically be considered to separate these.\r\n    + Once the instruction is reached, it will take all flats that have been gathered up to that point and will stack them together\r\n    + After the stack has been created it will be automatically put into the session library of the live stack panel\r\n\r\n* Start Live Stack\r\n    + This instruction will start the live stack command in the imaging panel\r\n\r\n* Stop Live Stack\r\n    + This instruction will stop the live stack command in the imaging panel\r\n\r\n## Live Stacking Panel\r\n* Expander options\r\n    + Inside the expander you can manually add single session flat masters, or alternatively automatically let them be filled by the **Stack Flats** instruction\r\n    + *Note* - Multi Session Flat Masters are not shown here, but will be used when you have set them in the options page\r\n    + Quality Gates can be added to filter out images for the stacks that do not meet certain criteria\r\n    + Furthermore a color combination can be specified when there are at least two different filters for one target available. The color stack will be created after the next frame is stacked.\r\n\r\n* Start live stack\r\n    + Once the live stack is started, the plugin will listen for any light frame that is being captured. \r\n    + Any frame that is gathered will be calibrated and put into a stack. Filters and Target Names are considered automatically. So you can create stacks for multiple filters and also multiple targets.\r\n    + Inside a stack window you can also see the number of already stacked frames as well as specifying to apply an ABE to the image",
+        "AltScreenshotURL": "",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/logo.png",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/downloads/LiveStackTab.png",
+        "ShortDescription": "A bundle of tools to interact with PixInsight from N.I.N.A. for the purpose of live stacking"
     },
-    "License": "MPL-2.0"
+    "MinimumApplicationVersion": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/src/master/PixInsightTools/Changelog.md",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.pixinsighttools/src/master/"
 }
