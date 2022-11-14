@@ -11,7 +11,7 @@
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/CHANGELOG.md",
     "Installer": {
         "Checksum": "78D935F2122579919A95A736F4213B685839E39BD7EAB555C9CF549090052211",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Autofocus Report Analysis.2.0.0.1.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Autofocus_Report_Analysis.2.0.0.1.zip",
         "ChecksumType": "SHA256",
         "Type": "ARCHIVE"
     },
