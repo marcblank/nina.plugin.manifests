@@ -31,7 +31,7 @@ param(
     [Parameter(ParameterSetName='Bitbucket', HelpMessage="Bitbucket username for upload")]
     [string]$bitbucketUserName,
 
-    [Parameter(ParameterSetName='Bitbucket', HelpMessage="Bitbucket app password for upload (see https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)")]
+    [Parameter(Mandatory=$false, ParameterSetName='Bitbucket', HelpMessage="Bitbucket app password for upload (see https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)")]
     [string]$bitbucketPassword,
 
     [Parameter(ParameterSetName='Bitbucket', HelpMessage="Bitbucket repository owner")]
@@ -41,6 +41,10 @@ param(
     [string]$bitbucketRepository
 
 )
+
+if($uploadToBitbucket && [string]::IsNullOrEmpty($bitbucketPassword)) {    
+    $bitbucketPassword = Read-Host -Prompt 'Enter bitbucket app password for upload'
+}
 
 Write-Output "Generating manifest from assembly"
 Write-Output $file
