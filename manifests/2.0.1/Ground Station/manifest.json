@@ -18,7 +18,7 @@
         "Type": "ARCHIVE",
         "Checksum": "6292DD12A3C09FDAB29715BD920DFC4E63D1357944C97BED4F88D640A8E83B31",
         "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/GroundStation-1.13.0.0.zip"
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-1.13.0.0.zip"
     },
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Name": "Ground Station",
