@@ -1,35 +1,35 @@
 {
     "Version": {
-        "Major": "1",
         "Patch": "6",
         "Minor": "5",
-        "Build": "0"
+        "Build": "1",
+        "Major": "1"
     },
     "Descriptions": {
-        "ShortDescription": "Run AF with your Camera Lens!",
-        "LongDescription": "This Plugin provides an instruction and triggers for the Advanced to run an AF with your camera lens attached to a Canon Camera\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs, because this plugin may not work for everyone! This plugin doesn't work with ASCOM.DSLR unfortuantely!**  \r\nIf you have questions/feedback/issues, you can ask on the [NINA discord](https://discord.com/invite/nighttime-imaging) in #plugin-discussions, take a look in the [wiki](https://github.com/rennmaus-coder/Camera-Lens-AF/wiki) or create an issue [here](https://github.com/rennmaus-coder/Camera-Lens-AF/issues)\r\n\r\n\r\n**Requirements**: \r\n- A Canon Camera,  \r\n- A Camera Lens that supports AF\r\n- The plugin only runs in the advanced sequencer and the imaging tab\r\n\r\nThe plugin was tested using the following camera and lenses (Note that there are often issues with third-party lenses, so be aware of that):\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n\r\n## Manual Focus Control controls\r\n- Mousewheel/Trackpad: Zoom in/out\r\n- Left mousebutton: Pan around\r\n- Right mousebutton: reset\r\n\r\n\r\nKnown issues:\r\n- Some cameras or lenses may try to refocus, when taking images if the lens is set to AF\r\n\r\n\r\n\r\n\r\n#Troubleshooting:\r\nWhat to try if:\r\n- ...the focus doesn't move: Try a different step size (2 always worked for me) or try switching your lens from AF/MF to MF/AF\r\n- ...the plugin didn't result in good focus: Try a different step size (2 always worked for me)"
+        "LongDescription": "This Plugin provides an instruction and triggers for the Advanced to run an AF with your camera lens attached to a Canon Camera\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs, because this plugin may not work for everyone! This plugin doesn't work with ASCOM.DSLR unfortuantely!**  \r\nIf you have questions/feedback/issues, you can ask on the [NINA discord](https://discord.com/invite/nighttime-imaging) in #plugin-discussions, take a look in the [wiki](https://github.com/rennmaus-coder/Camera-Lens-AF/wiki) or create an issue [here](https://github.com/rennmaus-coder/Camera-Lens-AF/issues)\r\n\r\n\r\n**Requirements**: \r\n- A Canon Camera,  \r\n- A Camera Lens that supports AF\r\n- The plugin only runs in the advanced sequencer and the imaging tab\r\n\r\nThe plugin was tested using the following camera and lenses (Note that there are often issues with third-party lenses, so be aware of that):\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n\r\n## Manual Focus Control controls\r\n- Mousewheel/Trackpad: Zoom in/out\r\n- Left mousebutton: Pan around\r\n- Right mousebutton: reset\r\n\r\n\r\nKnown issues:\r\n- Some cameras or lenses may try to refocus, when taking images if the lens is set to AF\r\n\r\n\r\n\r\n\r\n#Troubleshooting:\r\nWhat to try if:\r\n- ...the focus doesn't move: Try a different step size (2 always worked for me) or try switching your lens from AF/MF to MF/AF\r\n- ...the plugin didn't result in good focus: Try a different step size (2 always worked for me)",
+        "ShortDescription": "Run AF with your Camera Lens!"
     },
+    "Name": "Lens AF",
+    "Author": "Christian Palm",
+    "MinimumApplicationVersion": {
+        "Patch": "0",
+        "Minor": "0",
+        "Build": "1001",
+        "Major": "3"
+    },
+    "License": "MPL-2.0",
+    "Identifier": "df0bb056-bd8b-4939-95f6-a175ca252fa5",
+    "Repository": "https://github.com/rennmaus-coder/Camera-Lens-AF",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Tags": [
         "AF",
         "Sequencer",
         "Canon"
     ],
-    "License": "MPL-2.0",
     "Installer": {
+        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.5.6.1/LensAF.dll",
         "ChecksumType": "SHA256",
-        "Checksum": "F00EE45F660EC8967C57B88160FACD41E6DC1DCF79E71EA955151EA13F4D1F0D",
-        "URL": "https://github.com/rennmaus-coder/Camera-Lens-AF/releases/download/v1.5.6.0/LensAF.dll",
-        "Type": "DLL"
-    },
-    "MinimumApplicationVersion": {
-        "Major": "3",
-        "Patch": "0",
-        "Minor": "0",
-        "Build": "1001"
-    },
-    "Name": "Lens AF",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Author": "Christian Palm",
-    "Identifier": "df0bb056-bd8b-4939-95f6-a175ca252fa5",
-    "Repository": "https://github.com/rennmaus-coder/Camera-Lens-AF"
+        "Type": "DLL",
+        "Checksum": "AD80B526D46983F17A9C26663769D0538D34747D7FA401C6831909DB05F29A21"
+    }
 }
