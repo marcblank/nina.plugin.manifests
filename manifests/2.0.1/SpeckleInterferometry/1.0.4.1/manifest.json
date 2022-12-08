@@ -8,7 +8,7 @@
     "Name": "Speckle Interferometry",
     "Version": {
         "Minor": "0",
-        "Build": "0",
+        "Build": "1",
         "Patch": "4",
         "Major": "1"
     },
@@ -32,8 +32,8 @@
     "Homepage": "https://www.fairborninstitute.org/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/NickHardy/nina.plugin.speckle/downloads/NINA.Plugin.SpeckleInterferometry.1.0.4.0.zip",
-        "Checksum": "0343E22DFC67DE9CDB814C3FEB27185F03D401B42E2144F8B2A38D7A6F57AC38",
+        "URL": "https://bitbucket.org/NickHardy/nina.plugin.speckle/downloads/NINA.Plugin.SpeckleInterferometry.1.0.4.1.zip",
+        "Checksum": "F06314911B112EF8B294C67ACD63098C545DF7079ADCD566ABCE3ABC93FB30C3",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
