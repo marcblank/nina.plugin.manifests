@@ -32,7 +32,7 @@ How to fork a repository is described [here](https://support.atlassian.com/bitbu
 # Create a manifest
 A manifest file contains a JSON describing all the necessary metadata of a plugin. 
 To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps.  
-For the nightly .NET7 plugins use the [adjusted powershell script for .NET7]([powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateNET7Manifest.ps1))
+For the nightly .NET7 plugins use the [adjusted powershell script for .NET7]([powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateNET7Manifest.ps1)) (requires Powershell version 7)
 
 ***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
 
