@@ -42,7 +42,7 @@ param(
 
 )
 
-if($uploadToBitbucket && [string]::IsNullOrEmpty($bitbucketPassword)) {    
+if($uploadToBitbucket -And [string]::IsNullOrEmpty($bitbucketPassword)) {    
     $bitbucketPassword = Read-Host -Prompt 'Enter bitbucket app password for upload'
 }
 
