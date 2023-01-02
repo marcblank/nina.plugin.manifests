@@ -26,7 +26,7 @@
     "Homepage": "",
     "Author": "George Hilios (jokogeo)",
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.0.0.1/NINA.Joko.Plugin.Orbitals.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.0.0.1/NINA.Joko.Plugins.Orbitals.zip",
         "Type": "ARCHIVE",
         "Checksum": "6349A9BDAC3755C1BA60EB2F5D0E0BAC233604708D4FE9CC18DB510C1322032D",
         "ChecksumType": "SHA256"
