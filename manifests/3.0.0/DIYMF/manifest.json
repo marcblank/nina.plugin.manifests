@@ -1,0 +1,40 @@
+{
+    "Tags": [
+        "Trigger",
+        "MeridianFlip",
+        "Flip"
+    ],
+    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.diymf/",
+    "Homepage": "",
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Patch": "0",
+        "Minor": "0",
+        "Build": "1008"
+    },
+    "Name": "DIY Meridian Flip",
+    "Descriptions": {
+        "ShortDescription": "Deconstructs NINA's Meridian Flip functionality, allowing you to specify the steps involved in performing a meridian flip.  You can also add steps of your own, for example, sending messages via the Ground Station plugin.",
+        "AltScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/Flip0.png",
+        "LongDescription": "The DIY Meridian Flip plugin turns NINA's Meridian Flip 'black box' into one that's fully under your control - presented as a typical sequence of NINA instructions, some of which already exist (e.g. 'Start Guiding') and some of which are now exposed for your use (e.g. 'Do Flip', 'Pass Meridian', and 'Select Guide Star').\r\n\r\nIn addition, some of the instructions in the sequence present up-to-date information about, for example, when the meridian flip is expected based on the Options you've specified for meridian flips.  NOTE: The DIY Meridian Flip uses most of the 'Meridian flip settings' in Imaging Options; however, 'Recenter after Flip' and 'Autofocus after Flip' are ignored, as these can be specified in the DIY sequence!\r\n\r\nPerhaps more important, you can add instructions before, during, and after the DIY Meridian Flip.  Maybe you'd like to do more than one 'Center' operation after the flip. Maybe you'd like to send yourself a message (using the Ground Station plugin) informing you that the flip process is about to begin (you could then add a 'Wait for Time Span', perhaps, if you want to watch the flip as it is performed). It's entirely up to you!\r\n\r\nTo use a DIY Meridian Flip, drag the 'DIY Meridian Flip Trigger' instruction into an existing sequence that contains a Target (this isn't required, but it's not obvious what use case exists otherwise). \r\n\r\nNOTE: This version (1.1 and later) is incompatible with the original DIYMF Plugin; saved templates and sequences will need to be recreated.  Sorry about that, but this version is much improved!",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/Flip1.png"
+    },
+    "Author": "Marc Blank",
+    "ChangelogURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/commits/branch/master",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "License": "MPL-2.0",
+    "Installer": {
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin-30.dll",
+        "ChecksumType": "SHA256",
+        "Type": "DLL",
+        "Checksum": "EBA5FEBA43BD30C645FAD82C249B7BDEE8575214C510EFC3A5A42B51B156D8CE"
+    },
+    "Version": {
+        "Major": "3",
+        "Patch": "0",
+        "Minor": "0",
+        "Build": "0"
+    },
+    "Identifier": "38367705-3489-4528-9b4a-c7765bc0eced"
+}

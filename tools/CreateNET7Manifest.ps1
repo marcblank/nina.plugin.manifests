@@ -1,4 +1,4 @@
-[CmdletBinding(DefaultParameterSetName='NoArchive')]
+[CmdletBinding(DefaultParameterSetName='Standard')]
 param(
     [Parameter(Mandatory, ParameterSetName='Standard', HelpMessage="Path to the compiled plugin assembly (dll)")]
     [Parameter(Mandatory, ParameterSetName='Bitbucket', HelpMessage="Path to the compiled plugin assembly (dll)")]
