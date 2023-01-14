@@ -1,0 +1,38 @@
+{
+    "Name": "DIYTrigger",
+    "MinimumApplicationVersion": {
+        "Build": "1001",
+        "Minor": "0",
+        "Patch": "0",
+        "Major": "3"
+    },
+    "ChangelogURL": "https://mypluginsourcerepo.com/project/CHANGELOG.md",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Version": {
+        "Build": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Homepage": "https://mypluginwebsite.com/",
+    "Repository": "https://mypluginsourcerepo.com/project",
+    "License": "MPL-2.0",
+    "Identifier": "5ecc7148-dca3-48c7-8ab8-b76f27b957b8",
+    "Author": "Nick Hardy",
+    "Descriptions": {
+        "ScreenshotURL": "",
+        "AltScreenshotURL": "",
+        "LongDescription": "Use this trigger to create your own sequence that gets run when it's triggered.",
+        "FeaturedImageURL": "",
+        "ShortDescription": "A DIY trigger"
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/NickHardy/diytrigger/downloads/NINA.Diytrigger.2.0.0.0.zip",
+        "Checksum": "C70AAD8230B48F228ED9FAAA9B2E766FDEA5FC04CA6F0882DE7F6BB97A3F9CC9",
+        "Type": "ARCHIVE",
+        "ChecksumType": "SHA256"
+    },
+    "Tags": [
+        "Triggers"
+    ]
+}
