@@ -1,40 +1,38 @@
 {
-    "Tags": [
-      "Trigger",
-      "Interrupt",
-      "Sequence"
-    ],
     "License": "MPL-2.0",
+    "Identifier": "01c45cf5-73dc-422a-be1b-671eef494be8",
+    "Version": {
+        "Build": "0",
+        "Major": "3",
+        "Patch": "1",
+        "Minor": "0"
+    },
+    "Descriptions": {
+        "LongDescription": "This EXPERIMENTAL plugin provides a mechanism for running either an Autofocus or an arbitrary group of instructions immediately following the one that is currently running.  These triggers will run only once (and can then be deleted); at the moment, due to a UI issue, it's best NOT to place this in Global Triggers (though it will work).\r\n\r\nThe Autofocus Trigger instruction just needs to be moved into a Triggers block; it will run after the current instruction finiishes.\r\n\r\nThe Interrupt Trigger instruction, when moved into a Triggers block, causes sequence execution to stop after the current instruction.  You may then place any instructions within the trigger itself (expand with the arrow), and cause those instructions to execute by deleting the 'wait' as indicated.\r\n\r\nI have NO idea if this is helpful/useful, as the functionality is available in other ways (although not always as cleanly).  Comments to me (chatter) on Discord.",
+        "ShortDescription": "Interrupt running sequence and execute new instructions",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "ChangelogURL": "https://mypluginsourcerepo.com/project/CHANGELOG.md",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
   "Installer": {
-    "Checksum": "B4B670A08B66CA252D7D2D19FF91EEB7934D3D1CB2CEEA18DA6159E39A1175B3",
-    "Type": "DLL",
+    "Checksum": "C1CAEFBC41F3A113D0A722114253D48038890F925A4B3A017B7FB8255118E62B",
     "URL": "https://bitbucket.org/zorkmid/interrupts/downloads/Interrupts-30.dll",
+    "Type": "DLL",
     "ChecksumType": "SHA256"
   },
-    "Version": {
-        "Patch": "0",
-        "Minor": "0",
-        "Major": "3",
-        "Build": "0"
-    },
-    "Author": "Marc Blank",
-    "Repository": "https://mypluginsourcerepo.com/project",
-    "Identifier": "01c45cf5-73dc-422a-be1b-671eef494be8",
-    "Name": "Interrupts",
-    "Descriptions": {
-        "ShortDescription": "Interrupt running sequence and execute new instructions",
-        "LongDescription": "This EXPERIMENTAL plugin provides a mechanism for running either an Autofocus or an arbitrary group of instructions immediately following the one that is currently running.  These triggers will run only once (and can then be deleted); at the moment, due to a UI issue, it's best NOT to place this in Global Triggers (though it will work).\r\n\r\nThe Autofocus Trigger instruction just needs to be moved into a Triggers block; it will run after the current instruction finiishes.\r\n\r\nThe Interrupt Trigger instruction, when moved into a Triggers block, causes sequence execution to stop after the current instruction.  You may then place any instructions within the trigger itself (expand with the arrow), and cause those instructions to execute by deleting the 'wait' as indicated.\r\n\r\nI have NO idea if this is helpful/useful, as the functionality is available in other ways (although not always as cleanly).  Comments to me (chatter) on Discord.",
-        "AltScreenshotURL": "",
-        "FeaturedImageURL": "",
-        "ScreenshotURL": ""
-    },
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Homepage": "https://mypluginwebsite.com/",
-    "ChangelogURL": "https://mypluginsourcerepo.com/project/CHANGELOG.md",
     "MinimumApplicationVersion": {
-        "Patch": "0",
-        "Minor": "0",
+        "Build": "1008",
         "Major": "3",
-        "Build": "1008"
-    }
+        "Patch": "0",
+        "Minor": "0"
+    },
+    "Tags": [
+        "Sequencer", "Interrupt", "Trigger"
+    ],
+    "Homepage": "https://mypluginwebsite.com/",
+    "Repository": "https://mypluginsourcerepo.com/project",
+    "Name": "Interrupts",
+    "Author": "Marc Blank"
 }
