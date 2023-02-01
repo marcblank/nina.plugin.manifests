@@ -1,0 +1,41 @@
+{
+  "Version": {
+    "Patch": "0",
+    "Major": "3",
+    "Minor": "0",
+    "Build": "0"
+  },
+  "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
+  "License": "MPL-2.0",
+  "ChangelogURL": "https://bitbucket.org/zorkmid/nina.plugin.when/CHANGELOG.md",
+  "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
+  "Name": "When (and If)",
+  "Author": "Marc Blank",
+  "Installer": {
+    "ChecksumType": "SHA256",
+    "Checksum": "08165AFF2095D69B07C1D48780E6702321CFFEB41E1BE1CC0B99677635D165F0",
+    "Type": "DLL",
+    "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/WhenPlugin.dll"
+  },
+  "Descriptions": {
+    "ScreenshotURL": "",
+    "FeaturedImageURL": "",
+    "ShortDescription": "This plugin provides (initially) the ability to detect and act on Safe/Unsafe conditions",
+    "LongDescription": "The When (and If) plugin provides three facilities for dealing with Safe/Unsafe conditions.\r\n\r\n1) When Becomes Unsafe: This trigger is unusual because it will be called within 5 seconds of your safety monitor reporting Unsafe (rather than waiting for the current, probably imaging, instruction to finish.  What happens next is entirely up to you - simply add instructions in the drop-down area.  You can, for example, close your dome shutter, send yourself a message (using Ground Station), and, if you like, use the Wait until Safe instruction to have NINA simply wait around for conditions to change.  You can also, when you're ready to begin again, open your dome shutter, autofocus, slew and center, etc.  Whatever you'd like.  And when your instructions are finished executing, NINA will return to exactly where it was when conditions became Unsafe.\r\n\\r\nIf Safe/If Unsafe: An instruction that executes your instructions if conditions are safe/unsafe at the time the instruction is executed.\r\n\r\nWait Indefinitely: As it says, this will wait for you to intervene, either by deleting the instruction or using the STOP button in the instruction itself.",
+    "AltScreenshotURL": ""
+  },
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "Homepage": "https://mypluginwebsite.com/",
+  "Tags": [
+    "Advanced Sequencer",
+    "Sequence",
+    "Safety Monitor",
+    "Trigger"
+  ],
+  "MinimumApplicationVersion": {
+    "Patch": "0",
+    "Major": "3",
+    "Minor": "0",
+    "Build": "1000"
+  }
+}
