@@ -1,0 +1,40 @@
+{
+    "MinimumApplicationVersion": {
+        "Build": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Major": "3"
+    },
+    "Descriptions": {
+        "ScreenshotURL": "",
+        "FeaturedImageURL": "",
+        "LongDescription": "",
+        "ShortDescription": "Compilation of Sequencer 2 plugins; currently included: Filter Offset Calculator",
+        "AltScreenshotURL": ""
+    },
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Tags": [
+        "Sequencer",
+        " Autofocus",
+        " Offset"
+    ],
+    "Name": "Filter Offset Calculator",
+    "License": "MPL-2.0",
+    "Repository": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/",
+    "Version": {
+        "Build": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "ChangelogURL": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/src/master/NINA.Plugin.DarksCustoms/NINA.Plugin.DarksCustoms/Changelog.md",
+    "Identifier": "9516aaee-7abd-4ca3-9a19-51a86723d4c1",
+    "Author": "S. Dimant & Stefan Berg",
+    "Installer": {
+        "Checksum": "AEC452B60979DE21D83F4CB67060CF6EFB8B3C7E8B7677F7AB3F66605D1792F3",
+        "Type": "DLL",
+        "ChecksumType": "SHA256",
+        "URL": "https://darkarchon.internet-box.ch:8443/nina-3.0/NINA.Plugin.DarksCustoms.dll"
+    },
+    "Homepage": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/src"
+}
