@@ -1,0 +1,40 @@
+﻿{
+    "ChangelogURL": "https://github.com/fmoraes74/nina-sites-plugin/CHANGELOG.md",
+    "Tags": [
+        "Site",
+        "Sites",
+        "Location"
+    ],
+    "Name": "Sites Plugin",
+    "Version": {
+        "Minor": "0",
+        "Build": "0",
+        "Patch": "0",
+        "Major": "1"
+    },
+    "Author": "Francisco Moraes",
+    "MinimumApplicationVersion": {
+        "Minor": "0",
+        "Build": "9001",
+        "Patch": "0",
+        "Major": "2"
+    },
+    "Descriptions": {
+        "FeaturedImageURL": "",
+        "LongDescription": "Make a list of observeration locations and easily select the current location.",
+        "ScreenshotURL": "",
+        "ShortDescription": "Easily switch the latitude, longitude and elevation from a configurable list of locations.",
+        "AltScreenshotURL": ""
+    },
+    "Identifier": "eb52b248-a201-420b-91a8-102acc23dfa9",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Repository": "https://github.com/fmoraes74/nina-sites-plugin",
+    "Homepage": "https://github.com/fmoraes74/nina-sites-plugin",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/fmoraes74/nina-sites-plugin/releases/download/1.0.0.0/FMoraes.NINA.SitesPlugin.dll",
+        "Checksum": "CC9BA2876AF20D17031EC7DDDDA529BD489B02F48346C52875B95A1351433D00",
+        "Type": "DLL"
+    },
+    "License": "MPL-2.0"
+}
