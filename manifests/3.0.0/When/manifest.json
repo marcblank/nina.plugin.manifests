@@ -10,7 +10,7 @@
     "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/WhenPlugin.dll",
     "Type": "DLL",
     "ChecksumType": "SHA256",
-    "Checksum": "EAB932D1167C7A58F8FA902873DFC92B2FF5470D43270A51275ADB6FB02374A1"
+    "Checksum": "7CB65F02357FF40EE7BBE5DB24672122C8477BA2CEFD3B68BA146512E41E1F65"
   },
     "License": "MPL-2.0",
     "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
@@ -25,7 +25,7 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Homepage": "https://mypluginwebsite.com/",
     "Version": {
-        "Patch": "2",
+        "Patch": "4",
         "Build": "0",
         "Major": "3",
         "Minor": "1"
