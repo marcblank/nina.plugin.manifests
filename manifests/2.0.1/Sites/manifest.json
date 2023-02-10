@@ -9,7 +9,7 @@
     "Version": {
         "Minor": "0",
         "Build": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Major": "1"
     },
     "Author": "Francisco Moraes",
@@ -32,8 +32,8 @@
     "Homepage": "https://github.com/fmoraes74/nina-sites-plugin",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/fmoraes74/nina-sites-plugin/releases/download/1.0.0.0/FMoraes.NINA.SitesPlugin.dll",
-        "Checksum": "CC9BA2876AF20D17031EC7DDDDA529BD489B02F48346C52875B95A1351433D00",
+        "URL": "https://github.com/fmoraes74/nina-sites-plugin/releases/download/1.0.1.0/FMoraes.NINA.SitesPlugin.dll",
+        "Checksum": "81DAC0200797DCF43D641C772B98EA5D7B16105CFBA70399E0C345DD5626F60C",
         "Type": "DLL"
     },
     "License": "MPL-2.0"
