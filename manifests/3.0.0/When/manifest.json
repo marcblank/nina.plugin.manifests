@@ -20,7 +20,7 @@
     "Installer": {
         "Type": "ARCHIVE",
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/zorkmid/Downloads/Powerups.3.2.1.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.2.1.0.zip",
         "Checksum": "B507525D11BC9CAD56297B52477231F39DE8A1C3AD88551D0E65DCD6FF13C90E"
     },
     "Author": "Marc Blank",
