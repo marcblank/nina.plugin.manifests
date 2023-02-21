@@ -34,7 +34,7 @@
     "Name": "Sequencer Powerups",
     "Author": "Marc Blank",
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.2.4.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.2.6.0.zip",
         "Checksum": "530FFD72F23A48F0AE8308D3FE892EC3E4AE85FB000276D01F187507D75959FD",
         "Type": "ARCHIVE",
         "ChecksumType": "SHA256"
