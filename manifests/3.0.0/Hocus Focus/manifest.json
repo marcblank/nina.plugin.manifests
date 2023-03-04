@@ -4,7 +4,7 @@
     "Homepage": "",
     "Version": {
         "Minor": "0",
-        "Build": "7",
+        "Build": "9",
         "Patch": "0",
         "Major": "3"
     },
@@ -36,8 +36,8 @@
     "ChangelogURL": "https://github.com/ghilios/joko.nina.plugins/commits/develop",
     "Identifier": "0f1d10b6-d306-4168-b751-d454cbac9670",
     "Installer": {
-        "Checksum": "0CFB98482806AC7A4FC2F39229C865BACEE2F2A8D1EE78E0086A40CA55C5FD05",
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.7/NINA.Joko.Plugins.HocusFocus.zip",
+        "Checksum": "CE16F45A5A869ABB7759010687307452DB2D0B4A4CE39F1D3F8A6B95461DB73A",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.9/NINA.Joko.Plugins.HocusFocus.zip",
         "ChecksumType": "SHA256",
         "Type": "ARCHIVE"
     }
