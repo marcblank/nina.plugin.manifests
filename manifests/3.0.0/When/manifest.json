@@ -23,15 +23,15 @@
         "Build": "0",
         "Minor": "4",
         "Major": "3",
-        "Patch": "2"
+        "Patch": "3"
     },
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
     "License": "MPL-2.0",
     "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
     "Installer": {
-        "Checksum": "1A238A27CB3FAD8F5A88943BAABCF0DC31B73FE8572C11FCE9CCF5E43376D6A4",
+        "Checksum": "76880DA2335B0773349DF8C6CF8345C8A41B6B55C3A4BCB06854A49D6C18E5BB",
         "Type": "ARCHIVE",
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.4.2.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.4.3.0.zip",
         "ChecksumType": "SHA256"
     },
     "Name": "Sequencer Powerups",
