@@ -2,7 +2,7 @@
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
     "License": "MPL-2.0",
     "Version": {
-        "Patch": "0",
+        "Patch": "2",
         "Minor": "5",
         "Build": "0",
         "Major": "3"
@@ -16,9 +16,9 @@
     "Author": "Marc Blank",
     "Installer": {
         "Type": "ARCHIVE",
-        "Checksum": "A87FBF45C98F0AEBC443A0F00504AFB17D5E1338C5C61E77B3CBD3B29B34923D",
+        "Checksum": "07AD234CE7B4BCE127578A0D79C719E01CB8885C6BFDE49ADABD90C9FACDED6E",
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.5.0.0.zip"
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.5.2.0.zip"
     },
     "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
     "Homepage": "https://mypluginwebsite.com/",
