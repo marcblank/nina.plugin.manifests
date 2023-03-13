@@ -1,7 +1,7 @@
 {
     "Version": {
         "Minor": "5",
-        "Build": "0",
+        "Build": "1",
         "Major": "3",
         "Patch": "4"
     },
@@ -28,9 +28,9 @@
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.5.4.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.5.4.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "461CE915C35DF3DBE3DDA3D3F2BBA7A41161EA2333492BD848DC0FDB5DCCCE98"
+        "Checksum": "558C5671E7326867CF361A681F59BBF6A6031B3B6653A370FC6EF8E6C7D9719E"
     },
     "Tags": [
         "Sequencer",
