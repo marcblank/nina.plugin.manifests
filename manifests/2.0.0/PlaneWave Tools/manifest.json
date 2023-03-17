@@ -1,5 +1,6 @@
-﻿{
-    "ChangelogURL": "https://github.com/daleghent/nina-planewave-tools/blob/main/CHANGELOG.md",
+{
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
     "Tags": [
         "planewave",
         "pw3",
@@ -7,36 +8,35 @@
         "sequencer",
         "fans"
     ],
+    "Homepage": "https://daleghent.com/planewave-tools",
+    "License": "MPL-2.0",
     "Name": "PlaneWave Tools",
-    "Version": {
-        "Minor": "2",
-        "Build": "0",
-        "Patch": "0",
-        "Major": "1"
+    "Installer": {
+        "Checksum": "ADAF7E2FD7112AC504312DCE0E7486D5685D1EC0134E7E584C264D39A6038ECE",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-1.3.0.0.zip",
+        "Type": "ARCHIVE",
+        "ChecksumType": "SHA256"
     },
     "Author": "Dale Ghent",
-    "MinimumApplicationVersion": {
-        "Minor": "0",
-        "Build": "2031",
-        "Patch": "0",
-        "Major": "2"
-    },
+    "ChangelogURL": "https://github.com/daleghent/nina-planewave-tools/blob/main/CHANGELOG.md",
     "Descriptions": {
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/planewavetools.png",
-        "LongDescription": "PlaneWave Tools provides several instructions for controlling various aspects of PlaneWave OTA and mount systems.\r\n\r\n# Requirements #\r\n\r\n* PWI3 \u003e= 3.5.3\r\n* PWI4 \u003e= 4.0.11 beta 9\r\n\r\n# Sequence Instructions #\r\n\r\n* Start PWI3, Stop PWI3 - Starts and stops the PWI3.exe application\r\n* Start PWI4, Stop PWI4 - Starts and stops the PWI4.exe application\r\n* Axis Control - Enable or disable mount axes\r\n* Fan Control - Turns the OTA fans on or off\r\n* DeltaT Control - Sets the per-heater operating modes of the Delta T heater controller\r\n\r\nOpen to ideas for additional controls!\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin\u0027s [Github repository](https://github.com/daleghent/nina-planewave-tools/issues).",
-        "ScreenshotURL": "",
+        "AltScreenshotURL": "",
         "ShortDescription": "A collection of useful tools for managing PlaneWave telescope systems",
-        "AltScreenshotURL": ""
+        "LongDescription": "PlaneWave Tools provides several instructions for controlling various aspects of PlaneWave OTA and mount systems.\r\n\r\n# Requirements #\r\n\r\n* PWI3 >= 3.5.3\r\n* PWI4 >= 4.0.11 beta 9\r\n\r\n# Sequence Instructions #\r\n\r\n* Start PWI3, Stop PWI3 - Starts and stops the PWI3.exe application\r\n* Start PWI4, Stop PWI4 - Starts and stops the PWI4.exe application\r\n* Axis Control - Enable or disable mount axes\r\n* Fan Control - Turns the OTA fans on or off\r\n* DeltaT Control - Sets the per-heater operating modes of the Delta T heater controller\r\n* M3 Control - Sets the postions of the M3 Nasmyth port mirror\r\n\r\nOpen to ideas for additional controls!\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-planewave-tools/issues).",
+        "ScreenshotURL": ""
     },
-    "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Repository": "https://github.com/daleghent/nina-planewave-tools",
-    "Homepage": "https://daleghent.com/planewave-tools",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-1.2.0.0.zip",
-        "Checksum": "4604BA8A5B3C7005807E0CD2CD939363374C6DC1157517833A9EED8F6D95D35F",
-        "Type": "ARCHIVE"
+    "Version": {
+        "Major": "1",
+        "Patch": "0",
+        "Build": "0",
+        "Minor": "3"
     },
-    "License": "MPL-2.0"
+    "MinimumApplicationVersion": {
+        "Major": "2",
+        "Patch": "0",
+        "Build": "2031",
+        "Minor": "0"
+    }
 }
