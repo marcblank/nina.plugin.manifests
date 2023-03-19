@@ -1,10 +1,10 @@
 {
-    "Installer": {
-        "Checksum": "8F0FCB3BBC13632861FF3CB96CC683F5F52AF5D049373E3E2B9B099E3A294A5D",
-        "ChecksumType": "SHA256",
-        "Type": "DLL",
-        "URL": ""
-    },
+  "Installer": {
+    "Checksum": "8F0FCB3BBC13632861FF3CB96CC683F5F52AF5D049373E3E2B9B099E3A294A5D",
+    "ChecksumType": "SHA256",
+    "Type": "DLL",
+    "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin3030.dll"
+  },
     "Identifier": "38367705-3489-4528-9b4a-c7765bc0eced",
     "Version": {
         "Patch": "3",
