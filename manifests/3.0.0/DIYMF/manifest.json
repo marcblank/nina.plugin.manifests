@@ -1,40 +1,40 @@
 {
-  "Installer": {
-    "Type": "DLL",
-    "Checksum": "1A5B1A1CDF71C9645519F98828589B9540B6C5F1BAE09490809D8E87846AD70F",
-    "URL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/DIYMFPlugin-30.dll",
-    "ChecksumType": "SHA256"
-  },
-    "Homepage": "",
-    "License": "MPL-2.0",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.diymf/",
+    "Installer": {
+        "Checksum": "8F0FCB3BBC13632861FF3CB96CC683F5F52AF5D049373E3E2B9B099E3A294A5D",
+        "ChecksumType": "SHA256",
+        "Type": "DLL",
+        "URL": ""
+    },
+    "Identifier": "38367705-3489-4528-9b4a-c7765bc0eced",
     "Version": {
-        "Patch": "1",
-        "Major": "3",
+        "Patch": "3",
         "Build": "0",
+        "Major": "3",
         "Minor": "0"
     },
-    "Author": "Marc Blank",
-    "Descriptions": {
-        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/Flip1.png",
-        "FeaturedImageURL": "",
-        "AltScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/Flip0.png",
-        "ShortDescription": "Deconstructs NINA's Meridian Flip functionality, allowing you to specify the steps involved in performing a meridian flip.  You can also add steps of your own, for example, sending messages via the Ground Station plugin.",
-        "LongDescription": "The DIY Meridian Flip plugin turns NINA's Meridian Flip 'black box' into one that's fully under your control - presented as a typical sequence of NINA instructions, some of which already exist (e.g. 'Start Guiding') and some of which are now exposed for your use (e.g. 'Do Flip', 'Pass Meridian', and 'Select Guide Star').\r\n\r\nIn addition, some of the instructions in the sequence present up-to-date information about, for example, when the meridian flip is expected based on the Options you've specified for meridian flips.  NOTE: The DIY Meridian Flip uses most of the 'Meridian flip settings' in Imaging Options; however, 'Recenter after Flip' and 'Autofocus after Flip' are ignored, as these can be specified in the DIY sequence!\r\n\r\nPerhaps more important, you can add instructions before, during, and after the DIY Meridian Flip.  Maybe you'd like to do more than one 'Center' operation after the flip. Maybe you'd like to send yourself a message (using the Ground Station plugin) informing you that the flip process is about to begin (you could then add a 'Wait for Time Span', perhaps, if you want to watch the flip as it is performed). It's entirely up to you!\r\n\r\nTo use a DIY Meridian Flip, drag the 'DIY Meridian Flip Trigger' instruction into an existing sequence that contains a Target (this isn't required, but it's not obvious what use case exists otherwise). \r\n\r\nNOTE: This version (1.1 and later) is incompatible with the original DIYMF Plugin; saved templates and sequences will need to be recreated.  Sorry about that, but this version is much improved!"
-    },
-    "Name": "DIY Meridian Flip",
     "MinimumApplicationVersion": {
         "Patch": "0",
-        "Major": "3",
         "Build": "1008",
+        "Major": "3",
         "Minor": "0"
     },
+    "Descriptions": {
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/Flip1.png",
+        "ShortDescription": "Deconstructs NINA's Meridian Flip functionality, allowing you to specify the steps involved in performing a meridian flip.  You can also add steps of your own, for example, sending messages via the Ground Station plugin.",
+        "AltScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/downloads/Flip0.png",
+        "FeaturedImageURL": "",
+        "LongDescription": "The DIY Meridian Flip plugin turns NINA's Meridian Flip 'black box' into one that's fully under your control - presented as a typical sequence of NINA instructions, some of which already exist (e.g. 'Start Guiding') and some of which are now exposed for your use (e.g. 'Do Flip', 'Pass Meridian', and 'Select Guide Star').\r\n\r\nIn addition, some of the instructions in the sequence present up-to-date information about, for example, when the meridian flip is expected based on the Options you've specified for meridian flips.  NOTE: The DIY Meridian Flip uses most of the 'Meridian flip settings' in Imaging Options; however, 'Recenter after Flip' and 'Autofocus after Flip' are ignored, as these can be specified in the DIY sequence!\r\n\r\nPerhaps more important, you can add instructions before, during, and after the DIY Meridian Flip.  Maybe you'd like to do more than one 'Center' operation after the flip. Maybe you'd like to send yourself a message (using the Ground Station plugin) informing you that the flip process is about to begin (you could then add a 'Wait for Time Span', perhaps, if you want to watch the flip as it is performed). It's entirely up to you!\r\n\r\nTo use a DIY Meridian Flip, drag the 'DIY Meridian Flip Trigger' instruction into an existing sequence that contains a Target (this isn't required, but it's not obvious what use case exists otherwise). \r\n\r\nNOTE: This version (1.1 and later) is incompatible with the original DIYMF Plugin; saved templates and sequences will need to be recreated.  Sorry about that, but this version is much improved!"
+    },
+    "ChangelogURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/commits/branch/master",
+    "License": "MPL-2.0",
+    "Author": "Marc Blank",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Name": "DIY Meridian Flip",
     "Tags": [
         "Trigger",
         "MeridianFlip",
         "Flip"
     ],
-    "ChangelogURL": "https://bitbucket.org/zorkmid/nina.plugin.diymf/commits/branch/master",
-    "Identifier": "38367705-3489-4528-9b4a-c7765bc0eced"
+    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.diymf/",
+    "Homepage": ""
 }
