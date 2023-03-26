@@ -29,16 +29,16 @@
     "License": "MPL-2.0",
     "ChangelogURL": "https://github.com/ghilios/joko.nina.plugins/commits/develop",
     "Version": {
-        "Build": "10",
+        "Build": "11",
         "Patch": "0",
         "Major": "3",
         "Minor": "0"
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.10/NINA.Joko.Plugins.HocusFocus.zip",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.11/NINA.Joko.Plugins.HocusFocus.zip",
         "Type": "ARCHIVE",
         "ChecksumType": "SHA256",
-        "Checksum": "C01809CED01ACFD326C4523433DF628E8E2634BDBC817AAEEF9C184F268C257D"
+        "Checksum": "6720CD9ABC1926CDDEC3CB85EFAC69E9C2B1BD4ABD0D264D3D2BDBDD1B9FDED9"
     },
     "Repository": "https://github.com/ghilios/joko.nina.plugins"
 }
