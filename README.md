@@ -203,6 +203,6 @@ The log console will then output all found manifests and logs if they are valid 
 # Submit a pull request
 
 - Make sure that the manifest is valid
-- Your manifest should be put into the folder path matching the following pattern `manifests\<your plugin name>\<your plugin version>\manifest.json`. If you do not want to maintain multiple versions, you can omit the version folder.
+- Your manifest should be put into the folder path matching the following pattern `manifests\<plugin starting letter><your plugin name>\<nina version>\<your plugin version>\manifest.json`. If you do not want to maintain multiple versions, you can omit the version folder.
 - Once changes are submitted to your fork you can create a pull request inside the main manifest repository
 - The pull request will undergo a review process. Be prepared to respond to feedback.
