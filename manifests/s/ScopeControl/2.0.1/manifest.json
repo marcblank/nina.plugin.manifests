@@ -1,39 +1,39 @@
 {
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.4.1.0.dll",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.1.4.1.1.dll",
         "Type": "DLL",
         "ChecksumType": "SHA256",
-        "Checksum": "AE6991364E959D366803D044BAEA1FBC8A5D7797D4D0C7003798E0EC79847E74"
+        "Checksum": "CBCAC5671AE619FCBDD9B37070A0FFA5BCD701AE68DFA7624B35E9D9AAFD744C"
     },
-    "Descriptions": {
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured2.png",
-        "LongDescription": "",
-        "ShortDescription": "Adds tool panels to the imaging tab with basic mount control as well as an altitude and azimuth chart for the telescope position",
-        "AltScreenshotURL": "",
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png"
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
+    "Name": "Scope Control",
+    "MinimumApplicationVersion": {
+        "Build": "9001",
+        "Patch": "0",
+        "Minor": "2",
+        "Major": "2"
     },
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/src/master/ScopeControl/Changelog.md",
+    "Author": "Stefan Berg",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Descriptions": {
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
+        "LongDescription": "",
+        "AltScreenshotURL": "",
+        "ShortDescription": "Adds tool panels to the imaging tab with basic mount control as well as an altitude and azimuth chart for the telescope position",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured2.png"
+    },
+    "Version": {
+        "Build": "1",
+        "Patch": "1",
+        "Minor": "4",
+        "Major": "1"
+    },
+    "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
+    "License": "MPL-2.0",
     "Tags": [
         "Telescope",
         "Handbox"
     ],
-    "Version": {
-        "Patch": "1",
-        "Minor": "4",
-        "Major": "1",
-        "Build": "0"
-    },
-    "MinimumApplicationVersion": {
-        "Patch": "1",
-        "Minor": "0",
-        "Major": "2",
-        "Build": "2004"
-    },
-    "Name": "Scope Control",
-    "Author": "Stefan Berg",
-    "License": "MPL-2.0",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
-    "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
-    "Homepage": "https://www.patreon.com/stefanberg/",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/"
+    "Homepage": "https://www.patreon.com/stefanberg/"
 }
