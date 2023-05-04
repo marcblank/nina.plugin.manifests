@@ -1,0 +1,40 @@
+{
+    "MinimumApplicationVersion": {
+        "Patch": "0",
+        "Build": "0",
+        "Minor": "0",
+        "Major": "3"
+    },
+    "Identifier": "52c17ee7-6d6c-4ee1-8fa0-85bcf6677bef",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/src/master/Connector/Changelog.md",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.connector/",
+    "Name": "Connector",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "License": "MPL-2.0",
+    "Author": "Stefan Berg",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Installer": {
+        "Checksum": "6B1057B6CC42BB2E9EDF3E9867A51BB23B37FD9EEAA188E6AD8E85C1EF2CB748",
+        "ChecksumType": "SHA256",
+        "Type": "ARCHIVE",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.0.1.zip"
+    },
+    "Descriptions": {
+        "ShortDescription": "Equipment connection manager",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": "",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/connect.jpg",
+        "LongDescription": "A plugin that adds a connect and disconnect instructions to the advanced sequencer  \r\n  \r\nMake sure your equipment is properly setup, so that it is automatically selected when scanning for it. The instructions will scan for the selected equipment and try to connect to the device that was connected successfully the last time.   \r\nTo use the instructions, just drag them in and select the type of device you want to connect to or disconnect from.\r\n\r\n  \r\n**Be careful when using these instructions**! Failing to connect to equipment will make your sequence impossible to run properly. It is recommended to have some sort of notification mechanism like GNS or Ground Station available to be notified of a failed connection! "
+    },
+    "Tags": [
+        "Connect",
+        " Equipment",
+        " Disconnect"
+    ],
+    "Version": {
+        "Patch": "0",
+        "Build": "1",
+        "Minor": "0",
+        "Major": "2"
+    }
+}
