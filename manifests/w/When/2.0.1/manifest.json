@@ -37,7 +37,7 @@
   "Installer": {
     "ChecksumType": "SHA256",
     "URL": "https://bitbucket.org/zorkmid/when2/downloads/Powerups.2.5.4.0.zip",
-    "Checksum": "1E7615E68FCFAEF98D90167B60EEF391BE009D1BDC8A94310CF51F9E24838868",
+    "Checksum": "4C3CF5AD34B44E6EADF9DAD02F780233E8693F1E26E8C504383AA423EB672CE2",
     "Type": "ARCHIVE"
   },
     "License": "MPL-2.0"
