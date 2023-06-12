@@ -7,14 +7,14 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/tcpalmer/nina.plugin.assistant/releases/download/v0.7.1.0/NINA.Plugin.TargetScheduler-0.7.1.0.zip",
-        "Checksum": "A1F34D3C797779F206938B23B1B1060D33754B567DF29E4BB1AB772CB0B70A0F",
+        "URL": "https://github.com/tcpalmer/nina.plugin.assistant/releases/download/v0.8.0.0/NINA.Plugin.TargetScheduler-0.8.0.0.zip",
+        "Checksum": "A151A5E52179161BD04EE57A74F7CA705419ECB077436BBDC3B689BB9D6F5CE9",
         "Type": "ARCHIVE"
     },
     "Version": {
-        "Minor": "7",
+        "Minor": "8",
         "Build": "0",
-        "Patch": "1",
+        "Patch": "0",
         "Major": "0"
     },
     "Descriptions": {
