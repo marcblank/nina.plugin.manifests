@@ -55,8 +55,26 @@ Write-Output "-------------"
 # START Read Metadata out of assembly
 ############################################################################################################################################
 
-$manifest = @{
-    Descriptions = @{}
+$manifest = [ordered]@{
+    Name = ""
+    Identifier = ""
+    Version = @{}
+    Author = ""
+    Homepage = ""
+    Repository = ""
+    License = ""
+    LicenseURL = ""
+    ChangelogURL = ""
+    Tags = ""
+    MinimumApplicationVersion = @{}
+    Descriptions = [ordered]@{
+        ShortDescription = ""
+        LongDescription = ""
+        FeaturedImageURL = ""
+        ScreenshotURL = ""
+        AltScreenshotURL = ""
+    }
+    Installer = @{}
 }
 
 $stream = [System.IO.File]::OpenRead($file)
@@ -85,7 +103,7 @@ foreach ($attribute in $metadataCustomAttributes) {
 	if($attrName -like "AssemblyFileVersionAttribute") {
         $attrVal = $attrBlob.ReadSerializedString()
         $version = $attrVal.Split(".")
-		$manifest["Version"] = @{
+		$manifest["Version"] = [ordered]@{
             Major = $version[0]
             Minor = $version[1]
             Patch = $version[2]
@@ -125,7 +143,7 @@ foreach ($attribute in $metadataCustomAttributes) {
         }
         if($attrKey -like "MinimumApplicationVersion" ) {
             $version = $attrVal.Split(".");
-            $manifest["MinimumApplicationVersion"] = @{
+            $manifest["MinimumApplicationVersion"] = [ordered]@{
                 Major = $version[0]
                 Minor = $version[1]
                 Patch = $version[2]
@@ -269,7 +287,7 @@ Content-Type: application/octet-stream
 # START Create Installer Property and generate final manifest
 ############################################################################################################################################
 
-$manifest["Installer"] = @{
+$manifest["Installer"] = [ordered]@{
     URL = $installerUrl
     Type = $installerType
     Checksum = $checksum.Hash
