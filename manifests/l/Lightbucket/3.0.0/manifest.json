@@ -1,32 +1,36 @@
 {
+    "Name": "Lightbucket",
+    "Identifier": "2d7210df-05e0-4b02-b8e5-fbf914b54fb0",
     "Version": {
-        "Build": "0",
         "Major": "2",
-        "Minor": "0",
-        "Patch": "0"
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "0"
     },
     "Author": "Lightbucket",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Identifier": "2d7210df-05e0-4b02-b8e5-fbf914b54fb0",
-    "License": "MPL-2.0",
     "Homepage": "https://app.lightbucket.co",
-    "Installer": {
-        "Type": "ARCHIVE",
-        "Checksum": "85FA3DFAB254747511B7F9123B0B8C02D50BF3F7AC4E3705AB8293C26842E64B",
-        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-2.0.0.zip",
-        "ChecksumType": "SHA256"
-    },
-    "Name": "Lightbucket",
+    "Repository": "https://github.com/lightbucket-co/lightbucket-nina-plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": "",
     "MinimumApplicationVersion": {
-        "Build": "0",
         "Major": "3",
         "Minor": "0",
-        "Patch": "0"
+        "Patch": "0",
+        "Build": "1022"
     },
     "Descriptions": {
         "ShortDescription": "Send session information to the Lightbucket API",
+        "LongDescription": "Lightbucket is a tool for tracking your astrophotography imaging sessions so you can easily see data about your journey through the cosmos.\r\nAfter installing this plugin and configuring your API credentials, NINA will send information about your LIGHT frames as they are saved over\r\nthe course of a sequence.\r\n\r\nThe following information will be sent to Lightbucket when images are saved:\r\n\r\n- Target Name, RA, Dec, and Rotation\r\n- Telescope Name (from your Profile)\r\n- Camera Name\r\n- Image Filter, Duration, Gain, Offset, Binning, and Total RMS (in arcseconds)\r\n- A small (300px) thumbnail of the stretched frame.\r\n\r\nThis logging is automatically enabled and can be toggled on or off using the Enabled setting below.",
         "FeaturedImageURL": "https://app.lightbucket.co/nina_plugin/lightbucket-logo.png",
-        "LongDescription": "Lightbucket is a tool for tracking your astrophotography imaging sessions so you can easily see data about your journey through the cosmos.\r\nAfter installing this plugin and configuring your API credentials, NINA will send information about your LIGHT frames as they are saved over\r\nthe course of a sequence.\r\n\r\nThe following information will be sent to Lightbucket when images are saved:\r\n\r\n- Target Name, RA, Dec, and Rotation\r\n- Telescope Name (from your Profile)\r\n- Camera Name\r\n- Image Filter, Duration, Gain, Offset, Binning, and Total RMS (in arcseconds)\r\n- A small (300px) thumbnail of the stretched frame.\r\n\r\nThis logging is automatically enabled and can be toggled on or off using the Enabled setting below."
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
     },
-    "Repository": "https://github.com/lightbucket-co/lightbucket-nina-plugin"
+    "Installer": {
+        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-2.2.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "0B2B930C13C18EE8F2B6B1EE0A43623B24432A54779DED4D544F35E84C203BE1",
+        "ChecksumType": "SHA256"
+    }
 }
