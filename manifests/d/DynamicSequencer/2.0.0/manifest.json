@@ -1,0 +1,36 @@
+{
+    "MinimumApplicationVersion": {
+        "Patch": "0",
+        "Minor": "0",
+        "Major": "2",
+        "Build": "9001"
+    },
+    "Homepage": "",
+    "ChangelogURL": "",
+    "Descriptions": {
+        "LongDescription": "A plugin for NINA that dynamically selects an optimal target for imaging, allowing for unattended, multi-night, multi-target automated imaging.",
+        "AltScreenshotURL": "",
+        "ShortDescription": "Smarter automation with dynamic target selection",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": ""
+    },
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Author": "Daniel He",
+    "Identifier": "192e32c9-2e7e-4107-8daf-4e57b4e768cb",
+    "Repository": "https://github.com/DanielHeEGG/DynamicSequencer",
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "Checksum": "3EED6E8AE9155BFFF280740312615808E4C92EEC7CE7F7038E029929A0DAFD1D",
+        "URL": "https://github.com/DanielHeEGG/DynamicSequencer/releases/download/v0.1.0.0/DanielHeEGG.NINA.DynamicSequencer.dll",
+        "Type": "DLL"
+    },
+    "Version": {
+        "Patch": "0",
+        "Minor": "1",
+        "Major": "0",
+        "Build": "0"
+    },
+    "License": "MPL-2.0",
+    "Name": "DynamicSequencer",
+    "Tags": ["Automation"]
+}
