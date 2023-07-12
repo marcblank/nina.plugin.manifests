@@ -13,7 +13,7 @@
     "Version": {
         "Minor": "5",
         "Build": "0",
-        "Patch": "4",
+        "Patch": "8",
         "Major": "2"
     },
     "Author": "Marc Blank",
@@ -34,11 +34,11 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
     "Homepage": "https://mypluginwebsite.com/",
-  "Installer": {
-    "ChecksumType": "SHA256",
-    "URL": "https://bitbucket.org/zorkmid/when2/downloads/Powerups.2.5.4.0.zip",
-    "Checksum": "4C3CF5AD34B44E6EADF9DAD02F780233E8693F1E26E8C504383AA423EB672CE2",
-    "Type": "ARCHIVE"
-  },
+    "Installer": {
+        "ChecksumType": "SHA256",
+        "URL": "https://bitbucket.org/zorkmid/when2/downloads/Powerups.2.5.8.0.zip",
+        "Checksum": "6C6AB8D43BE1925424A0EC3C4B6C65BE943FEE72FE80F2A5DE25ED3345583FBE",
+        "Type": "ARCHIVE"
+    },
     "License": "MPL-2.0"
 }
