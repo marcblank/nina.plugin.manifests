@@ -1,0 +1,39 @@
+{
+    "Name": "SGP Server Emulation",
+    "Identifier": "b4b16313-689c-4fad-a1c9-b99a789814f2",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg and the N.I.N.A. contributors",
+    "Homepage": "https://nighttime-imaging.eu/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/src/master/CHANGELOG.md",
+    "Tags": [
+        "SGP",
+        " API"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1030"
+    },
+    "Descriptions": {
+        "ShortDescription": "A server emulation of the SGP API",
+        "LongDescription": "\r\nThis plugin adds an API to the application that emulates the routes of SGP. This can be used for other applications to interface with N.I.N.A. that implement the SGP API.\r\n\r\n**Plugin prerequisites**\r\n\r\n- This plugin requires the installation of the ASP.NET Core Runtime 7.x.\r\n- Please download and install this prior to using the plugin: [https://dotnet.microsoft.com/en-us/download/dotnet/7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)\r\n\r\n**Usage**\r\n\r\nOnce the plugin is installed, you need to enable it by going to the plugin page and toggle the \"Server Enabled\" button to on.\r\nWhen enabled the server will be started.\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/downloads/nina.plugin.sgpserveremulation.1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "6A8CD486403FF830829A40E922F5AB1DB335D22AA50FFE3AC977A956418B02B7",
+        "ChecksumType": "SHA256"
+    }
+}

@@ -165,6 +165,9 @@ foreach ($attribute in $metadataCustomAttributes) {
     }
 }
 
+$stream.Close();
+$stream.Dispose();
+
 ############################################################################################################################################
 # END Read Metadata out of assembly
 ############################################################################################################################################
@@ -270,6 +273,7 @@ Content-Type: application/octet-stream
     }
     finally {
         $fileStream.Close()
+        $fileStream.Dispose()
         $fileStream = $null
         [GC]::Collect()
     }
