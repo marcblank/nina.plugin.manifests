@@ -25,7 +25,7 @@
     },
     "Descriptions": {
         "ShortDescription": "A server emulation of the SGP API",
-        "LongDescription": "\r\nThis plugin adds an API to the application that emulates the routes of SGP. This can be used for other applications to interface with N.I.N.A. that implement the SGP API.\r\n\r\n**Plugin prerequisites**\r\n\r\n- This plugin requires the installation of the ASP.NET Core Runtime 7.x.\r\n- Please download and install this prior to using the plugin: [https://dotnet.microsoft.com/en-us/download/dotnet/7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)\r\n\r\n**Usage**\r\n\r\nOnce the plugin is installed, you need to enable it by going to the plugin page and toggle the \"Server Enabled\" button to on.\r\nWhen enabled the server will be started.\r\n",
+        "LongDescription": "\r\nThis plugin adds an API to the application that emulates the routes of SGP. This can be used for other applications to interface with N.I.N.A. that implement the SGP API.\r\n\r\n**Plugin prerequisites**\r\n\r\n* SGP is hardcoded to listen on localhost:59590. Depending on the system, this may be either an IPv4 or IPv6 loopback, so both should be configured to allow http connections.\r\n* The following commands should be run from an elevated command prompt if the server fails to start:\r\n  + netsh http add iplisten ipaddress=::\r\n  + netsh http add iplisten ipaddress=0.0.0.0\r\n  + netsh http add urlacl url=http://+:59590/ user=Everyone\r\n\r\n**Usage**\r\n\r\nOnce the plugin is installed, you need to enable it by going to the plugin page and toggle the \"Server Enabled\" button to on.\r\nWhen enabled the server will be started.\r\n",
         "FeaturedImageURL": "",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
@@ -33,7 +33,7 @@
     "Installer": {
         "URL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/downloads/nina.plugin.sgpserveremulation.1.0.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "858E23A07342871DA5A91C2D9CD88502981EB52C53BE7A754FE66E6E4F9F5458",
+        "Checksum": "DC0E29DE810AD303ED5714994A5062EAFDBBC333778A035E46351AEBF26B8409",
         "ChecksumType": "SHA256"
     }
 }
