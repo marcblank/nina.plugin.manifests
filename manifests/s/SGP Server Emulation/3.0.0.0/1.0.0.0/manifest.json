@@ -15,7 +15,7 @@
     "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/src/master/CHANGELOG.md",
     "Tags": [
         "SGP",
-        " API"
+        "API"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
@@ -33,7 +33,7 @@
     "Installer": {
         "URL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/downloads/nina.plugin.sgpserveremulation.1.0.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "6A8CD486403FF830829A40E922F5AB1DB335D22AA50FFE3AC977A956418B02B7",
+        "Checksum": "858E23A07342871DA5A91C2D9CD88502981EB52C53BE7A754FE66E6E4F9F5458",
         "ChecksumType": "SHA256"
     }
 }
