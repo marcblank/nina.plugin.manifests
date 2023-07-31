@@ -225,7 +225,7 @@ if($uploadToBitbucket) {
         $fileToUpload = $file
     }
 
-    echo "File to upload: $(fileToUpload)"
+    echo "File to upload: $($fileToUpload)"
 
     # https://support.atlassian.com/bitbucket-cloud/docs/deploy-build-artifacts-to-bitbucket-downloads/
     $uri = "https://api.bitbucket.org/2.0/repositories/$($bitbucketRepositoryOwner)/$($bitbucketRepository)/downloads"
