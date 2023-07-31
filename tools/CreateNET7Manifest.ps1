@@ -225,6 +225,8 @@ if($uploadToBitbucket) {
         $fileToUpload = $file
     }
 
+    echo "File to upload: $(fileToUpload)"
+
     # https://support.atlassian.com/bitbucket-cloud/docs/deploy-build-artifacts-to-bitbucket-downloads/
     $uri = "https://api.bitbucket.org/2.0/repositories/$($bitbucketRepositoryOwner)/$($bitbucketRepository)/downloads"
     $installerUrl = "https://bitbucket.org/$($bitbucketRepositoryOwner)/$($bitbucketRepository)/downloads/$($fileToUpload)"
@@ -278,7 +280,7 @@ Content-Type: application/octet-stream
         [GC]::Collect()
     }
 
-    echo "Uploading to $($uri)"
+    echo "Uploading the file $($requestInFile) to $($uri)"
     Invoke-RestMethod -Uri $uri -Method Post -InFile $requestInFile -ContentType $contentType -Headers $headers -ErrorAction Stop -WarningAction SilentlyContinue
 }
 
