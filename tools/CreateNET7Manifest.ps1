@@ -281,6 +281,7 @@ Content-Type: application/octet-stream
     }
 
     echo "Uploading the file $($requestInFile) to $($uri)"
+    echo "Request body: $($bodyStart)"
     Invoke-RestMethod -Uri $uri -Method Post -InFile $requestInFile -ContentType $contentType -Headers $headers -ErrorAction Stop -WarningAction SilentlyContinue
 }
 
