@@ -238,51 +238,13 @@ if($uploadToBitbucket) {
       Authorization = $basicAuthValue
     }
 
-    $boundary = [Guid]::NewGuid().ToString()
-    $contentType = 'multipart/form-data; boundary={0}' -f $boundary
-
-    $bodyStart = @"
---$boundary
-Content-Disposition: form-data; name="token"
-
---$boundary
-Content-Disposition: form-data; name="files"; filename="$(Split-Path -Leaf -Path $fileToUpload)"
-Content-Type: application/octet-stream
-
-
-"@
-    $bodyEnd = @"
-
---$boundary--
-"@
-    $requestInFile = (Join-Path -Path $env:TEMP -ChildPath ([IO.Path]::GetRandomFileName()))
-
-    # Create a new object for the temporary file
-    $fileStream = (New-Object -TypeName 'System.IO.FileStream' -ArgumentList ($requestInFile, [IO.FileMode]'Create', [IO.FileAccess]'Write'))
-
-    try {
-        # The Body start
-        $bytes = [Text.Encoding]::UTF8.GetBytes($bodyStart)
-        $fileStream.Write($bytes, 0, $bytes.Length)
-
-        # The original File
-        $bytes = [IO.File]::ReadAllBytes($fileToUpload)
-        $fileStream.Write($bytes, 0, $bytes.Length)
-
-        # Append the end of the body part
-        $bytes = [Text.Encoding]::UTF8.GetBytes($bodyEnd)
-        $fileStream.Write($bytes, 0, $bytes.Length)
-    }
-    finally {
-        $fileStream.Close()
-        $fileStream.Dispose()
-        $fileStream = $null
-        [GC]::Collect()
+    $Form = @{
+        files = Get-Item -Path $fileToUpload
     }
 
-    echo "Uploading the file $($requestInFile) to $($uri)"
-    echo "Request body: $($bodyStart)"
-    Invoke-RestMethod -Uri $uri -Method Post -InFile $requestInFile -ContentType $contentType -Headers $headers -ErrorAction Stop -WarningAction SilentlyContinue
+    echo "Uploading the file $($fileToUpload) to $($uri)"    
+    Invoke-RestMethod -Method POST -URI $uri -Form $Form -Headers $headers -ContentType "multipart/form-data" -TransferEncoding "chunked"
+    
 }
 
 ############################################################################################################################################
