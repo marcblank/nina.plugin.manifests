@@ -57,8 +57,26 @@ $bytes = [System.IO.File]::ReadAllBytes($file)
 $assembly = [Reflection.Assembly]::Load($bytes)
 
 $meta = [reflection.customattributedata]::GetCustomAttributes($assembly)
-$manifest = @{
-    Descriptions = @{}
+$manifest = [ordered]@{
+    Name = ""
+    Identifier = ""
+    Version = @{}
+    Author = ""
+    Homepage = ""
+    Repository = ""
+    License = ""
+    LicenseURL = ""
+    ChangelogURL = ""
+    Tags = ""
+    MinimumApplicationVersion = @{}
+    Descriptions = [ordered]@{
+        ShortDescription = ""
+        LongDescription = ""
+        FeaturedImageURL = ""
+        ScreenshotURL = ""
+        AltScreenshotURL = ""
+    }
+    Installer = @{}
 }
 
 
@@ -72,7 +90,7 @@ foreach($val in $meta) {
 	}
 	if($val.AttributeType -like "System.Reflection.AssemblyFileVersionAttribute") {
         $version = $val.ConstructorArguments[0].Value.Split(".");
-		$manifest["Version"] = @{
+		$manifest["Version"] = [ordered]@{
             Major = $version[0]
             Minor = $version[1]
             Patch = $version[2]
@@ -102,7 +120,7 @@ foreach($val in $meta) {
 	}
 	if($val.AttributeType -like "System.Reflection.AssemblyMetadataAttribute" -And $val.ConstructorArguments[0].Value -like "MinimumApplicationVersion" ) {
         $version = $val.ConstructorArguments[1].Value.Split(".");
-		$manifest["MinimumApplicationVersion"] = @{
+		$manifest["MinimumApplicationVersion"] = [ordered]@{
             Major = $version[0]
             Minor = $version[1]
             Patch = $version[2]
@@ -128,7 +146,7 @@ foreach($val in $meta) {
 
 #Installer property gen
 
-$manifest["Installer"] = @{
+$manifest["Installer"] = [ordered]@{
     URL = $installerUrl
     Type = $installerType
     Checksum = $checksum.Hash

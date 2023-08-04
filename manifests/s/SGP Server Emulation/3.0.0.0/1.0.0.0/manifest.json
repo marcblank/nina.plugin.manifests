@@ -1,0 +1,39 @@
+{
+    "Name": "SGP Server Emulation",
+    "Identifier": "b4b16313-689c-4fad-a1c9-b99a789814f2",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3"
+    },
+    "Author": "Stefan Berg and the N.I.N.A. contributors",
+    "Homepage": "https://nighttime-imaging.eu/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/src/master/CHANGELOG.md",
+    "Tags": [
+        "SGP",
+        "API"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1030"
+    },
+    "Descriptions": {
+        "ShortDescription": "A server emulation of the SGP API",
+        "LongDescription": "\nThis plugin adds an API to the application that emulates the routes of SGP. This can be used for other applications to interface with N.I.N.A. that implement the SGP API.\n\n**Plugin prerequisites**\n\n* SGP is hardcoded to listen on localhost:59590. Depending on the system, this may be either an IPv4 or IPv6 loopback, so both should be configured to allow http connections.\n* The following commands should be run from an elevated command prompt if the server fails to start:\n  + netsh http add iplisten ipaddress=::\n  + netsh http add iplisten ipaddress=0.0.0.0\n  + netsh http add urlacl url=http://+:59590/ user=Everyone\n\n**Usage**\n\nOnce the plugin is installed, you need to enable it by going to the plugin page and toggle the \"Server Enabled\" button to on.\nWhen enabled the server will be started.\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/downloads/nina.plugin.sgpserveremulation.1.0.0.3.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "AA1D49F2BCD5430159A0E285E52FD8E6C1FF0E8C178E60A51105CA12778E8753",
+        "ChecksumType": "SHA256"
+    }
+}

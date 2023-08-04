@@ -55,8 +55,26 @@ Write-Output "-------------"
 # START Read Metadata out of assembly
 ############################################################################################################################################
 
-$manifest = @{
-    Descriptions = @{}
+$manifest = [ordered]@{
+    Name = ""
+    Identifier = ""
+    Version = @{}
+    Author = ""
+    Homepage = ""
+    Repository = ""
+    License = ""
+    LicenseURL = ""
+    ChangelogURL = ""
+    Tags = @()
+    MinimumApplicationVersion = @{}
+    Descriptions = [ordered]@{
+        ShortDescription = ""
+        LongDescription = ""
+        FeaturedImageURL = ""
+        ScreenshotURL = ""
+        AltScreenshotURL = ""
+    }
+    Installer = @{}
 }
 
 $stream = [System.IO.File]::OpenRead($file)
@@ -85,7 +103,7 @@ foreach ($attribute in $metadataCustomAttributes) {
 	if($attrName -like "AssemblyFileVersionAttribute") {
         $attrVal = $attrBlob.ReadSerializedString()
         $version = $attrVal.Split(".")
-		$manifest["Version"] = @{
+		$manifest["Version"] = [ordered]@{
             Major = $version[0]
             Minor = $version[1]
             Patch = $version[2]
@@ -125,7 +143,7 @@ foreach ($attribute in $metadataCustomAttributes) {
         }
         if($attrKey -like "MinimumApplicationVersion" ) {
             $version = $attrVal.Split(".");
-            $manifest["MinimumApplicationVersion"] = @{
+            $manifest["MinimumApplicationVersion"] = [ordered]@{
                 Major = $version[0]
                 Minor = $version[1]
                 Patch = $version[2]
@@ -146,6 +164,9 @@ foreach ($attribute in $metadataCustomAttributes) {
         }
     }
 }
+
+$stream.Close();
+$stream.Dispose();
 
 ############################################################################################################################################
 # END Read Metadata out of assembly
@@ -204,6 +225,8 @@ if($uploadToBitbucket) {
         $fileToUpload = $file
     }
 
+    echo "File to upload: $($fileToUpload)"
+
     # https://support.atlassian.com/bitbucket-cloud/docs/deploy-build-artifacts-to-bitbucket-downloads/
     $uri = "https://api.bitbucket.org/2.0/repositories/$($bitbucketRepositoryOwner)/$($bitbucketRepository)/downloads"
     $installerUrl = "https://bitbucket.org/$($bitbucketRepositoryOwner)/$($bitbucketRepository)/downloads/$($fileToUpload)"
@@ -215,49 +238,13 @@ if($uploadToBitbucket) {
       Authorization = $basicAuthValue
     }
 
-    $boundary = [Guid]::NewGuid().ToString()
-    $contentType = 'multipart/form-data; boundary={0}' -f $boundary
-
-    $bodyStart = @"
---$boundary
-Content-Disposition: form-data; name="token"
-
---$boundary
-Content-Disposition: form-data; name="files"; filename="$(Split-Path -Leaf -Path $fileToUpload)"
-Content-Type: application/octet-stream
-
-
-"@
-    $bodyEnd = @"
-
---$boundary--
-"@
-    $requestInFile = (Join-Path -Path $env:TEMP -ChildPath ([IO.Path]::GetRandomFileName()))
-
-    # Create a new object for the temporary file
-    $fileStream = (New-Object -TypeName 'System.IO.FileStream' -ArgumentList ($requestInFile, [IO.FileMode]'Create', [IO.FileAccess]'Write'))
-
-    try {
-        # The Body start
-        $bytes = [Text.Encoding]::UTF8.GetBytes($bodyStart)
-        $fileStream.Write($bytes, 0, $bytes.Length)
-
-        # The original File
-        $bytes = [IO.File]::ReadAllBytes($fileToUpload)
-        $fileStream.Write($bytes, 0, $bytes.Length)
-
-        # Append the end of the body part
-        $bytes = [Text.Encoding]::UTF8.GetBytes($bodyEnd)
-        $fileStream.Write($bytes, 0, $bytes.Length)
-    }
-    finally {
-        $fileStream.Close()
-        $fileStream = $null
-        [GC]::Collect()
+    $Form = @{
+        files = Get-Item -Path $fileToUpload
     }
 
-    echo "Uploading to $($uri)"
-    Invoke-RestMethod -Uri $uri -Method Post -InFile $requestInFile -ContentType $contentType -Headers $headers -ErrorAction Stop -WarningAction SilentlyContinue
+    echo "Uploading the file $($fileToUpload) to $($uri)"    
+    Invoke-RestMethod -Method POST -URI $uri -Form $Form -Headers $headers -ContentType "multipart/form-data" -TransferEncoding "chunked"
+    
 }
 
 ############################################################################################################################################
@@ -269,7 +256,7 @@ Content-Type: application/octet-stream
 # START Create Installer Property and generate final manifest
 ############################################################################################################################################
 
-$manifest["Installer"] = @{
+$manifest["Installer"] = [ordered]@{
     URL = $installerUrl
     Type = $installerType
     Checksum = $checksum.Hash
