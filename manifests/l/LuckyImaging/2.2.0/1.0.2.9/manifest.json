@@ -6,7 +6,7 @@
     "Name": "LuckyImaging",
     "Version": {
         "Minor": "0",
-        "Build": "7",
+        "Build": "9",
         "Patch": "2",
         "Major": "1"
     },
@@ -30,8 +30,8 @@
     "Homepage": "https://nighttime-imaging.eu/",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://bitbucket.org/NickHardy/luckyimaging/downloads/NINA.Luckyimaging.1.0.2.7.zip",
-        "Checksum": "32AFE1C7881E3CAD093BA345EB9B56E51E16CBF96B726496936368799D240F4E",
+        "URL": "https://bitbucket.org/NickHardy/luckyimaging/downloads/NINA.Luckyimaging.1.0.2.9.zip",
+        "Checksum": "8CB2C339713A778B10A766B74E4FD3AE32CBEC8C8CFABBAE71391508122C4CE1",
         "Type": "ARCHIVE"
     },
     "License": "MPL-2.0"
