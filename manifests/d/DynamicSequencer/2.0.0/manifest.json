@@ -1,36 +1,38 @@
 {
-    "MinimumApplicationVersion": {
-        "Patch": "0",
-        "Minor": "0",
-        "Major": "2",
-        "Build": "9001"
-    },
-    "Homepage": "",
-    "ChangelogURL": "",
-    "Descriptions": {
-        "LongDescription": "A plugin for NINA that dynamically selects an optimal target for imaging, allowing for unattended, multi-night, multi-target automated imaging.",
-        "AltScreenshotURL": "",
-        "ShortDescription": "Smarter automation with dynamic target selection",
-        "FeaturedImageURL": "",
-        "ScreenshotURL": ""
-    },
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Author": "Daniel He",
+    "Name": "DynamicSequencer",
     "Identifier": "192e32c9-2e7e-4107-8daf-4e57b4e768cb",
-    "Repository": "https://github.com/DanielHeEGG/DynamicSequencer",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "Checksum": "3EED6E8AE9155BFFF280740312615808E4C92EEC7CE7F7038E029929A0DAFD1D",
-        "URL": "https://github.com/DanielHeEGG/DynamicSequencer/releases/download/v0.1.0.0/DanielHeEGG.NINA.DynamicSequencer.dll",
-        "Type": "DLL"
-    },
     "Version": {
-        "Patch": "0",
-        "Minor": "1",
         "Major": "0",
+        "Minor": "5",
+        "Patch": "0",
         "Build": "0"
     },
+    "Author": "Daniel He",
+    "Homepage": "",
+    "Repository": "https://github.com/DanielHeEGG/DynamicSequencer",
     "License": "MPL-2.0",
-    "Name": "DynamicSequencer",
-    "Tags": ["Automation"]
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Smarter automation with dynamic target selection",
+        "LongDescription": "A plugin for NINA that dynamically selects an optimal target for imaging, allowing for unattended, multi-night, multi-target automated imaging.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/DanielHeEGG/DynamicSequencer/releases/download/v0.5.0.0/DanielHeEGG.NINA.DynamicSequencer.dll",
+        "Type": "DLL",
+        "Checksum": "9FE8F02DD0684848ECB02DADA14AD94A46B5EEC7273C920D8FAB326BD99D6040",
+        "ChecksumType": "SHA256"
+    }
 }
