@@ -3,9 +3,9 @@
     "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
     "Version": {
         "Major": "2",
-        "Minor": "5",
-        "Patch": "8",
-        "Build": "1"
+        "Minor": "6",
+        "Patch": "2",
+        "Build": "0"
     },
     "Author": "Marc Blank",
     "Homepage": "https://mypluginwebsite.com/",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/when2/downloads/Powerups.2.5.8.1.zip",
+        "URL": "https://bitbucket.org/zorkmid/when2/downloads/Powerups.2.6.2.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "008C91BA9F8F963F1D799FB1C35FAA1B85B8506363DA4249CE842A6CC3EEEDBE",
+        "Checksum": "F1CE30053F3143107DF3973A5B25F74D47057F630179401F7858E91B548A0D82",
         "ChecksumType": "SHA256"
     }
 }
