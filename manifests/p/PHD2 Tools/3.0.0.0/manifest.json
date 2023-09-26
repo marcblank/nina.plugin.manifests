@@ -4,7 +4,7 @@
     "Version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "0",
+        "Patch": "2",
         "Build": "0"
     },
     "Author": "Stefan Berg",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.0.0.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.2.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "9C88A0CD95A0BA49D703107938250BB3257AF347CBA346C4CD99B1E768BED613",
+        "Checksum": "DDE54DEDB669888209D4E8C9004798C58A0043FE461185EDAA32EF242BE2D89B",
         "ChecksumType": "SHA256"
     }
 }
