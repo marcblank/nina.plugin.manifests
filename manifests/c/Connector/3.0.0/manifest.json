@@ -4,8 +4,8 @@
     "Version": {
         "Major": "2",
         "Minor": "0",
-        "Patch": "0",
-        "Build": "2"
+        "Patch": "1",
+        "Build": "0"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.0.2.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "1558E5E70D96A875ED0AAAE513170BFFA173A18C09D55F663FA018E1C483A755",
+        "Checksum": "8DA7A7B7B59F482A8467A45F776B9584A5FF51F9EC3B12361748F4A9509731CE",
         "ChecksumType": "SHA256"
     }
 }
