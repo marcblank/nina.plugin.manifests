@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "0",
-        "Patch": "1",
+        "Patch": "2",
         "Build": "0"
     },
     "Author": "Stefan Berg",
@@ -22,7 +22,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1031"
+        "Build": "1053"
     },
     "Descriptions": {
         "ShortDescription": "Equipment connection manager",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.1.0.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.2.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "8DA7A7B7B59F482A8467A45F776B9584A5FF51F9EC3B12361748F4A9509731CE",
+        "Checksum": "3A23AEE417C969DA46789B0A3FBBF726DF84D6D9634017B77AB6B416356BE7C1",
         "ChecksumType": "SHA256"
     }
 }
