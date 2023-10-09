@@ -38,7 +38,7 @@
     "Installer": {
         "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv2.0.0.13/NINA.Joko.Plugins.HocusFocus.zip",
         "Type": "ARCHIVE",
-        "Checksum": "81DF83EC88A0AB8482D9030D3062BF2012ACC63ED5610BD702615A79E5ED4EC5",
+        "Checksum": "93F05436B0D4FABED957375E7C866597E3CFED560BD28EF4AB8C5426931B3028",
         "ChecksumType": "SHA256"
     }
 }
