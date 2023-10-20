@@ -4,8 +4,8 @@
     "Version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "0",
-        "Build": "1"
+        "Patch": "1",
+        "Build": "0"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.1.0.0.1.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.1.0.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "06E3D9C82A57069A091B79EB1429511A1C8EBDE740D570F4014B9D76657BBFBF",
+        "Checksum": "3AD493409BE52E2A628F7C5CB1BD305D9EC9286F1700DDA0AB9CBBE85C0732DA",
         "ChecksumType": "SHA256"
     }
 }
