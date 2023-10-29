@@ -35,7 +35,7 @@
     "Installer": {
         "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/1.0.0.0/NINA.ASA.Tools.1.0.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "4C38DBB4C0078391F570081484CF0960EF11DA303C2886E114892FB9AEDF692D",
+        "Checksum": "1EDA8E1E73CA8F6E18493735B7299CB47A035600B83915DE9F2CADFAB9A8BFC1",
         "ChecksumType": "SHA256"
     }
 }
