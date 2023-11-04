@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "1",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Daniel He",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/DanielHeEGG/DynamicSequencer/releases/download/v2.1.0.0/DanielHeEGG.NINA.DynamicSequencer.dll",
+        "URL": "https://github.com/DanielHeEGG/DynamicSequencer/releases/download/v2.1.1.0/DanielHeEGG.NINA.DynamicSequencer.dll",
         "Type": "DLL",
-        "Checksum": "13C6B756F927C63A36A93A8BD10B0F45440310CA15F1362E61CDC7A69483F142",
+        "Checksum": "F441D431C6E27F14C5E2E0536431742D8F9C56D998ED6E6F92FB649C3E9EBA75",
         "ChecksumType": "SHA256"
     }
 }
