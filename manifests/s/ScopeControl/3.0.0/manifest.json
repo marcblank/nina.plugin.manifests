@@ -5,7 +5,7 @@
         "Major": "2",
         "Minor": "0",
         "Patch": "1",
-        "Build": "0"
+        "Build": "1"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.1.0.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.1.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "E5F8E4B5CC9963BB2F711F1DC80E0FE685D6AC8D30A87B32279AA836D5C42708",
+        "Checksum": "F45521AA72DB5D095D6C8F67EBCB2EDE061B316F470C318F2DC6D3844CB553BB",
         "ChecksumType": "SHA256"
     }
 }
