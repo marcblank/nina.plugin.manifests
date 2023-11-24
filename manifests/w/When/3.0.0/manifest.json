@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "10",
-        "Patch": "8",
+        "Patch": "9",
         "Build": "0"
     },
     "Author": "Marc Blank",
@@ -30,15 +30,15 @@
     },
     "Descriptions": {
         "ShortDescription": "Get the most out of the NINA Advanced Sequencer!",
-        "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups (in progress) is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n\r\nThe following instructions are *not* yet documented in the 'complete' docs: \r\n\r\n\r\nInterrupt Trigger - This instruction, when dragged into a running sequence, will STOP execution after the current instruction is finished and wait for you to add any instructions you wish to execute at that time.\r\n\r\nAutofocus Trigger - Like the above, but this will run an Autofocus instruction after the currently running instruction has finished executing (let's say you want to run an Autofocus NOW, for example)\r\n\r\nRepeat Until All Succeed - This instruction will execute each included instruction in turn; if any fails, the sequence will wait the specified amount of time, and then start again (repeating each instruction).  This will continue until all instructions 'succeed'; consider this instruction as a series of prerequisites for the sequence to continue.\r\n\r\nSafe Trigger - NEW for 3.7/2.7, This meta-trigger will cause the Trigger you specify to be active ONLY if a connected Safety Monitor reports 'Safe'. This instruction is intended to be used with 'When Becomes Unsafe' to prevennt unwanted Triggers from running while conditions are 'Unsafe'.\r\n\r\nDIY Trigger - NEW for 3.7/2.7, This trigger allows you to split a specified trigger's triggering condition from the action it takes when triggered.  Yes, this is the same instruction as in the DIY Trigger plugin.\r\n\r\n\r\nSWITCH:\r\n\r\nIf Switch/Weather - (Deprecated; use the 'If' instruction)\r\n\r\nWhen Switch/Weather (Deprecated; use the 'When' instruction)\r\n\r\nWait until False - (Deprecated)\r\n\r\n\r\nUTILITY:\r\n\r\nWait Indefinitely - Waits until you skip the instruction or delete it.  This may be useful if you need your sequence to wait for you to complete some manual task which will take an undetermined amount of time.\r\n\r\nBreakpoint - Basically the same as Wait Indefinitely; stops sequence execution until Continue is clicked.\r\n\r\nComments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
+        "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
         "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
         "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Constants_Screen.png",
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.10.8.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.10.9.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "B1C611F1B862C26BB12CDAFA1F0209AA019F5C3C09978CBD3F71BBD3E5EBFA7C",
+        "Checksum": "DD04B4309207A5F152A0DED110EFFA1E5D999F55246C09C0F8220F1ECA3B6E6C",
         "ChecksumType": "SHA256"
     }
 }
