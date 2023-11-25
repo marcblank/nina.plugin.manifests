@@ -4,8 +4,8 @@
     "Version": {
         "Major": "3",
         "Minor": "0",
-        "Patch": "2",
-        "Build": "0"
+        "Patch": "3",
+        "Build": "1"
     },
     "Author": "Rafael Barberá",
     "Homepage": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper",
@@ -23,7 +23,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1021"
+        "Build": "1085"
     },
     "Descriptions": {
         "ShortDescription": "Download NEOCP data and automatically generate observing sequences for these objects.",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/static/screenshot2.png"
     },
     "Installer": {
-        "URL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/3.0.2.0/NINA.RBarbera.Plugin.NeocpHelper.dll",
+        "URL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/3.0.3.1/NINA.RBarbera.Plugin.NeocpHelper.dll",
         "Type": "DLL",
-        "Checksum": "AB77C073F5D5C34515BED79FCC87903EF973E3C7447198BED43244221F2657C7",
+        "Checksum": "B366A9B563560BE931F05BA0F92D65DAB3E9801E8E17808BCC64838C2C8CBEAB",
         "ChecksumType": "SHA256"
     }
 }
