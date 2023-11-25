@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "10",
-        "Patch": "9",
+        "Patch": "10",
         "Build": "0"
     },
     "Author": "Marc Blank",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.10.9.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.10.10.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "DD04B4309207A5F152A0DED110EFFA1E5D999F55246C09C0F8220F1ECA3B6E6C",
+        "Checksum": "7ED863B79112E6DDBFA30645E14E0FE4A731338365D556ABFC53F3F3DDF0D53D",
         "ChecksumType": "SHA256"
     }
 }
