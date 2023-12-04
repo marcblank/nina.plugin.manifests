@@ -1,39 +1,39 @@
 {
-    "Installer": {
-        "URL": "https://bitbucket.org/isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.0.4.zip",
-        "Type": "ARCHIVE",
-        "ChecksumType": "SHA256",
-        "Checksum": "03CAF23036251A8B5822980641036C53832EBF4A600D88B1D62FC19CD64D7A67"
-    },
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
     "Name": "Scope Control",
-    "MinimumApplicationVersion": {
-        "Build": "0",
-        "Patch": "0",
-        "Minor": "0",
-        "Major": "3"
-    },
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/src/master/ScopeControl/Changelog.md",
-    "Author": "Stefan Berg",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Descriptions": {
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
-        "LongDescription": "",
-        "AltScreenshotURL": "",
-        "ShortDescription": "Adds tool panels to the imaging tab with basic mount control as well as an altitude and azimuth chart for the telescope position",
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured2.png"
-    },
-    "Version": {
-        "Build": "4",
-        "Patch": "0",
-        "Minor": "0",
-        "Major": "2"
-    },
     "Identifier": "0bcbb707-6611-4266-9686-231be457f069",
+    "Version": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "1"
+    },
+    "Author": "Stefan Berg",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
     "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/src/master/ScopeControl/Changelog.md",
     "Tags": [
         "Telescope",
         "Handbox"
     ],
-    "Homepage": "https://www.patreon.com/stefanberg/"
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Adds tool panels to the imaging tab with basic mount control as well as an altitude and azimuth chart for the telescope position",
+        "LongDescription": "",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured2.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.1.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "F45521AA72DB5D095D6C8F67EBCB2EDE061B316F470C318F2DC6D3844CB553BB",
+        "ChecksumType": "SHA256"
+    }
 }

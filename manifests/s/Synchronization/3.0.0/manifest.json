@@ -1,40 +1,40 @@
 {
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/",
-    "Homepage": "https://www.patreon.com/stefanberg/",
-    "Identifier": "c60db3b2-9a08-4b24-8938-bfb01e770eb9",
     "Name": "Synchronization",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/src/master/Synchronization/Changelog.md",
-    "MinimumApplicationVersion": {
-        "Patch": "0",
+    "Identifier": "c60db3b2-9a08-4b24-8938-bfb01e770eb9",
+    "Version": {
+        "Major": "1",
         "Minor": "0",
-        "Major": "3",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Stefan Berg",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/src/master/Synchronization/Changelog.md",
     "Tags": [
         "Dither",
         "Synchronization",
         "Multiple Cameras"
     ],
-    "Version": {
-        "Patch": "0",
+    "MinimumApplicationVersion": {
+        "Major": "3",
         "Minor": "0",
-        "Major": "1",
-        "Build": "0"
-    },
-    "Installer": {
-        "Checksum": "B3BA894AC49C09A0C1B03B2495D0886301FD2684B0BC8A4D8FB331686DCCB7B2",
-        "Type": "ARCHIVE",
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.1.0.0.0.zip",
-        "ChecksumType": "SHA256"
+        "Patch": "0",
+        "Build": "1056"
     },
     "Descriptions": {
-        "LongDescription": "This plugin is intended for people that want to dither on a setup with multiple cameras on one single mount. \r\nFor that it has to be ensured that all imaging instances will sync up on each other before commencing a dither operation.  \r\n  \r\n*Note:* The plugin needs robust testing in live conditions. Feedback for failure scenarios are appreciated in the #plugin-discusissions N.I.N.A. discord channel. Thanks!\r\n\r\n*Prerequisites*:\r\n* At least one instance of N.I.N.A. needs to be connected to the guider\r\n* Only one instance should handle and be connected to the mount\r\n\r\n*Usage*:\r\n* The first instance of N.I.N.A. that starts will register a server that orchestrates the dither workflow. This instance must remain active for the complete duration of your imaging acquisition.  \r\n* To make use of the synchronized dithering a new instruction trigger is available for advanced sequences  \r\n* Simply replace your normal dither trigger with the 'Synchronized Dither' trigger  \r\n* Each trigger will register itself against the server when the instruction set where the trigger is placed in is active and unregister itself automatically when the instruction set is left  \r\n* Make sure that your **exposure time * dither after exposures** roughly matches for each instance, as every time the trigger is fired the trigger will wait for all instances to be synced up  \r\n* When the triggers are synced up, one instance will be picked as the leader, among those that are connected to a guider, that will run the dither command. The others will wait for the dither to finish and then continue with the sequence  \r\n\r\n",
         "ShortDescription": "A plugin that introduces synchronization instructions for multi camera imaging rigs",
+        "LongDescription": "This plugin is intended for people that want to dither on a setup with multiple cameras on one single mount. \nFor that it has to be ensured that all imaging instances will sync up on each other before commencing a dither operation.  \n  \n*Note:* The plugin needs robust testing in live conditions. Feedback for failure scenarios are appreciated in the #plugin-discusissions N.I.N.A. discord channel. Thanks!\n\n*Prerequisites*:\n* At least one instance of N.I.N.A. needs to be connected to the guider\n* Only one instance should handle and be connected to the mount\n\n*Usage*:\n* The first instance of N.I.N.A. that starts will register a server that orchestrates the dither workflow. This instance must remain active for the complete duration of your imaging acquisition.  \n* To make use of the synchronized dithering a new instruction trigger is available for advanced sequences  \n* Simply replace your normal dither trigger with the 'Synchronized Dither' trigger  \n* Each trigger will register itself against the server when the instruction set where the trigger is placed in is active and unregister itself automatically when the instruction set is left  \n* Make sure that your **exposure time * dither after exposures** roughly matches for each instance, as every time the trigger is fired the trigger will wait for all instances to be synced up  \n* When the triggers are synced up, one instance will be picked as the leader, among those that are connected to a guider, that will run the dither command. The others will wait for the dither to finish and then continue with the sequence  \n\n",
         "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationLogo.jpg",
-        "AltScreenshotURL": "",
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationSample.jpg"
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/SynchronizationSample.jpg",
+        "AltScreenshotURL": ""
     },
-    "License": "MPL-2.0"
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.synchronization/downloads/Synchronization.1.0.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "3AD493409BE52E2A628F7C5CB1BD305D9EC9286F1700DDA0AB9CBBE85C0732DA",
+        "ChecksumType": "SHA256"
+    }
 }

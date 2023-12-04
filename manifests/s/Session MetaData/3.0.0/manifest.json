@@ -1,31 +1,36 @@
 {
-    "Author": "Tom Palmer @tcpalmer",
-    "Version": {
-        "Minor": "3",
-        "Build": "0",
-        "Major": "2",
-        "Patch": "0"
-    },
-    "License": "MPL-2.0",
-    "Descriptions": {
-        "ShortDescription": "Write additional metadata for an imaging session",
-        "LongDescription": "Session Metadata will output additional acquisition and per-image information associated with an imaging session.  The files will be written to the folder containing your images (see options for overriding this). If Session Metadata is enabled, three types of metadata will be written:\r\n\r\n* Acquisition Details: Additional information associated with the session, including target, telescope, camera, and observing location.  This file will be written once for each new imaging folder.\r\n* Image Metadata: Additional information associated with each captured image, including exposure details, ADU statistics, HFR, detected stars, guiding RMS and more. An aggregate file will be updated for each image written to the folder.\r\n* Weather Metrics: If enabled, weather metrics as reported by the connected observing conditions data source.\r\n\r\nThere is certainly overlap between this plugin and other parts of NINA.  For example, NINA will write metadata to the FITS or XISF image headers - but it's not really convenient to access for a set of images.  You can also click save in the HFR History panel in the Imaging tab to save a CSV file of image metadata - but you have to remember to do it.  This plugin automates the metadata capture process and makes it easy to view and compare data.\r\n\r\n# Output Formats #\r\nEither or both output types can be enabled.\r\n* If CSV output is enabled, CSV files will be written: AcquisitionDetails.csv, ImageMetaData.csv (one row per image), and WeatherMetaData.csv (one row per image).\r\n* If JSON output is enabled, JSON files will be written: AcquisitionDetails.json, ImageMetaData.json (one list element per image), and WeatherMetaData.json (one list element per image).\r\n\r\nThe output file names and location can be customized - see above.\r\n\r\n# Getting Help #\r\n* Ask for help (tag @tcpalmer) in the #plugin-discussions channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\r\n* [Source code](https://github.com/tcpalmer/nina.plugin.sessionmetadata)\r\n* [Change log](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/CHANGELOG.md)\r\n\r\nSession Metadata is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/LICENSE.txt)\r\n",
-        "FeaturedImageURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.sessionmetadata/main/NINA.Plugin.SessionMetaData/assets/metadata-tag-icon.png?raw=true"
-    },
-    "Repository": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/",
-    "MinimumApplicationVersion": {
-        "Minor": "0",
-        "Build": "1001",
-        "Major": "3",
-        "Patch": "0"
-    },
-    "Installer": {
-        "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.3.0.0/NINA.Plugin.SessionMetaData-2.3.0.0.zip",
-        "Checksum": "8601E6DE9A3556687B0E70865C0C26A17A1D48E68314FE444E36808A591DF7D9",
-        "ChecksumType": "SHA256",
-        "Type": "ARCHIVE"
-    },
     "Name": "Session Metadata",
+    "Identifier": "DCB1D37B-F121-4966-99EC-D11410C562B6",
+    "Version": {
+        "Major": "2",
+        "Minor": "3",
+        "Patch": "4",
+        "Build": "0"
+    },
+    "Author": "Tom Palmer @tcpalmer",
+    "Homepage": "",
+    "Repository": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/",
+    "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Identifier": "DCB1D37B-F121-4966-99EC-D11410C562B6"
+    "ChangelogURL": "",
+"Tags": [],
+"MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "1032"
+},
+"Descriptions": {
+    "ShortDescription": "Write additional metadata for an imaging session",
+    "LongDescription": "Session Metadata will output additional acquisition and per-image information associated with an imaging session.  The files will be written to the folder containing your images (see options for overriding this). If Session Metadata is enabled, three types of metadata will be written:\r\n\r\n* Acquisition Details: Additional information associated with the session, including target, telescope, camera, and observing location.  This file will be written once for each new imaging folder.\r\n* Image Metadata: Additional information associated with each captured image, including exposure details, ADU statistics, HFR, detected stars, guiding RMS and more. Both FWHM and Eccentricity will be saved if you have the Hocus Focus plugin installed and working for Star Detection.  An aggregate file will be updated for each image written to the folder.\r\n* Weather Metrics: If enabled, weather metrics as reported by the connected observing conditions data source.\r\n\r\nThere is certainly overlap between this plugin and other parts of NINA.  For example, NINA will write metadata to the FITS or XISF image headers - but it's not really convenient to access for a set of images.  You can also click save in the HFR History panel in the Imaging tab to save a CSV file of image metadata - but you have to remember to do it.  This plugin automates the metadata capture process and makes it easy to view and compare data.\r\n\r\nIf you like this plugin and it saves you time, please consider [Buying Me a Beer](https://www.buymeacoffee.com/tcpalmer).\r\n\r\n# Output Formats #\r\nEither or both output types can be enabled.\r\n* If CSV output is enabled, CSV files will be written: AcquisitionDetails.csv, ImageMetaData.csv (one row per image), and WeatherMetaData.csv (one row per image).\r\n* If JSON output is enabled, JSON files will be written: AcquisitionDetails.json, ImageMetaData.json (one list element per image), and WeatherMetaData.json (one list element per image).\r\n\r\nThe output file names and location can be customized - see above.\r\n\r\n# Getting Help #\r\n* Ask for help (tag @tcpalmer) in the #plugin-discussions channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\r\n* [Source code](https://github.com/tcpalmer/nina.plugin.sessionmetadata).\r\n* [Change log](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/CHANGELOG.md).\r\n\r\nSession Metadata is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.sessionmetadata/blob/main/LICENSE.txt)\r\n",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.sessionmetadata/main/NINA.Plugin.SessionMetaData/assets/metadata-tag-icon.png?raw=true",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+},
+"Installer": {
+    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.3.4.0/NINA.Plugin.SessionMetaData-2.3.4.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "5F3963F83C0DCD20A82ECCB35E1B309C554FEBA3AD338E23DE35C507BCCBB0AC",
+    "ChecksumType": "SHA256"
 }
+}

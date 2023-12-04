@@ -1,0 +1,42 @@
+{
+    "Name": "Discord Alert",
+    "Identifier": "bbca7e0a-b89f-4e7c-92f1-0d5b24db6911",
+    "Version": {
+        "Major": "2",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Drew McDermott",
+    "Homepage": "https://github.com/FlyingKiwis/Nina.DiscordAlert",
+    "Repository": "https://github.com/FlyingKiwis/Nina.DiscordAlert",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/FlyingKiwis/Nina.DiscordAlert/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Discord",
+        "Alert",
+        "Message",
+        "Broadcast",
+        "Webhook"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1080"
+    },
+    "Descriptions": {
+        "ShortDescription": "Sends alerts to discord",
+        "LongDescription": "# Discord Alert\r\n\r\nThis is a to allow for in-sequence messages sent to a discord server via webhook.\r\n\r\nSee more about [Discord's Webhooks here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)\r\n\r\nFor more information please see [the readme](https://github.com/FlyingKiwis/Nina.DiscordAlert/blob/main/README.md)\r\n\r\n# Suggestion Welcome\r\n\r\nI'm open to suggestions, please submit one via [GitHub's issue tracker](https://github.com/FlyingKiwis/Nina.DiscordAlert/issues).\r\n\r\n# Contact\r\n\r\nI'm in the NINA discord server as Kiwi🥝\r\n\r\n# 3rd Party Licences\r\n\r\n- [Discord.Net](https://github.com/discord-net/Discord.Net/blob/dev/LICENSE) is licensed under the MIT license",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/FlyingKiwis/Nina.DiscordAlert/releases/download/v2.2.0/Discord.Alert.2.2.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "FA6EF25BBCC2ED29CC0F656F8F2C71E81BDA5B7F5CCCF966668EF32CA26BE340",
+        "ChecksumType": "SHA256"
+    }
+}
