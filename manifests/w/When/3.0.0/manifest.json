@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "11",
         "Patch": "0",
-        "Build": "2"
+        "Build": "4"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.11.0.2.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.11.0.4.zip",
         "Type": "ARCHIVE",
-        "Checksum": "6F199BAEE837560361B89BCF1CE3A78F9EC2B363521CE36F688FFBB6E7777498",
+        "Checksum": "885DEE8C040C739663568FA4FE7BFFF05CF47EC7383B3D0464D1D54E6F72A3D1",
         "ChecksumType": "SHA256"
     }
 }
