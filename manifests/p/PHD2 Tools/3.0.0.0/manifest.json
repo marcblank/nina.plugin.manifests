@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "3",
-        "Build": "0"
+        "Build": "1"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://nighttime-imaging.eu/",
@@ -21,7 +21,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1031"
+        "Build": "2001"
     },
     "Descriptions": {
         "ShortDescription": "Additional capabilities for controlling the PHD2 Guiding Software via N.I.N.A.",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.3.0.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.3.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "716325ED8396BC27A0E7A4E2E9CBC339443D203D5B8B82CB6C453E39200F482F",
+        "Checksum": "A62886DA39D14FE6724F5BA882111B52656E5F0A661340AFD3BB47A0E98376C3",
         "ChecksumType": "SHA256"
     }
 }
