@@ -33,7 +33,7 @@
         "AltScreenshotURL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/static/screenshot2.png"
     },
     "Installer": {
-        "URL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/3.0.5.1/NINA.RBarbera.Plugin.NeocpHelper.dll",
+        "URL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/3.0.6.1/NINA.RBarbera.Plugin.NeocpHelper.dll",
         "Type": "DLL",
         "Checksum": "14DC36D8548BB153BC02F076970CA1033985432614CFF915AB511ACC853ECC62",
         "ChecksumType": "SHA256"
