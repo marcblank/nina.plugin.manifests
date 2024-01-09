@@ -32,7 +32,7 @@
     "Homepage": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/src",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://darkarchon.internet-box.ch:8443/NINA.Plugin.DarksCustoms.dll",
+        "URL": "https://darkarchon.online/nina/NINA.Plugin.DarksCustoms.2.0.dll",
         "Checksum": "632B6ADFDEB01A5FC946E2499949A4A84024DF403CFE20CFDD3C77E13226A549",
         "Type": "DLL"
     },

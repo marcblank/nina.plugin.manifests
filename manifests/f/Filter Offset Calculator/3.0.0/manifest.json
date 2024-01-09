@@ -34,7 +34,7 @@
         "Checksum": "AEC452B60979DE21D83F4CB67060CF6EFB8B3C7E8B7677F7AB3F66605D1792F3",
         "Type": "DLL",
         "ChecksumType": "SHA256",
-        "URL": "https://darkarchon.internet-box.ch:8443/nina-3.0/NINA.Plugin.DarksCustoms.dll"
+        "URL": "https://darkarchon.online/nina/NINA.Plugin.DarksCustoms.3.0.dll"
     },
     "Homepage": "https://bitbucket.org/rootdarkarchon/nina.plugin.darkscustoms/src"
 }
