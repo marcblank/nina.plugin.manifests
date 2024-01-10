@@ -1,0 +1,39 @@
+﻿{
+    "Name": "Sony Camera Plugin",
+    "Identifier": "f3fd7bb5-2b69-40cc-846f-4f4a2ff62518",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Doug Henderson",
+    "Homepage": "https://retro.kiwi",
+    "Repository": "https://github.com/dougforpres/NINASonyCameraPlugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/dougforpres/NINASonyCameraPlugin/blob/master/CHANGELOG.md",
+    "Tags": [
+        "Sony",
+        "Camera"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Add support for Sony Cameras",
+        "LongDescription": "This plugin adds the ability to image using compatible Sony cameras.\r\n\r\nIt uses the same backend code as the Sony ASCOM driver, but because it is more \u0027native\u0027 to N.I.N.A, performance is improved and additional features are available:\r\n\r\n* LiveView is available for any Sony Camera that supports it\r\n* The Gain property displays ISO values instead of cryptic numbers\r\n* Images are downloaded in the native ARW format\r\n\r\n*Note*: This addon uses the core (non-ASCOM) files present in the Sony ASCOM driver v1.0.1.17 and later, which must be installed for this addon to start up correctly. You can find the Sony ASCOM driver at [https://github.com/dougforpres/ASCOMSonyCameraDriver/releases](https://github.com/dougforpres/ASCOMSonyCameraDriver/releases)",
+        "FeaturedImageURL": "https://retro.kiwi/images/NINAPluginLogoV2.jpg",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/dougforpres/NINASonyCameraPlugin/releases/download/1.0.0.1/NINA.RetroKiwi.Plugin.SonyCamera.1.0.0.1.dll",
+        "Type": "DLL",
+        "Checksum": "49522AF0316EFF7207610A3240E9A9A335A029DC6B9CD8A0BF98583387431525",
+        "ChecksumType": "SHA256"
+    }
+}
