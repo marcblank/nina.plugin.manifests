@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "5"
+        "Build": "6"
     },
     "Author": "Stefan Berg and the N.I.N.A. contributors",
     "Homepage": "https://nighttime-imaging.eu/",
@@ -21,7 +21,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1030"
+        "Build": "2001"
     },
     "Descriptions": {
         "ShortDescription": "A server emulation of the SGP API",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/downloads/nina.plugin.sgpserveremulation.1.0.0.5.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.sgpserveremulation/downloads/nina.plugin.sgpserveremulation.1.0.0.6.zip",
         "Type": "ARCHIVE",
-        "Checksum": "3076EAB6611C9CDCBDAE5E978FC78A9F58D59B9AA228DDBE22307FA487C3A515",
+        "Checksum": "7BDACA9FCF14B3D2EE037D665448DF0CC1444A22211B13AEC1E994214B17E418",
         "ChecksumType": "SHA256"
     }
 }
