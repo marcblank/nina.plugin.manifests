@@ -3,7 +3,7 @@
     "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
     "Version": {
         "Major": "2",
-        "Minor": "6",
+        "Minor": "7",
         "Patch": "0",
         "Build": "0"
     },
@@ -34,9 +34,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.6.0.0.zip",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.7.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "E765F14FD142B62500609DA0D90B6A45DCA3C66077274226EF4F327EA27FEE2E",
+        "Checksum": "EF64254EA3DCCD2C77AFA8B50745CA7A1199B6AF94D738F566C1C2BC32FD9A0B",
         "ChecksumType": "SHA256"
     }
 }
