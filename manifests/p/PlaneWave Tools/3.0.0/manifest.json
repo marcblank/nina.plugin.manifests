@@ -3,7 +3,7 @@
     "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
     "Version": {
         "Major": "2",
-        "Minor": "3",
+        "Minor": "7",
         "Patch": "0",
         "Build": "0"
     },
@@ -15,7 +15,7 @@
     "ChangelogURL": "https://github.com/daleghent/nina-planewave-tools/blob/main/CHANGELOG.md",
     "Tags": [
         "planewave",
-        "pw3",
+        "pwi4",
         "delta-t",
         "sequencer",
         "fans"
@@ -24,19 +24,19 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1001"
+        "Build": "2001"
     },
     "Descriptions": {
         "ShortDescription": "A collection of useful tools for managing PlaneWave telescope systems",
-        "LongDescription": "PlaneWave Tools provides several instructions for controlling various aspects of PlaneWave OTA and mount systems.\r\n\r\n# Requirements #\r\n\r\n* PWI3 >= 3.5.3\r\n* PWI4 >= 4.0.99 beta 27\r\n* PlaneWave Shutter Control >= 1.12.0\r\n\r\n# Sequence Instructions #\r\n\r\n* Start PWI3, Stop PWI3 - Starts and stops the PWI3.exe application\r\n* Start PWI4, Stop PWI4 - Starts and stops the PWI4.exe application\r\n* Axis Control - Enable or disable mount axes\r\n* Fan Control - Turns the OTA fans on or off\r\n* DeltaT Control - Sets the per-heater operating modes of the Delta T heater controller\r\n* M3 Control - Sets the postions of the M3 Nasmyth port mirror\r\n* Shutter Control - Controls CDK700 and PW1000 shutters via the PlaneWave Shutter Control app\r\n* TLE Follow, Set Tracking - Programs the mount to follow a two-line element ephemeris definition and start tracking along it\r\n\r\nOpen to ideas for additional controls!\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-planewave-tools/issues).",
+        "LongDescription": "PlaneWave Tools provides several instructions for controlling various aspects of PlaneWave OTA and mount systems.\r\n\r\n# Requirements #\r\n\r\n* PWI >= 4.1\r\n* PlaneWave Shutter Control >= 1.12.0\r\n\r\nSupport for PWI 3.x is deprecated as of PlaneWave Tools 2.6.0 and the instructions that use PWI3 will be removed in a future version. System fan and heater control is available as of PWI 4.1.\r\n\r\n# Sequence Instructions #\r\n\r\n* Start PWI4, Stop PWI4 - Starts and stops the PWI4.exe application\r\n* Axis Control - Enable or disable mount axes\r\n* Fan Control (PWI4) - Turns the fans on or off\r\n* Heater Control (PWI4) - Sets the power level of individual heaters\r\n* M3 Control - Sets the postions of the M3 Nasmyth port mirror\r\n* Shutter Control - Controls CDK700 and PW1000 shutters via the PlaneWave Shutter Control app\r\n* TLE Follow, Set Tracking - Programs the mount to follow a two-line element ephemeris definition and start tracking along it\r\n\r\n## Undergoing Deprecation ##\r\n\r\nThe following PWI3-related instructions are considered deprecated and may be removed in a future version of this plugin.\r\n\r\n* Start PWI3, Stop PWI3 - Starts and stops the PWI3.exe application\r\n* DeltaT Control (PWI3) - Sets the per-heater operating modes of the Delta T heater controller\r\n* Fan Control (PWI3) - Turns the OTA fans on or off\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-planewave-tools/issues).",
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/planewavetools.png",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.3.0.0.zip",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.7.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "FF0BA85F4CC6D23004A4970EB5577E6A4EC43F19BCDA04164876CB525495932A",
+        "Checksum": "EF64254EA3DCCD2C77AFA8B50745CA7A1199B6AF94D738F566C1C2BC32FD9A0B",
         "ChecksumType": "SHA256"
     }
 }
