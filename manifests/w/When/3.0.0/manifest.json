@@ -36,9 +36,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.12.4.14.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.12.4.15.zip",
         "Type": "ARCHIVE",
-        "Checksum": "E91C90CD8E8E8B5A4DEA8EC512A7180936969923776A91ACF693C8654391602F",
+        "Checksum": "C8730D77227A4F0EEB52F8B0069F7DB9399AF69DB4CB7347B3C0992406CB9568",
         "ChecksumType": "SHA256"
     }
 }
