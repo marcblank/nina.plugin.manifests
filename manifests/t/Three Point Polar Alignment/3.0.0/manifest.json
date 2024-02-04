@@ -5,7 +5,7 @@
         "Major": "2",
         "Minor": "0",
         "Patch": "0",
-        "Build": "2"
+        "Build": "3"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/Imaging.png"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/NINA.Plugins.PolarAlignment.2.0.0.2.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.polaralignment/downloads/NINA.Plugins.PolarAlignment.2.0.0.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "163F4AC9F9674F109093C98E6697042CDDAFE81822F799886E561985BFD099A0",
+        "Checksum": "45563568BDB729DB2DAAC1FE8CEA0E25B7C54685CCB439353197C4F190134313",
         "ChecksumType": "SHA256"
     }
 }
