@@ -30,7 +30,7 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Autofocus Report Analysis.2.0.0.2.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Autofocus_Report_Analysis.2.0.0.2.zip",
         "Type": "ARCHIVE",
         "Checksum": "456E093CECC6D6BD9F99C35691A9E0C5D8A52C189054AC09DB1923D0E1E81B13",
         "ChecksumType": "SHA256"
