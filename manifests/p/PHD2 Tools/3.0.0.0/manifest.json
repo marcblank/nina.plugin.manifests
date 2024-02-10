@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "3",
-        "Build": "1"
+        "Build": "2"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://nighttime-imaging.eu/",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.3.1.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.3.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A62886DA39D14FE6724F5BA882111B52656E5F0A661340AFD3BB47A0E98376C3",
+        "Checksum": "13BEB9EBC91FB137867BD1617F1762A4D8AF9F408A9A89DD6665657CFBF397A6",
         "ChecksumType": "SHA256"
     }
 }
