@@ -5,7 +5,7 @@
         "Major": "2",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1"
+        "Build": "2"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -20,7 +20,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1031"
+        "Build": "2017"
     },
     "Descriptions": {
         "ShortDescription": "A plugin that adds a new dock window to the imaging tab to show RTSP video streams",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.2.0.0.1.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.2.0.0.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "1D2EFA3A8E948ADBFB2802B870DD049E695EB25F674B9FAFC197474672179AD9",
+        "Checksum": "B50FA7014404D64778B466216F625668A4119A43035963C43B92AD6AF45CD049",
         "ChecksumType": "SHA256"
     }
 }
