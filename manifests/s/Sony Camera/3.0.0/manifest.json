@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "2"
+        "Build": "3"
     },
     "Author": "Doug Henderson",
     "Homepage": "https://retro.kiwi",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/dougforpres/NINASonyCameraPlugin/releases/download/1.0.0.2/NINA.RetroKiwi.Plugin.SonyCamera.dll",
+        "URL": "https://github.com/dougforpres/NINASonyCameraPlugin/releases/download/1.0.0.3/NINA.RetroKiwi.Plugin.SonyCamera.dll",
         "Type": "DLL",
-        "Checksum": "D2470BFE94C82121384083D4EF65FEB176CD6587D1C4CBEEC8A0F6A942FF122A",
+        "Checksum": "5AB228D4E7A1728CCA1211B6D39B64DE4AB202456D5706D1E237ACB4A273A723",
         "ChecksumType": "SHA256"
     }
 }
