@@ -3,7 +3,7 @@
     "Identifier": "2737AFDF-A1AA-48C3-BE17-0F5F03282AEB",
     "Version": {
         "Major": "2",
-        "Minor": "3",
+        "Minor": "4",
         "Patch": "0",
         "Build": "0"
     },
@@ -25,7 +25,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1032"
+        "Build": "3001"
     },
     "Descriptions": {
         "ShortDescription": "Send failure events and free-form messages to a variety of messaging or automation services",
@@ -35,9 +35,9 @@
         "AltScreenshotURL": "https://daleghent.github.io/nina-plugins/assets/images/gs-example2.png"
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/ground-station/GroundStation-2.3.0.0.zip",
+        "URL": "https://daleghent.com/dist/ground-station/GroundStation-2.4.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "27AC3423B065683514D0D6B03E6F993AE6928C89C0698F6AA94C8F62BDDB2836",
+        "Checksum": "201CA717E18F8D445574CCE6532A208CD760165A12DBA85F1F4B03161C024142",
         "ChecksumType": "SHA256"
     }
 }
