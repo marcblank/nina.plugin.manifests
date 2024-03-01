@@ -1,34 +1,34 @@
 {
     "Author": "Christian Palm",
-    "Name": "Advanced API",
-    "License": "MPL-2.0",
-    "Descriptions": {
-        "ShortDescription": "An experimental API for N.I.N.A.",
-        "LongDescription": "This plugin adds an advanced API to N.I.N.A.  \r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/rennmaus-coder/ninaAPI/issues), take a look at the\r\n[documentation](https://github.com/rennmaus-coder/ninaAPI/wiki) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)    \r\n**Thanks to szymon and notzeeg (discord) for their help!**  \r\n\r\n---\r\n\r\n## **Exposing the API with SSL (experimental)**\r\nIf you want to expose the API over the internet, you should use SSL and an API key. After you successfully generated the certificate, you have to specify the path to the certificate and the password. Then you must create an API key. You can either\r\ngenerate one using the 'Generate API Key' button or you can use your own key. You have to send the key over the request header to the API { apikey = <your_key> }."
-    },
     "Repository": "https://github.com/rennmaus-coder/ninaAPI",
-    "Identifier": "48b5bc05-f0d3-465e-a233-e2fe77d6e1a6",
+    "MinimumApplicationVersion": {
+        "Build": "3001",
+        "Minor": "0",
+        "Patch": "0",
+        "Major": "3"
+    },
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Name": "Advanced API",
+    "Descriptions": {
+        "LongDescription": "This plugin adds an advanced API to N.I.N.A.  \r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/rennmaus-coder/ninaAPI/issues), take a look at the\r\n[documentation](https://github.com/rennmaus-coder/ninaAPI/wiki) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)    \r\n**Thanks to szymon and notzeeg (discord) for their help!**  \r\n\r\n---\r\n\r\n## **Exposing the API with SSL (experimental)**\r\nIf you want to expose the API over the internet, you should use SSL and an API key. After you successfully generated the certificate, you have to specify the path to the certificate and the password. Then you must create an API key. You can either\r\ngenerate one using the 'Generate API Key' button or you can use your own key. You have to send the key over the request header to the API { apikey = <your_key> }.",
+        "ShortDescription": "An experimental API for N.I.N.A."
+    },
+    "License": "MPL-2.0",
     "Tags": [
         "API",
         "Web"
     ],
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Installer": {
-        "URL": "https://github.com/rennmaus-coder/ninaAPI/releases/download/1.0.0.0/ninaAPI.zip",
-        "Checksum": "00247CD31AAEC00567D6EB53AC6EF8275033D6805762D7178F0EA9719369D8A1",
+        "Checksum": "D9F231FFAF78FAAEA5C371B4D21B302A7181B07EA377C55EE724355C042C5AC6",
+        "Type": "ARCHIVE",
         "ChecksumType": "SHA256",
-        "Type": "ARCHIVE"
+        "URL": "https://github.com/rennmaus-coder/ninaAPI/releases/download/1.0.1.0/ninaAPI.zip"
     },
     "Version": {
-        "Patch": "0",
         "Build": "0",
-        "Major": "1",
-        "Minor": "0"
+        "Minor": "0",
+        "Patch": "1",
+        "Major": "1"
     },
-    "MinimumApplicationVersion": {
-        "Patch": "0",
-        "Build": "1001",
-        "Major": "3",
-        "Minor": "0"
-    }
+    "Identifier": "48b5bc05-f0d3-465e-a233-e2fe77d6e1a6"
 }
