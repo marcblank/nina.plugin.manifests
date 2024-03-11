@@ -4,8 +4,8 @@
     "Version": {
         "Major": "2",
         "Minor": "0",
-        "Patch": "2",
-        "Build": "2"
+        "Patch": "3",
+        "Build": "0"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -22,7 +22,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "2001"
+        "Build": "3005"
     },
     "Descriptions": {
         "ShortDescription": "Equipment connection manager",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.2.2.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.connector/downloads/NINA.Plugins.Connector.2.0.3.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "48C090134CF6A612CA87E512189C0A81EDCC212E47A395E487A6C034777EB223",
+        "Checksum": "291F26CF4514C539B7AA435934FF391C2FFD1DD9AF6D86A6402368F815F4D4D0",
         "ChecksumType": "SHA256"
     }
 }
