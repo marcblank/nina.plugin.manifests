@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "2",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -28,9 +28,9 @@
     "AltScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.web/main/NINA.Plugin.Web/assets/screenshot2-1100.png?raw=true"
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.web/releases/download/v2.2.0.0/NINA.Plugin.Web-2.2.0.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.web/releases/download/v2.2.1.0/NINA.Plugin.Web-2.2.1.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "E53286CE37209349F17EEE87496939B0E307FE0E553BF9DC11B14069A0F2A915",
+    "Checksum": "E41FD805914811A85C56875FC05713E3179A5741C7C70BC2B6963110274F1D1C",
     "ChecksumType": "SHA256"
 }
 }
