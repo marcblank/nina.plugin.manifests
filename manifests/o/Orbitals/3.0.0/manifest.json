@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "10"
+        "Build": "11"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
@@ -25,7 +25,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1056"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "Downloads publically available orbital data to target and track Comets, Asteroids, Planets, the Moon, the Sun, and other objects",
@@ -35,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.0.0.10/NINA.Joko.Plugin.Orbitals.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.0.0.11/NINA.Joko.Plugin.Orbitals.zip",
         "Type": "ARCHIVE",
-        "Checksum": "6D2F339921E4DEF10EBD99878D22C1F4E8C9681C56B1302D603E376DB386D55D",
+        "Checksum": "AE7CB0B16C40BA9FC5463D6092A572B072F48C6F4330C7610BEE41ED5101DEC8",
         "ChecksumType": "SHA256"
     }
 }

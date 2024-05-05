@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "15"
+        "Build": "16"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
@@ -26,7 +26,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "3001"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "Improved Star Detection, Star Annotation, Auto Focus, and Tilt Correction for NINA",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.15/NINA.Joko.Plugins.HocusFocus.zip",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.16/NINA.Joko.Plugins.HocusFocus.zip",
         "Type": "ARCHIVE",
-        "Checksum": "70AC07B41612D07683EC1EB771EBA8960206D2561B676B28FE91D8B18EB9DBB2",
+        "Checksum": "FE2081D1DDD4A4610915009DAB7F8C1434B961CDD1EB9199317EA638E13453BD",
         "ChecksumType": "SHA256"
     }
 }
