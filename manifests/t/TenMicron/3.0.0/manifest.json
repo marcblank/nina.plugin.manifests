@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "4"
+        "Build": "5"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
@@ -23,7 +23,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1056"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "10 Micron Mount Tools, including model building",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/resources/TenMicronToolsAltScreenshot.JPG"
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv3.0.0.4/NINA.Joko.Plugin.TenMicron.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv3.0.0.5/NINA.Joko.Plugin.TenMicron.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A39A2E2005E29F66F82DB2E1EADE0704C9F30769EA9BBF8C664168AB49E8C4DC",
+        "Checksum": "01E7E706AF5B0997A0C6BC8BD8AC8DD84861E81F5B5A117B6148C805E6C98072",
         "ChecksumType": "SHA256"
     }
 }
