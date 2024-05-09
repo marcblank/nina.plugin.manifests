@@ -4,7 +4,7 @@
     "Version": {
         "Major": "4",
         "Minor": "3",
-        "Patch": "7",
+        "Patch": "8",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.assistant/main/NINA.Plugin.Assistant/assets/screenshot-2.png?raw=true"
     },
     "Installer": {
-        "URL": "https://github.com/tcpalmer/nina.plugin.assistant/releases/download/v4.3.7.0/NINA.Plugin.TargetScheduler-4.3.7.0.zip",
+        "URL": "https://github.com/tcpalmer/nina.plugin.assistant/releases/download/v4.3.8.0/NINA.Plugin.TargetScheduler-4.3.8.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "69201405D8AC474D0276E3B57A82AD369A764C2245A30C4DEF5E4C6AC1F12206",
+        "Checksum": "6D4AFF0742BC7FE56BA660DF0AD5CF9EB67C0AF3A290AFD82936F8B4260D8C3E",
         "ChecksumType": "SHA256"
     }
 }
