@@ -31,14 +31,13 @@ How to fork a repository is described [here](https://support.atlassian.com/bitbu
 
 # Create a manifest
 A manifest file contains a JSON describing all the necessary metadata of a plugin. 
-To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps.  
-For the nightly .NET7 plugins use the [adjusted powershell script for .NET7]([powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateNET7Manifest.ps1)) (requires Powershell version 7)
+To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps. (requires Powershell version 7)  
 
 ***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
 
 ## Using the powershell script - *recommended*
 This is the most simple way of creating the manifest file. It will make use of the compiled assembly and its meta data attributes and will fill out most of the manifest with the available meta data.
-The only thing that needs to be added manually is the installer URL which points to the location where the plugin dll is hosted online - a script paramter to directly insert this is also available. Alternatively the .NET7 version of the file has the option to directly upload to bitbucket and the URL will be generated.
+The only thing that needs to be added manually is the installer URL which points to the location where the plugin dll is hosted online - a script parameter to directly insert this is also available. Alternatively there is an option to directly upload to bitbucket and the URL will be generated.
 The script has the following set of parameters:
 
 `-file` - **required**
@@ -61,28 +60,28 @@ Name of the created zip archive. When this parameter is omitted the plugin DLL f
 
 Include all files in the folder of the file into the archive
 
-`-appendVersionToArchive` (only for NET7)
+`-appendVersionToArchive`
 
 When set, the archive will have the plugin version appended to the file name (e.g. MyPlugin.zip -> MyPlugin.1.0.0.0.zip)
 
-`-uploadToBitbucket` (only for NET7)
+`-uploadToBitbucket`
 
 If the file should be directly pushed to your bitbucket download section
 
 
-`-bitbucketUserName` **required when uploadToBitbucket is passed** (only for NET7)
+`-bitbucketUserName` **required when uploadToBitbucket is passed**
 
 Your bitbucket user name
 
-`-bitbucketPassword` **required when uploadToBitbucket is passed** (only for NET7)
+`-bitbucketPassword` **required when uploadToBitbucket is passed**
 
 Your bitbucket app password to upload (see https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)
 
-`-bitbucketRepositoryOwner` **required when uploadToBitbucket is passed** (only for NET7)
+`-bitbucketRepositoryOwner` **required when uploadToBitbucket is passed**
 
 The owner of the repository
 
-`-bitbucketRepository` **required when uploadToBitbucket is passed** (only for NET7)
+`-bitbucketRepository` **required when uploadToBitbucket is passed**
 
 The name of the repository
 
@@ -108,7 +107,7 @@ The name of your plugin. This name will be used by the N.I.N.A. plugin manager t
 
 `Identifier` - **Required**
 
-This is a unique identifier - using a GUID - of your plugin and must not be changed throughout the lifetime of your plugin for version increases. It is used to identify your assembly during the installation and deinstallation process.
+This is a unique identifier - using a GUID - of your plugin and must not be changed throughout the lifetime of your plugin for version increases. It is used to identify your assembly during the installation and de-installation process.
 
 `Author` - **Required**
 
@@ -185,7 +184,7 @@ An alternative image URL showing the plugin in action from a different angle com
 
 # Test your manifest
 
-The manifest repository has a script, that will gather all available manifests inside the repository, validate their contant based on the schema definition and then puts all valid schemas into a big manifest file for upload to the server.
+The manifest repository has a script, that will gather all available manifests inside the repository, validate their content based on the schema definition and then puts all valid schemas into a big manifest file for upload to the server.
 This script can also be used to test your manifest, that it is valid.
 For the script to be able to run you need to install [nodeJS](https://nodejs.org/en/) and install the dependencies.
 ```bash
