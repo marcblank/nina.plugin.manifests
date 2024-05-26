@@ -3,7 +3,7 @@
     "Identifier": "DCB1D37B-F121-4966-99EC-D11410C562B6",
     "Version": {
         "Major": "2",
-        "Minor": "4",
+        "Minor": "5",
         "Patch": "1",
         "Build": "0"
     },
@@ -28,9 +28,9 @@
     "AltScreenshotURL": ""
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.4.1.0/NINA.Plugin.SessionMetaData-2.4.1.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.5.1.0/NINA.Plugin.SessionMetaData-2.5.1.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "CBB6F7127E0BFE4459B3219C50B776D55395E5ABA98C9A105FAFD027084EC546",
+    "Checksum": "4D10DB1A59A53CCD4D35CE028A836471F92A4A0DBA80D5EC1C69268E97ABFD26",
     "ChecksumType": "SHA256"
 }
 }
