@@ -35,7 +35,20 @@ To create a manifest, you can either use the [powershell script](https://bitbuck
 
 ***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
 
-## Using the powershell script - *recommended*
+## Using a github action or bitbucket pipeline - *recommended*
+### Github
+- Copy the file in `./tools/github-action.yml` into `.github/workflows` folder of your plugin repository.  
+- Adjust the yaml file according to the comments to match the requirements for your plugin.  
+- The action will run when you push a new version tag.  
+- Once the release is generated you can submit the manifest file to the manifest repository.
+
+### Bitbucket
+- Copy the file in `./tools/bitbucket-pipelines.yml` into the root of your plugin repository.  
+- Adjust the yaml file according to the comments to match the requirements for your plugin.  
+- You'll have to trigger the pipeline manually once you are ready to publish a new version.  
+- Once the release is generated you can submit the manifest file to the manifest repository.
+
+## Using the powershell script
 This is the most simple way of creating the manifest file. It will make use of the compiled assembly and its meta data attributes and will fill out most of the manifest with the available meta data.
 The only thing that needs to be added manually is the installer URL which points to the location where the plugin dll is hosted online - a script parameter to directly insert this is also available. Alternatively there is an option to directly upload to bitbucket and the URL will be generated.
 The script has the following set of parameters:
