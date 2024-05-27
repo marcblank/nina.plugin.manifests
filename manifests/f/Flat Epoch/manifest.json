@@ -1,0 +1,42 @@
+{
+    "Name": "Flat Epoch",
+    "Identifier": "3369ba5a-8c3f-46f6-bb49-9ba27afacd0f",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Graham Hollis  @Hologram",
+    "Homepage": "",
+    "Repository": "https://github.com/GrahamHollis/NINA-Plugin-Flat-Epoch",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "flat",
+        "flats",
+        "flat epoch",
+        "epoch",
+        "automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "An Epoch is just a chunk of time, like a period in history. Here, it's defined as all the LIGHT frames taken during that period, and that are saved in the Image file path. This plugin takes any FLAT’s needed to match the LIGHT’s, based on the criteria you define. It then advances to the next Epoch.",
+        "LongDescription": "# Flat Epoch Method for Flat Frame Acquisition\r\n\r\nFlat epoch is a method created to simplify the acquisition of FLAT frames in an automated workflow. Here's a breakdown of how this method operates:\r\n\r\n## Concept of Flat Epoch\r\n\r\n### Definition\r\n\r\n- **Flat Frames**: Calibration frames used to correct for variations in pixel sensitivity and optical artifacts like dust motes or vignetting in the imaging system.\r\n- **Light Frames**: The actual images of celestial objects captured through the telescope using different filters.\r\n- **Epoch**: A period during which a specific set of light frames are captured and for which corresponding flat frames need to be acquired.\r\n\r\n### Flat Epoch Method\r\n\r\n- The method involves using existing light and flat frames on the filesystem to determine which additional flat frames are required.\r\n- Flat frames are only captured for the filters that were used during the current epoch, ensuring no unnecessary flats are taken.\r\n- To accomplish this, a structured Image File Pattern is required. Flat Epoch validates that you have the structure correct.  \r\n\r\n### Determining Needed Flat Frames\r\n\r\n- The system checks which flat frames already exist in the filesystem.\r\n- It compares this with the list of filters and other defined keys used in the current epoch's light frames to identify which flat frames are missing.\r\n\r\n### Capturing Missing Flat Frames\r\n\r\n- Flat Epoch uses a single instruction to capture the missing flat frames.\r\n- Once all necessary flat frames for the captured light frames are obtained, the epoch is considered complete.\r\n\r\n### Advancing the Epoch\r\n\r\n- The epoch advances to a new period once the flats for the previous epoch are captured.\r\n- The process repeats for the next set of light frames from the next object or next session\r\n\r\n## Links \r\n\r\n- [Documentation](https://github.com/GrahamHollis/NINA-Plugin-Flat-Epoch/blob/main/docs/README.md)\r\n- [Source code](https://github.com/GrahamHollis/NINA-Plugin-Flat-Epoch)\r\n- [MPL 2.0 license](https://github.com/GrahamHollis/NINA-Plugin-Flat-Epoch/blob/main/source/LICENSE.txt)\r\n\r\nContact me, @Hologram on the [N.I.N.A Discord server](https://discord.gg/QHG93eVz) is you have any questions or suggestions.\r\n\r\n\r\n",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/GrahamHollis/NINA-Plugin-Flat-Epoch/main/assets/FElogo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/GrahamHollis/NINA-Plugin-Flat-Epoch/releases/download/v1.0.0.0/Flat_Epoch-1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "50ED64ADCF7A383302829FDD2D6BC7C042C0EC214877E74FCE14A4436533F69A",
+        "ChecksumType": "SHA256"
+    }
+}
