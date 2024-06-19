@@ -4,8 +4,8 @@
     "Version": {
         "Major": "3",
         "Minor": "14",
-        "Patch": "1",
-        "Build": "0"
+        "Patch": "2",
+        "Build": "1"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.14.1.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.14.2.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "EB2E7DE4A248F4C1A985C939DBD8C09312CC36CCCF3DC70DE658EBCC127BB5EF",
+        "Checksum": "A1E0D48F1BABB727373B24916448ABD4B12016D65A6AB7D275E378B147AFE4E3",
         "ChecksumType": "SHA256"
     }
 }
