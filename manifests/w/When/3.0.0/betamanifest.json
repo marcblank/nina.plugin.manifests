@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "14",
         "Patch": "9",
-        "Build": "0"
+        "Build": "1"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -29,16 +29,16 @@
         "Build": "2001"
     },
     "Descriptions": {
-        "ShortDescription": "Get the most out of the NINA Advanced Sequencer!",
+        "ShortDescription": "*** BETA RELEASE ***",
         "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
         "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
         "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Constants_Screen.png",
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.14.9.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.14.9.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "B62FFAE40103CB8A9DE3D50506AA39C4C17A874FB6EC9BD0AFB29E39F2E4ECBD",
+        "Checksum": "9124EFF4AEA6046D0E07052295722B41A46BAD624CD1A7B1A74A39AD15DDB6D5",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
