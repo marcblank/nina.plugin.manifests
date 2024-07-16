@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "16"
+        "Build": "18"
     },
     "Author": "roberthasson",
     "Homepage": "https://github.com/totoantibes/NinaLumixPlugin",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/totoantibes/NinaLumixPlugin/releases/download/1.0.0.16/LumixPlugin.1.0.0.16.zip",
+        "URL": "https://github.com/totoantibes/NinaLumixPlugin/releases/download/1.0.0.18/LumixPlugin.1.0.0.18.zip",
         "Type": "ARCHIVE",
-        "Checksum": "216B17C70E6BADFDFC0CDF401FD943BDC127FB5EA9CC623BD148076B2ACD1244",
+        "Checksum": "3715CF3269BBD44F481702D58D80FF92FAF6758B5CA909E2CE4EDAF29CE9A4A0",
         "ChecksumType": "SHA256"
     }
 }
