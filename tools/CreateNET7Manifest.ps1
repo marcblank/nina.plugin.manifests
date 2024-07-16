@@ -5,6 +5,11 @@ param(
     [Parameter(Mandatory, ParameterSetName='Archive', HelpMessage="Path to the compiled plugin assembly (dll)")]
     [string]$file,
 
+    [Parameter(Mandatory=$false, ParameterSetName='Standard', HelpMessage="Marks the manifest for the beta channel")]
+    [Parameter(Mandatory=$false, ParameterSetName='Bitbucket', HelpMessage="Marks the manifest for the beta channel")]
+    [Parameter(Mandatory=$false, ParameterSetName='Archive', HelpMessage="Marks the manifest for the beta channel")]
+    [switch]$beta,
+
     [Parameter(Mandatory=$false, ParameterSetName='Standard', HelpMessage="The installer url that should be put into the manifest")]
     [Parameter(Mandatory=$false, ParameterSetName='Archive', HelpMessage="The installer url that should be put into the manifest")]
     [string]$installerUrl,
@@ -163,6 +168,10 @@ foreach ($attribute in $metadataCustomAttributes) {
             $manifest["Descriptions"]["AltScreenshotURL"] = $attrVal
         }
     }
+}
+
+if($beta) {
+    $manifest["Channel"] = "Beta"
 }
 
 $stream.Close();

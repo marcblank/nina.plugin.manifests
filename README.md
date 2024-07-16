@@ -98,6 +98,10 @@ The owner of the repository
 
 The name of the repository
 
+`-beta`
+
+Marks the manifest for the Beta channel
+
 ### Example usage
 
 *Creating a manifest out of a plugin DLL that has no further included files*  
