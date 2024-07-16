@@ -218,3 +218,31 @@ The log console will then output all found manifests and logs if they are valid 
 - Your manifest should be put into the folder path matching the following pattern `manifests\<plugin starting letter><your plugin name>\<nina version>\<your plugin version>\manifest.json`. If you do not want to maintain multiple versions, you can omit the version folder.
 - Once changes are submitted to your fork you can create a pull request inside the main manifest repository
 - The pull request will undergo a review process. Be prepared to respond to feedback.
+
+# Releasing a Manifest as a Beta Version
+
+To release a version of your plugin in a separate beta channel for opt-in users, follow these steps:
+
+## Step 1: Add the Channel Property
+
+In your manifest file, add the following property:
+```json
+    "Channel": "Beta"
+```
+
+# Releasing a manifest as a beta version
+
+To release a version of your plugin in a separate beta channel for users to opt-in, you can submit your manifest with an additional property.
+
+## Channel Property
+
+Add `Channel` property to your manifest.json and set its value to `Beta`. Then the manifest will be put into the beta channel instead of the release channel.
+
+## Opt-In to beta channel
+
+A user can opt-into the beta channel by adding "https://nighttime-imaging.eu/wp-json/nina/v1/beta" as a Plugin Repository inside N.I.N.A.
+1. Open N.I.N.A.
+2. Navigate to Options > General > Plugin Repositories
+3. Click on the `+`
+4. Enter the url `https://nighttime-imaging.eu/wp-json/nina/v1/beta`
+5. Head to the plugin manager and check for updates to receive beta versions

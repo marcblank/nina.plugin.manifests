@@ -90,22 +90,38 @@ function validateIds(manifests) {
     console.log('Scanning for manifests in ' + root);
     const {manifests, manifestsNetCore, manifestsNetCoreMeta, manifestsNetFramework, report} = await scanDir(root);
     const idcollision = validateIds(manifests);
+
+    const releaseManifests = manifests.filter(x => x.Channel === 'Release' || !x.hasOwnProperty('Channel')).map(({Channel, ...rest}) => rest);
+
+    // Release Channel Plugins
     const targetDir = __dirname + '/Plugins';
     if (!fs.existsSync(targetDir)){
         fs.mkdirSync(targetDir);
     }
-    await writeFile(targetDir + '/manifests.json', JSON.stringify(manifests), function(err, result) {
+    await writeFile(targetDir + '/manifests.json', JSON.stringify(releaseManifests), function(err, result) {
         if(err) console.log('\x1b[31m','error', err);
     });
-    await writeFile(targetDir + '/manifestsNetCore.json', JSON.stringify(manifestsNetCore), function(err, result) {
+    // await writeFile(targetDir + '/manifestsNetCore.json', JSON.stringify(manifestsNetCore), function(err, result) {
+    //     if(err) console.log('\x1b[31m','error', err);
+    // });
+    // await writeFile(targetDir + '/manifestsNetCoreMeta.json', JSON.stringify(manifestsNetCoreMeta), function(err, result) {
+    //     if(err) console.log('\x1b[31m','error', err);
+    // });
+    // await writeFile(targetDir + '/manifestsNetFramework.json', JSON.stringify(manifestsNetFramework), function(err, result) {
+    //     if(err) console.log('\x1b[31m','error', err);
+    // });
+
+    // Beta Channel Plugins
+    const betaManifests = manifests.filter(x => x.Channel === 'Beta').map(({Channel, ...rest}) => rest);
+
+    const betaTargetDir = __dirname + '/Plugins/Beta';
+    if (!fs.existsSync(betaTargetDir)){
+        fs.mkdirSync(betaTargetDir);
+    }
+    await writeFile(betaTargetDir + '/manifests.json', JSON.stringify(betaManifests), function(err, result) {
         if(err) console.log('\x1b[31m','error', err);
     });
-    await writeFile(targetDir + '/manifestsNetCoreMeta.json', JSON.stringify(manifestsNetCoreMeta), function(err, result) {
-        if(err) console.log('\x1b[31m','error', err);
-    });
-    await writeFile(targetDir + '/manifestsNetFramework.json', JSON.stringify(manifestsNetFramework), function(err, result) {
-        if(err) console.log('\x1b[31m','error', err);
-    });
+
     console.log('\x1b[0m',`done - total: ${report.total} total, ${report.successful} successful, ${report.failed} failed, ${report.invalid} invalid`);
     if(report.failed > 0 || report.invalid > 0 || idcollision) {
         process.exit(1);
