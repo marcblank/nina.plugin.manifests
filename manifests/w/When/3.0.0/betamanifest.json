@@ -4,15 +4,14 @@
     "Version": {
         "Major": "3",
         "Minor": "14",
-        "Patch": "8",
-        "Build": "4"
+        "Patch": "9",
+        "Build": "0"
     },
     "Author": "Marc Blank",
     "Homepage": "",
     "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Channel" : "Beta",
     "ChangelogURL": "",
     "Tags": [
         "Sequencer",
@@ -39,7 +38,8 @@
     "Installer": {
         "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.14.9.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "C769DD076C0FB29CC3AD3E24BF0EBFD8D91311AC329858AED8FB5102907BA67F",
+        "Checksum": "B62FFAE40103CB8A9DE3D50506AA39C4C17A874FB6EC9BD0AFB29E39F2E4ECBD",
         "ChecksumType": "SHA256"
-    }
+    },
+    "Channel": "Beta"
 }
