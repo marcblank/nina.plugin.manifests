@@ -1,0 +1,45 @@
+{
+    "Name": "Sequencer Powerups",
+    "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
+    "Version": {
+        "Major": "3",
+        "Minor": "14",
+        "Patch": "8",
+        "Build": "4"
+    },
+    "Author": "Marc Blank",
+    "Homepage": "",
+    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Channel" : "Beta",
+    "ChangelogURL": "",
+    "Tags": [
+        "Sequencer",
+        "Utility",
+        "Powerups",
+        "Constants",
+        "Interrupt",
+        "If",
+        "When"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Get the most out of the NINA Advanced Sequencer!",
+        "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
+        "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Constants_Screen.png",
+        "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.14.9.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "C769DD076C0FB29CC3AD3E24BF0EBFD8D91311AC329858AED8FB5102907BA67F",
+        "ChecksumType": "SHA256"
+    }
+}
