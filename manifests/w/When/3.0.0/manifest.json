@@ -4,8 +4,8 @@
     "Version": {
         "Major": "3",
         "Minor": "14",
-        "Patch": "8",
-        "Build": "10"
+        "Patch": "10",
+        "Build": "0"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -29,16 +29,16 @@
         "Build": "2001"
     },
     "Descriptions": {
-        "ShortDescription": "Get the most out of the NINA Advanced Sequencer!",
+        "ShortDescription": "*** BETA RELEASE ***",
         "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
         "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
         "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Constants_Screen.png",
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.14.8.10.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.14.10.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "AA11458D4CE3D8FEF79F1065EB141E30F6C44A011340A2B522A6AAF7B1E8D4BF",
+        "Checksum": "BECF2C4D770F0065A9144E755FE732942FDB34C89C992E6049B6227F1D2E69EA",
         "ChecksumType": "SHA256"
     }
 }
