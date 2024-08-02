@@ -1,0 +1,40 @@
+{
+    "Name": "BahtiFocus",
+    "Identifier": "541625c3-50f8-4a60-86e1-57928fc0220a",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "CanardConfit",
+    "Homepage": "https://github.com/CanardConfit/BahtiFocus",
+    "Repository": "https://github.com/CanardConfit/BahtiFocus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/CanardConfit/BahtiFocus/CHANGELOG.md",
+    "Tags": [
+        "Focus",
+        "Focus Analyser",
+        "Bahtinov Mask"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "BahtiFocus is a precision Bahtinov mask analyzer integrated into N.I.N.A., designed to help astronomers achieve perfect focus for their telescopes effortlessly.",
+        "LongDescription": "TODO",
+        "FeaturedImageURL": "https://github.com/CanardConfit/BahtiFocus/blob/master/logo.png?raw=true",
+        "ScreenshotURL": "https://github.com/CanardConfit/BahtiFocus/blob/master/BahtiFocus_Working.png?raw=true",
+        "AltScreenshotURL": "https://github.com/CanardConfit/BahtiFocus/blob/master/BahtiFocus_Start.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/CanardConfit/BahtiFocus/releases/download/1.0.0.1/CanardConfit.NINA.BahtiFocus.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "2B0BDE919507761A8198657E8FE98640B6EBF2DB96B4A6F6764BE7D9C0D43030",
+        "ChecksumType": "SHA256"
+    }
+}
