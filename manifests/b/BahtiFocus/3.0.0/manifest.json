@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1"
+        "Build": "2"
     },
     "Author": "CanardConfit",
     "Homepage": "https://github.com/CanardConfit/BahtiFocus",
@@ -26,15 +26,15 @@
     },
     "Descriptions": {
         "ShortDescription": "BahtiFocus is a precision Bahtinov mask analyzer integrated into N.I.N.A., designed to help astronomers achieve perfect focus for their telescopes effortlessly.",
-        "LongDescription": "TODO",
-        "FeaturedImageURL": "https://github.com/CanardConfit/BahtiFocus/blob/master/logo.png?raw=true",
-        "ScreenshotURL": "https://github.com/CanardConfit/BahtiFocus/blob/master/BahtiFocus_Working.png?raw=true",
-        "AltScreenshotURL": "https://github.com/CanardConfit/BahtiFocus/blob/master/BahtiFocus_Start.png?raw=true"
+        "LongDescription": "*Prerequisites*\r\n\r\n- [N.I.N.A 3.0](https://nighttime-imaging.eu/2024/03/18/n-i-n-a-3-0/)\r\n- A connected camera (see [N.I.N.A documentation](https://nighttime-imaging.eu/docs/master/site/quickstart/equipment/))\r\n\r\n*Usage*\r\n\r\n- Install the plugin automatically with the N.I.N.A plugin manager or manually place the DLL file into `%localappdata%\\NINA\\Plugins`.\r\n    - A new panel will appear in the `Imaging` tab called `Bahtinov Analyser`.\r\n- Create or purchase a Bahtinov mask for your instrument (see [Bahtinov section](#bahtinov-mask)).\r\n- Connect your camera to N.I.N.A.\r\n- Choose, slew, and center a star in your camera's view.\r\n    - If the star isn't bright enough, the lines created by the Bahtinov mask will not be visible.\r\n- Place the Bahtinov mask on your instrument.\r\n- Set the options in the `options` toolbar of the `Bahtinov Analyser` for exposure time, filters, etc.\r\n    - **Note**: Information is taken from N.I.N.A options, such as focal length from `Options > Equipment`.\r\n- Press the start button to begin the exposure.\r\n- After the first photo is taken and appears on the right, you will see a rectangle on the right side of the screen.\r\n    - The rectangle indicates the area analyzed on the left. You can move or zoom it using the controls at the bottom to center it on the star.\r\n- The analysis will continue automatically, and you can adjust the focus of your instrument to find the critical focus.\r\n- Once the critical focus is achieved, you can stop the process and remove the Bahtinov mask!\r\n",
+        "FeaturedImageURL": "https://github.com/CanardConfit/BahtiFocus/blob/main/Images/logo.png?raw=true",
+        "ScreenshotURL": "https://github.com/CanardConfit/BahtiFocus/blob/main/Images/BahtiFocus_Working.png?raw=true",
+        "AltScreenshotURL": "https://github.com/CanardConfit/BahtiFocus/blob/main/Images/BahtiFocus_Start.png?raw=true"
     },
     "Installer": {
-        "URL": "https://github.com/CanardConfit/BahtiFocus/releases/download/1.0.0.1/CanardConfit.NINA.BahtiFocus.1.0.0.1.zip",
+        "URL": "https://github.com/CanardConfit/BahtiFocus/releases/download/1.0.0.2/CanardConfit.NINA.BahtiFocus.1.0.0.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "2B0BDE919507761A8198657E8FE98640B6EBF2DB96B4A6F6764BE7D9C0D43030",
+        "Checksum": "116393CFB8A9F61E08A3F9FF2D0AE1CBE85377455C1CCA517D1882FFB9C288ED",
         "ChecksumType": "SHA256"
     }
 }
