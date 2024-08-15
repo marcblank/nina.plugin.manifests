@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "14",
         "Patch": "11",
-        "Build": "1"
+        "Build": "9"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -18,6 +18,9 @@
         "Utility",
         "Powerups",
         "Constants",
+        "Variables",
+        "Expressions",
+        "Safety",
         "Interrupt",
         "If",
         "When"
@@ -32,13 +35,13 @@
         "ShortDescription": "Get the most out of the Advanced Sequencer!",
         "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
         "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
-        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Constants_Screen.png",
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/LoopWhile.png",
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.14.11.1.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.14.11.9.zip",
         "Type": "ARCHIVE",
-        "Checksum": "49FF4935685175B0C1A4062996922561C34E843B0E81EE232EE3E518B1F11013",
+        "Checksum": "C70D2343BAC43A1320B5CD98D0B0642DCF67D41D93D54B6834B6C8090C337E3F",
         "ChecksumType": "SHA256"
     }
 }

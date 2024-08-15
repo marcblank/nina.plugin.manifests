@@ -5,10 +5,10 @@
     ],
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Author": "Christian Palm",
-    "Repository": "https://github.com/rennmaus-coder/ninaAPI",
+    "Repository": "https://github.com/christian-photo/ninaAPI",
     "Descriptions": {
         "ShortDescription": "An experimental API for N.I.N.A.",
-        "LongDescription": "This plugin adds an advanced API to N.I.N.A.  \r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/rennmaus-coder/ninaAPI/issues), take a look at the\r\n[documentation](https://github.com/rennmaus-coder/ninaAPI/wiki) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)    \r\n**Thanks to szymon and notzeeg (discord) for their help!**  \r\n\r\n---\r\n\r\n## **Exposing the API with SSL (experimental)**\r\nIf you want to expose the API over the internet, you should use SSL and an API key. After you successfully generated the certificate, you have to specify the path to the certificate and the password. Then you must create an API key. You can either\r\ngenerate one using the 'Generate API Key' button or you can use your own key. You have to send the key over the request header to the API { apikey = <your_key> }."
+        "LongDescription": "This plugin adds an advanced API to N.I.N.A.  \r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/christian-photo/ninaAPI/issues), take a look at the\r\n[documentation](https://github.com/christian-photo/ninaAPI/wiki) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)    \r\n**Thanks to szymon and notzeeg (discord) for their help!**  \r\n\r\n---\r\n\r\n## **Exposing the API with SSL (experimental)**\r\nIf you want to expose the API over the internet, you should use SSL and an API key. After you successfully generated the certificate, you have to specify the path to the certificate and the password. Then you must create an API key. You can either\r\ngenerate one using the 'Generate API Key' button or you can use your own key. You have to send the key over the request header to the API { apikey = <your_key> }."
     },
     "MinimumApplicationVersion": {
         "Build": "3001",
@@ -29,6 +29,6 @@
         "Type": "ARCHIVE",
         "ChecksumType": "SHA256",
         "Checksum": "EF129A7AF65A66C3BF86DEBCFE577A15359961E09EADD084201C2D42A92C513A",
-        "URL": "https://github.com/rennmaus-coder/ninaAPI/releases/download/1.0.1.1/ninaAPI.zip"
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/1.0.1.1/ninaAPI.zip"
     }
 }

@@ -9,7 +9,7 @@
     "Name": "Horizon Creator",
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/rennmaus-coder/HorizonCreator/releases/download/1.1.2.0/Horizon.Creator.dll",
+        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.0/Horizon.Creator.dll",
         "Checksum": "CA89A206019912C8D6D4019308FA7E5B6E1552AC99214D122EDBDA028396DCE5",
         "Type": "DLL"
     },
@@ -25,7 +25,7 @@
         "ShortDescription": "Create a horizon from within NINA only using your scope and mount!"
     },
     "Author": "Christian Palm",
-    "Repository": "https://github.com/rennmaus-coder/HorizonCreator",
+    "Repository": "https://github.com/christian-photo/HorizonCreator",
     "Tags": [
         "Horizon",
         "Dock"

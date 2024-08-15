@@ -38,6 +38,7 @@ To create a manifest, you can either use the [powershell script](https://bitbuck
 ## Using a github action or bitbucket pipeline - *recommended*
 ### Github
 - Copy the file in `./tools/github-action.yml` into `.github/workflows` folder of your plugin repository.  
+- Change github actions permissions in the repository settings > Actions > General > Workflow permissions to "Read and write permissions".  
 - Adjust the yaml file according to the comments to match the requirements for your plugin.  
 - The action will run when you push a new version tag.  
 - Once the release is generated you can submit the manifest file to the manifest repository.
