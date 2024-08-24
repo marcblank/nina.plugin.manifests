@@ -3,8 +3,8 @@
     "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
     "Version": {
         "Major": "2",
-        "Minor": "8",
-        "Patch": "1",
+        "Minor": "9",
+        "Patch": "0",
         "Build": "0"
     },
     "Author": "Dale Ghent",
@@ -18,7 +18,8 @@
         "pwi4",
         "delta-t",
         "sequencer",
-        "fans"
+        "fans",
+        "pointxp"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
@@ -34,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.8.1.0.zip",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.9.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "3FE0255D5E23FB85698250550E15D1E012B606CECDD97F4EF1BB77F88A240778",
+        "Checksum": "BD35AB067275746CEBB69E3AB652F166D110AF8662E6A85A78F237EE4CC70A1C",
         "ChecksumType": "SHA256"
     }
 }

@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "2",
-        "Patch": "3",
+        "Patch": "4",
         "Build": "0"
     },
     "Author": "Lightbucket",
@@ -28,9 +28,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-2.2.3.zip",
+        "URL": "https://app.lightbucket.co/nina_plugin/Lightbucket.NINAPlugin-2.2.4.zip",
         "Type": "ARCHIVE",
-        "Checksum": "25141B5B07873845745AC0FB13C478AF33D930F64F942F8BF501230008659B4E",
+        "Checksum": "5968DBF495B8EA55C28E5AF4B5520C76064EC30340730E66900C64E45EB362E4",
         "ChecksumType": "SHA256"
     }
 }

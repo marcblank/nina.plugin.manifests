@@ -7,7 +7,7 @@
     },
     "Installer": {
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/rennmaus-coder/HorizonCreator/releases/download/1.1.1.0/Horizon.Creator.dll",
+        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.1.0/Horizon.Creator.dll",
         "Checksum": "FB2CF6FD7D47F3D3EFABBBEEE840AC9F48F8D39C904913AEE6CFCD70B507D038",
         "Type": "DLL"
     },
@@ -28,7 +28,7 @@
     "Name": "Horizon Creator",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "Author": "Christian Palm",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.template/",
+    "Repository": "https://github.com/christian-photo/HorizonCreator/",
     "License": "MPL-2.0",
     "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe"
 }
