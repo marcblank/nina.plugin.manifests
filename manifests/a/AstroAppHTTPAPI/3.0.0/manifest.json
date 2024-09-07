@@ -1,0 +1,41 @@
+{
+    "Name": "Astro HTTP API",
+    "Identifier": "e733ee91-25e0-443d-821a-e16aec9f5757",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9"
+    },
+    "Author": "Shrivu Shankar (sshh12)",
+    "Homepage": "https://github.com/sshh12/astro-app-nina-api",
+    "Repository": "https://github.com/sshh12/astro-app-nina-api",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/sshh12/astro-app-nina-api/commits/main/",
+    "Tags": [
+        "HTTP",
+        "REST",
+        "API",
+        "Websockets"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "A general purpose HTTP API for NINA designed for use with astroapp.io",
+        "LongDescription": "This plugin provides a general purpose HTTP (and websocket) server you can use to control N.I.N.A. remotely.\r\n\r\n* NOTE: This plugin is experimental and may not yet support all N.I.N.A features, in some cases it may unexpectedly crash N.I.N.A. Use at your own risk.\r\n\r\n# Features #\r\n\r\n* Control all standard device types (mount, focuser, camera, filter wheel, rotator, dome)\r\n* Subscribe to live events from N.I.N.A. via websockets\r\n* Use over the internet with tools like ngrok or cloudflare tunnels\r\n* Native support for astroapp.io\r\n\r\n# Quick Start #\r\n\r\nFor using an existing UI, visit [astroapp.io](https://astroapp.io/image/nina).\r\n\r\nFor using the API directly, see the [quick start guide](https://github.com/sshh12/astro-app-nina-api).\r\n\r\nSee API docs here: [API Docs](https://github.com/sshh12/astro-app-nina-api/blob/main/API.md).\r\n\r\n# Getting Help #\r\n\r\nIf you have questions, submit an issue on [GitHub](https://github.com/sshh12/astro-app-nina-api/issues) or this [form](https://forms.gle/hiaKh3HRfVBYZxiu6).\r\n* Astro HTTP API is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/sshh12/astro-app-nina-api/blob/main/LICENSE)\r\n* Source code for this plugin is available at this plugin's [repository](https://github.com/sshh12/astro-app-nina-api)\r\n",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/sshh12/astro-app-nina-api/main/AstroAppHTTPAPI/logo512.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/sshh12/astro-app-nina-api/releases/download/1.0.0.9/Plugin.NINA.AstroAppHTTPAPI.1.0.0.9.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "99FA47D7A5F882F5D050359150DE1F9C77445939E99B35133B50F7166AEB9435",
+        "ChecksumType": "SHA256"
+    }
+}
