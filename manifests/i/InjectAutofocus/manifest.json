@@ -1,0 +1,38 @@
+{
+    "Name": "Inject Autofocus",
+    "Identifier": "5704396d-1e98-49cf-9d7a-90cc08e42c61",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Charles Hagen",
+    "Homepage": "https://nightphotons.com",
+    "Repository": "https://github.com/charleshagen/InjectAutofocus/",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/charleshagen/InjectAutofocus/blob/master/InjectAutofocus/CHANGELOG.md",
+    "Tags": [
+        "Autofocus"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Inject an autofocus routine manually into your sequence.",
+        "LongDescription": "## Usage ##\r\nAdd the InjectAutofocus trigger into your sequence. When evaluated, the trigger will see if an autofocus routine has been requested and will run\r\nan autofocus routine before the next exposure. If another autofocus event occurs before your requested AF routine has started, it will clear the request\r\nonly running once. You can request an autofocus routine while the sequence is running via the 'Inject Autofocus' panel and associated button in the imaging tab.\r\n",
+        "FeaturedImageURL": "https://github.com/charleshagen/InjectAutofocus/blob/master/InjectAutofocus/logo.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/charleshagen/InjectAutofocus/releases/download/1.0.0.1/CharlesHagen.NINA.InjectAutofocus.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "CC7A75954CE65E606BF2D9F7A98FFB0E6559FED042B5C1D833C559B1675044BC",
+        "ChecksumType": "SHA256"
+    }
+}

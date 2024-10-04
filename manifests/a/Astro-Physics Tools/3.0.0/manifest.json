@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "3",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Dale Ghent",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/astro-physics-tools/AstroPhysicsTools-2.3.0.0.zip",
+        "URL": "https://daleghent.com/dist/astro-physics-tools/AstroPhysicsTools-2.3.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "3E6D2E275F5034FBE01955C45B1433416164F85C86DBBF69507F8D9BF0AE8018",
+        "Checksum": "AC44C377043643E4B1BC9BBED6FAB4D2B88460F104B33602EB34029EACAD153F",
         "ChecksumType": "SHA256"
     }
 }
