@@ -1,0 +1,40 @@
+{
+    "Name": "ManualRotatorOAG",
+    "Identifier": "994418ae-1c2f-4b66-b61f-585c450277e8",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "JR Schmidt",
+    "Homepage": "",
+    "Repository": "https://github.com/jrschmidt2/ManualRotatorOAG",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/jrschmidt2/ManualRotatorOAG/blob/master/CHANGELOG.md",
+    "Tags": [
+        "manual",
+        " rotator",
+        " OAG"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Manual rotator with support for an OAG with PHD2 integration",
+        "LongDescription": "Manual rotator with support for an OAG with PHD2 integration.\r\nExtends the function of the normal NINA manual rotator to allow for integration with PHD2\r\nwhen using an off-axis guider (OAG). Since the OAG rotates along with the rotator, this typically would require\r\na new calibration with every manual rotation. This plugin uses the ASCOM rotator simulator as an\r\nintermediary to communicate the current camera rotation angle to PHD2. This allows for the use of\r\nthe manual rotator with requiring PHD2 recalibration.\r\n\r\n--Detailed instructions--\r\n\r\nINITIAL SETUP (one time only)\r\n\r\n* NINA:\r\n - Install the ManualRotatorOAG plugin\r\n - Under Equipment : Rotator, select the 'Manual Rotator + OAG'\r\n\r\n* PHD2:\r\n - Under Equipment (More Equipment) : Rotator, add the 'Rotator Simulator .NET (ASCOM)' \r\n - Under Guide : Advanced Settings : Other Devices, click the 'Reverse sign of angle' checkbox\r\n   (necessary since NINA and PHD2 use opposite conventions for the rotation angle)\r\n - After syncing the rotator position to the correct sky angle (see USAGE), perform an initial PHD2 calibration\r\n\r\nUSAGE (every time)\r\n\r\n(1) Sync manual rotator to current camera angle. (This is necessary only after initial setup OR if the camera\r\nhas been moved outside of the NINA manual rotator [e.g. not using a NINA Slew, Center, Rotate]) A simple way\r\nof doing this is to:\r\n (a) Use the 'Rotation From Camera' button to determine the current camera angle\r\n (b) Under Equipment : Rotator, manually set the rotator to this angle\r\nAny future rotations using the Manual Rotator tool will automatically keep things in sync.\r\n\r\n(2) Use the Framing assistant, find the desired camera angle, and execute a Slew, Center, Rotate\r\ncommand. After completion of the rotation (using the Manual Rotator tool), the final camera angle\r\nwill be communicated to PHD2 (via the ASCOM Rotator simulator), which will adjust the guiding accordingly.\r\nNo new calibration is required!\r\n\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/jrschmidt2/ManualRotatorOAG/releases/download/1.0.0.1/schmidt.NINA.ManualRotatorOAG.dll",
+        "Type": "DLL",
+        "Checksum": "AEB42A0BCDB352A4E5CCAEF526C77BD337CBF775EAD5A2490B263570088B0925",
+        "ChecksumType": "SHA256"
+    }
+}
