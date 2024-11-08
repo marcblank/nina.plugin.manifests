@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "1",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Gerald Hitz (photon)",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png"
     },
     "Installer": {
-        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/v3.1.0.0/NINA.Photon.Plugin.ASA.zip",
+        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/v3.1.1.0/NINA.Photon.Plugin.ASA.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A2C2509BE0D6336CDAB86908DBBC871E19985A956F3E282E0673B7C1CCFD37D9",
+        "Checksum": "58E89412C6EF30A8D499E1C71664D74AD2ECC2B64BD17111A797D092CD41BF6C",
         "ChecksumType": "SHA256"
     }
 }
