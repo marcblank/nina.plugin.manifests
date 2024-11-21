@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "1",
-        "Build": "2"
+        "Build": "3"
     },
     "Author": "Shrivu Shankar (sshh12)",
     "Homepage": "https://github.com/sshh12/astro-app-nina-api",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/sshh12/astro-app-nina-api/releases/download/1.0.1.2/Plugin.NINA.AstroAppHTTPAPI.1.0.1.2.zip",
+        "URL": "https://github.com/sshh12/astro-app-nina-api/releases/download/1.0.1.3/Plugin.NINA.AstroAppHTTPAPI.1.0.1.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "1FAC8330C5F95E23DC244605F201584C378717753D0127B3E000FA2D039921E4",
+        "Checksum": "AF8E1D91F6D61A7CE6653509778BD1EB62FC0E7F5D4537D8C0D593423209DE17",
         "ChecksumType": "SHA256"
     }
 }
