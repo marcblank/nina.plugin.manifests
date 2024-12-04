@@ -3,7 +3,7 @@
     "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
     "Version": {
         "Major": "3",
-        "Minor": "18",
+        "Minor": "20",
         "Patch": "0",
         "Build": "0"
     },
@@ -27,9 +27,9 @@
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
-        "Minor": "0",
+        "Minor": "1",
         "Patch": "0",
-        "Build": "2001"
+        "Build": "3001"
     },
     "Descriptions": {
         "ShortDescription": "Get the most out of the Advanced Sequencer!",
@@ -39,9 +39,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.18.0.0.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.3.20.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A7E65C874E21F954FE4FE11CDB37A4A7F26AE682E288458737C1273DAEF8E678",
+        "Checksum": "67B4093AC236B502B609EB6F3DE73F50AEFF4FE8370EDB72427B404266D51CA9",
         "ChecksumType": "SHA256"
     }
 }
