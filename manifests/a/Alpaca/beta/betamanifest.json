@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "0"
+        "Build": "1"
     },
     "Author": "Stefan Berg",
     "Homepage": "https://www.patreon.com/stefanberg",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/downloads/NINA.Alpaca.1.0.0.0.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/downloads/NINA.Alpaca.1.0.0.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "D977A12D451154549A56195670BD914F1737CAC7360A69FBFB602A8AD014F45F",
+        "Checksum": "D2B1E7D2D81BB08C27B10285DA757E4CFEAD44A14AC0709C590D3D1A56805092",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
