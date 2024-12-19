@@ -1,0 +1,39 @@
+{
+    "Name": "Alpaca",
+    "Identifier": "00eec1ff-31fd-47b4-bbff-1a71b63b0330",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Stefan Berg",
+    "Homepage": "https://www.patreon.com/stefanberg",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/src/master/CHANGELOG.md",
+    "Tags": [
+        "Alpaca"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A plugin to host all N.I.N.A. devices as Alpaca Devices to be accessed from other applications",
+        "LongDescription": "\nThis plugin exposes all N.I.N.A. devices as Alpaca devices over the network, enabling control of your equipment from any ASCOM/Alpaca-compliant software or client. Each device is tightly integrated with N.I.N.A.'s interface abstractions, ensuring seamless operation and access to N.I.N.A.'s advanced features.\n\nAdditionally, exposing devices via Alpaca allows native or in-process drivers in N.I.N.A. to be shared with other applications.\n\nTip: For applications that cannot natively connect to Alpaca devices, you can use the ASCOM Chooser to make Alpaca drivers accessible as ASCOM drivers. See [Alpaca through the Chooser](https://ascom-standards.org/Help/Platform/html/e3870a2f-582a-4ab4-b37f-e9b1c37a2030.htm) in the ASCOM documentation for setup instructions.\n\n",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/downloads/alpaca.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/downloads/NINA.Alpaca.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "D2B1E7D2D81BB08C27B10285DA757E4CFEAD44A14AC0709C590D3D1A56805092",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
