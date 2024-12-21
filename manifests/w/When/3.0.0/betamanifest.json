@@ -41,7 +41,7 @@
     "Installer": {
         "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.21.4.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "82542ECA793E4F9139CD538E79AA612068528F68B1F8958C4FD9764FD36109B2",
+        "Checksum": "B35F9AAB58DD19ABA48B022D07A3468E0BB219CD6BBCAEDDAE7D0B1F9D5FD23C",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
