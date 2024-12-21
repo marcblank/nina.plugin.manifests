@@ -4,8 +4,8 @@
     "Version": {
         "Major": "3",
         "Minor": "21",
-        "Patch": "3",
-        "Build": "15"
+        "Patch": "4",
+        "Build": "0"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -39,9 +39,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.21.3.15.zip",
+        "URL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/PowerupsBeta.3.21.4.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "4CA8E79A6DA3554796E02016986690618F9628BFAD6F4D20F2DC15F3830BD0EA",
+        "Checksum": "B35F9AAB58DD19ABA48B022D07A3468E0BB219CD6BBCAEDDAE7D0B1F9D5FD23C",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
