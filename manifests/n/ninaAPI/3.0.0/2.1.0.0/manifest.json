@@ -29,7 +29,7 @@
     "Installer": {
         "Checksum": "BDFF86DFAEC7ACCAE83CDBA00572DDBE3DFA1D12B5281ED4DBE54626C65AF601",
         "Type": "ARCHIVE",
-        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.1.0.0/ninaAPI.dll",
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.1.0.0/ninaAPI.zip",
         "ChecksumType": "SHA256"
     },
     "ChangelogURL": "https://github.com/christian-photo/ninaAPI/blob/main/Changelog.md"
