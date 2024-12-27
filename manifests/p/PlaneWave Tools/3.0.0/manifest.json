@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "9",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Dale Ghent",
@@ -35,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.9.0.0.zip",
+        "URL": "https://daleghent.com/dist/planewave-tools/PlaneWaveTools-2.9.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "BD35AB067275746CEBB69E3AB652F166D110AF8662E6A85A78F237EE4CC70A1C",
+        "Checksum": "C959E8DA505DA9297008A9180724C3B8DBD175581BA5DACFAAC60D6AED0EE525",
         "ChecksumType": "SHA256"
     }
 }

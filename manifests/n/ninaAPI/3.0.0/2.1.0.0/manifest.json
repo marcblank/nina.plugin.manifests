@@ -1,0 +1,36 @@
+{
+    "MinimumApplicationVersion": {
+        "Build": "9001",
+        "Major": "3",
+        "Patch": "2",
+        "Minor": "1"
+    },
+    "License": "MPL-2.0",
+    "Descriptions": {
+        "LongDescription": "This plugin features an HTTP server, including an api and websockets!\r\n\r\n## Features:\r\n- Listen to events like connections, meridian flips and much more\r\n- TPPA integration (Requires TPPA to be installed and V2 of the api)\r\n- Supports basic control over the equipment and application in general\r\n- And much more!\r\n  \r\n---\r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/christian-photo/ninaAPI/issues), take a look at the\r\n[documentation](https://github.com/christian-photo/ninaAPI/wiki) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)    \r\n**Thanks to szymon and notzeeg (discord) for their help!**",
+        "ShortDescription": "An experimental API for N.I.N.A."
+    },
+    "Identifier": "48b5bc05-f0d3-465e-a233-e2fe77d6e1a6",
+    "Author": "Christian Palm",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Version": {
+        "Build": "0",
+        "Major": "2",
+        "Patch": "0",
+        "Minor": "1"
+    },
+    "Tags": [
+        "API",
+        "Web"
+    ],
+    "Name": "Advanced API",
+	"Channel": "Beta",
+    "Repository": "https://github.com/christian-photo/ninaAPI",
+    "Installer": {
+        "Checksum": "BDFF86DFAEC7ACCAE83CDBA00572DDBE3DFA1D12B5281ED4DBE54626C65AF601",
+        "Type": "ARCHIVE",
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.1.0.0/ninaAPI.zip",
+        "ChecksumType": "SHA256"
+    },
+    "ChangelogURL": "https://github.com/christian-photo/ninaAPI/blob/main/Changelog.md"
+}
