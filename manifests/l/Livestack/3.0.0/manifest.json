@@ -1,0 +1,38 @@
+{
+    "Name": "Livestack",
+    "Identifier": "10bc1716-54af-425e-b307-c0ca1ce10600",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.livestack",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/src/master/CHANGELOG.md",
+    "Tags": [
+        "Livestack"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1009"
+    },
+    "Descriptions": {
+        "ShortDescription": "Live stacking within N.I.N.A.",
+        "LongDescription": "This plugin enables live stacking functionality within N.I.N.A. - It allows you to view a live stack of your images, calibrate them, and manage them in real-time during your imaging session.\n\n## Prerequisites\n\nBefore using this plugin, ensure you meet the following requirements:\n\n+ **PC Requirements**: Ensure your system has sufficient memory to handle live stacking.\n+ **Working Directory**: Set a folder for storing calibration files, temporary files, and live stack files.\n+ **Plugin Settings**: Adjust additional settings on the plugin page according to your preferences.\n+ **Master Calibration Files**: (Optional) Add BIAS, DARK, or FLAT master files for calibration.\n\n## Sequencer Instructions\n\n+ **Stack Flats**\n  This instruction works in conjunction with your FLAT frame captures:\n  + Place this instruction within a set of FLAT frame capture instructions, positioned after the last FLAT frame capture.\n  + As FLAT frames are captured, the instruction automatically gathers and calibrates them in the background.\n  + Once executed, the instruction will stack all the FLAT frames that have been gathered and save the result.\n  + The stacked result is then automatically added to the session library within the live stack panel.\n\n+ **Start Live Stack**\n  Initiates the live stacking process within the **Imaging** tab.\n\n+ **Stop Live Stack**\n  Ends the live stacking process within the **Imaging** tab.\n\n## Live Stacking Panel\n### Expander Options\n\nThe **Live Stack** panel includes several useful features:\n\n+ **Session Flat Master Files**:\n  You can manually add individual session FLAT master files. Alternatively, the *Stack Flats* instruction can automatically populate this list.\n\n+ **Multi-Session Flat Masters**:\n  These are not displayed in the panel but will be used if configured in the plugin settings page.\n\n+ **Quality Gates**:\n  You can apply quality gates to filter out frames that don't meet certain criteria for stacking.\n\n+ **Target Color Combination**:\n  For a given target, you can specify a color combination to create a color stack after the next frame of that target is processed.\n\n### Live Stacking Process\n\n+ **Start Live Stack**\n  Once started, the plugin will process and stack any light frames that are captured in real-time.\n\n  + All captured frames will be calibrated and added to a stack.\n  + Filters and target names are automatically recognized and managed. You can create separate stacks for different filters or targets.\n  + **Note**: One-shot color images (OSC) are automatically separated into individual channels (Red, Green, Blue) and also combined into a color stack.\n\n+ **Stacked Frame Count**\n  Within the stack window, you can view the current number of frames that have been stacked.",
+        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/logo.png",
+        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/featured.jpg",
+        "AltScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/featured2.jpg"
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/nina.plugin.livestack.1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "49127020CF3C876BD8842DE39D1D45027FA10AB17324211F15A253F8BB24BDDB",
+        "ChecksumType": "SHA256"
+    }
+}
