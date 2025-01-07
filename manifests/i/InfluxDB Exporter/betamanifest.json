@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "102"
+        "Build": "103"
     },
     "Author": "Dale Ghent",
     "Homepage": "https://daleghent.com/influxdb-exporter",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/idbe/InfluxDBExporter-1.0.0.102.zip",
+        "URL": "https://daleghent.com/dist/idbe/InfluxDBExporter-1.0.0.103.zip",
         "Type": "ARCHIVE",
-        "Checksum": "DBDA4C803D370178F20F7AA5005611FB3B971A7E9F251AAC8D25BCA15B154D42",
+        "Checksum": "69DA6BFA0DBCD952CB47965C639111BC823C9BAB41851C7402618B74FA7D8A47",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
