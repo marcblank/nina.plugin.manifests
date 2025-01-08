@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "101"
+        "Build": "104"
     },
     "Author": "Dale Ghent",
     "Homepage": "https://daleghent.com/influxdb-exporter",
@@ -24,16 +24,16 @@
         "Build": "1000"
     },
     "Descriptions": {
-        "ShortDescription": "Exports metrics to an InfluxDB 2.x instance",
+        "ShortDescription": "Exports metrics to an InfluxDB 2.x or InfluxDB Cloud 2 instance",
         "LongDescription": "\r\nInfluxDB Exporter is a NINA plugin that transmits periodic hardware, guiding, and image metrics to an InfluxDB time-series database. From there, the metrics may be graphed using tools such as Grafana or InfluxDB’s own built-in graphing features.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-influxdb-exporter/issues).",
         "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/influxdb-logo.png",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://daleghent.com/dist/idbe/InfluxDBExporter-1.0.0.101.zip",
+        "URL": "https://daleghent.com/dist/idbe/InfluxDBExporter-1.0.0.104.zip",
         "Type": "ARCHIVE",
-        "Checksum": "90A448A9AEE458A5DDFD988B3C44890F7ECACD2ACD14865FC69E5731D4AB8711",
+        "Checksum": "CB0C8CB2DA095793B0E6A35E31A7C4C66C7199E90D69737417FA9AC219BB304B",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
