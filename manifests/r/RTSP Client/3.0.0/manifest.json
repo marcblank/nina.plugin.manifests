@@ -5,9 +5,9 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "0"
+        "Build": "1"
     },
-    "Author": "Stefan Berg",
+    "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg/",
     "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/src/master/",
     "License": "MPL-2.0",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.3.0.0.0.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.3.0.0.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "ED0FA9741E84D37DE8CA826FDE20E7F773123FCA2DD32A64604FA31BE9955DA7",
+        "Checksum": "022117CD31D5DE6615B81C397CF14B42A92E297B5C0A10BE619299D674A5A5DB",
         "ChecksumType": "SHA256"
     }
 }
