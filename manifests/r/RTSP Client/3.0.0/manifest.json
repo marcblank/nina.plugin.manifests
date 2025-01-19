@@ -3,9 +3,9 @@
     "Identifier": "b1b32467-2343-4d57-bcd9-a45e2773fa98",
     "Version": {
         "Major": "3",
-        "Minor": "0",
+        "Minor": "1",
         "Patch": "0",
-        "Build": "1"
+        "Build": "3"
     },
     "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.3.0.0.1.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.rtsp/downloads/NINA.Plugin.RTSP.3.1.0.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "022117CD31D5DE6615B81C397CF14B42A92E297B5C0A10BE619299D674A5A5DB",
+        "Checksum": "CCBCED4C00AC7458A758ADBCAA2BB902714A95D78637CA4BDAF6BDA9DB98CEFF",
         "ChecksumType": "SHA256"
     }
 }
