@@ -4,10 +4,10 @@
     "Version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "0",
-        "Build": "1"
+        "Patch": "1",
+        "Build": "0"
     },
-    "Author": "Stefan Berg",
+    "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg",
     "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/",
     "License": "MPL-2.0",
@@ -30,10 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/downloads/NINA.Alpaca.1.0.0.1.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.alpaca/downloads/NINA.Alpaca.1.0.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "D2B1E7D2D81BB08C27B10285DA757E4CFEAD44A14AC0709C590D3D1A56805092",
+        "Checksum": "83EEABB7EC18F2ED8027F6862788598EC675785412145BC63518357605A047A2",
         "ChecksumType": "SHA256"
-    },
-    "Channel": "Beta"
+    }
 }
