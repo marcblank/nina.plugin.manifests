@@ -4,8 +4,8 @@
     "Version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "0",
-        "Build": "8"
+        "Patch": "1",
+        "Build": "0"
     },
     "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -20,7 +20,7 @@
         "Major": "3",
         "Minor": "2",
         "Patch": "0",
-        "Build": "1009"
+        "Build": "1018"
     },
     "Descriptions": {
         "ShortDescription": "Live stacking within N.I.N.A.",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/featured2.jpg"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/nina.plugin.livestack.1.0.0.8.zip",
+        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/downloads/nina.plugin.livestack.1.0.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "95868635C2D6F86D263AD9BE12F1BAB39852A62B82375F4201878B79D30BD193",
+        "Checksum": "A1EE40BFB0F2E018B37BE68FCA6811E5530688250F10FA7D93761D5B46946D1B",
         "ChecksumType": "SHA256"
     }
 }
