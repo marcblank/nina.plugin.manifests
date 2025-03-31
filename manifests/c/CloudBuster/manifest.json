@@ -1,0 +1,39 @@
+{
+    "Name": "CloudBuster",
+    "Identifier": "ee3c1c72-5493-4a9e-835d-1c4a5b21c59a",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Zarkov",
+    "Homepage": "https://en.wikipedia.org/wiki/Hans_Zarkov",
+    "Repository": "https://mypluginsourcerepo.com/project",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Cloudbusting",
+        " Zarkov"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Get rid of those pesky clouds",
+        "LongDescription": "# Zarkov Cloudbuster plugin #\r\nThe massively successful Zarkov Cloud Gun now comes in plugin form.\r\nJust add it to your arsenal of useful plugins.\r\n\r\n## Plugin Instructions ##\r\n\r\n* The instruction is useful to clear skies at the start of the night.\r\n* The trigger can be used to keep skies clear while you're imaging.\r\n\r\n\r\n### Disclaimer: This plugin cannot (yet) be relied on completely, always keep a close eye on your gear just in case the plugin doesn't work. It's not recommended trying this out in the rain. Please rely on common sense more than this plugin. ###\r\n",
+        "FeaturedImageURL": "https://bitbucket.org/NickHardy/nina.plugin.manifests/downloads/Cloudy.jpg",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://bitbucket.org/NickHardy/nina.plugin.manifests/downloads/CloudBuster.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "0B041BA2D2B2FEEBD7F1FF9A4B0600794403999B6B46977F8392298AD9ECF315",
+        "ChecksumType": "SHA256"
+    }
+}
