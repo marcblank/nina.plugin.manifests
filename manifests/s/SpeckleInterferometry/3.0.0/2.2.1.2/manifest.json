@@ -5,14 +5,14 @@
         "Major": "2",
         "Minor": "2",
         "Patch": "1",
-        "Build": "0"
+        "Build": "2"
     },
     "Author": "Nick Hardy & Leon Bewersdorff",
     "Homepage": "https://stelar.groups.io/",
-    "Repository": "https://bitbucket.org/NickHardy/nina.plugin.speckle/src/main/",
+    "Repository": "https://github.com/NickHardy/SpecklePluginNina",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://bitbucket.org/NickHardy/nina.plugin.speckle/commits/branch/main",
+    "ChangelogURL": "https://github.com/NickHardy/SpecklePluginNina/commits/net8version/",
     "Tags": [
         "Speckle",
         "Interferometry",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": "https://bitbucket.org/NickHardy/nina.plugin.speckle/downloads/ListSequence.png"
     },
     "Installer": {
-        "URL": "https://bitbucket.org/NickHardy/nina.plugin.speckle/downloads/SpeckleInterferometry.2.2.1.0.zip",
+        "URL": "https://bitbucket.org/NickHardy/nina.plugin.speckle/downloads/SpeckleInterferometry.2.2.1.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "894CAC867482E4EB1C051FDAE8F480390796A085D6FEB59AC1C9CE038ABAF7C4",
+        "Checksum": "49B782DACBE2DD20EC9E70DF1DCFFB15AB124C1CB8D423F7EB0F643A941AAD66",
         "ChecksumType": "SHA256"
     }
 }
