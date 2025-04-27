@@ -1,0 +1,39 @@
+{
+    "Name": "Pegasus Powerbox PWM Flatdevice",
+    "Identifier": "802bef4c-4416-4619-af0f-6769d4173b8e",
+    "Version": {
+        "Major": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "johannes russek",
+    "Homepage": "https://github.com/jrussek/NINA.PegasusPWMFlatDevice",
+    "Repository": "https://github.com/jrussek/NINA.PegasusPWMFlatDevice",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/jrussek/NINA.PegasusPWMFlatDevice/blob/master/CHANGELOG.md",
+    "Tags": [
+        "Flat"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Channel": "Beta",
+    "Descriptions": {
+        "ShortDescription": "Treat a Pegasus powerbox PWM port as Flatpanel",
+        "LongDescription": "This Plugin provides a flat device using one of the PWM controllable ports of a pegasus powerbox.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/jrussek/NINA.PegasusPWMFlatDevice/releases/download/0.0.0.1/NINA.NinaPegasusPWMFlatDevice.0.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "9CCB06171105D0271CCD2103E91DDCF0058F153770CCA7EE26E85648F26A4334",
+        "ChecksumType": "SHA256"
+    }
+}
