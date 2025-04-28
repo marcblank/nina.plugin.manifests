@@ -1,0 +1,40 @@
+﻿{
+  "Name": "Smart Filters",
+  "Identifier": "d81d3cc9-c02f-4743-9008-753d36368a33",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "1"
+  },
+  "Author": "Benoit SAINTOT",
+  "Homepage": "https://github.com/latelierastro/Smart-Filters",
+  "Repository": "https://github.com/latelierastro/Smart-Filters",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/latelierastro/Smart-Filters/blob/main/CHANGELOG.md",
+  "Tags": [
+    "Filters",
+    "Smart",
+    "NINA Plugin"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "1",
+    "Patch": "2",
+    "Build": "9001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Optimize your filter selections automatically in NINA.",
+    "LongDescription": "Smart Filters allows users to automatically optimize and adjust their filter choices based on object brightness, sky conditions, and other parameters, enhancing acquisition planning efficiency in NINA.",
+    "FeaturedImageURL": "https://github.com/latelierastro/Smart-Filters/blob/main/SMARTFILTERS_PLUGIN_IMAGE.png?raw=true",
+    "ScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184827.png?raw=true",
+    "AltScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184921.png?raw=true"
+  },
+  "Installer": {
+    "URL": "https://github.com/latelierastro/Smart-Filters/releases/download/Smart_Filters_V_1.0.0.1/SmartFilters.dll",
+    "Type": "DLL",
+    "Checksum": "6F6C8C1EB98B1B60FF5F08955B1B828721923070BD6F2FE32E1A75EEF051825A",
+    "ChecksumType": "SHA256"
+  }
+}
