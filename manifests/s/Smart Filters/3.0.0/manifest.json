@@ -26,7 +26,7 @@
   },
   "Descriptions": {
     "ShortDescription": "Optimize your filter selections automatically in NINA.",
-    "LongDescription": "Smart Filters allows users to automatically optimize and adjust their filter choices based on object brightness, sky conditions, and other parameters, enhancing acquisition planning efficiency in NINA.",
+    "LongDescription": "Smart Filters provides a user-friendly interface to define target exposure distribution across filters (L, R, G, B, Ha, SII, OIII) and automatically computes the optimal number of frames for each.\n\nIt adjusts planning intelligently by considering session overheads such as autofocus routines, meridian flips, and dithering delays.\n\nUsers can save and load custom profiles and presets to streamline astrophotography session preparation in NINA, ensuring efficient use of available time.",
     "FeaturedImageURL": "https://github.com/latelierastro/Smart-Filters/blob/main/SMARTFILTERS_PLUGIN_IMAGE.png?raw=true",
     "ScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184827.png?raw=true",
     "AltScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184921.png?raw=true"
