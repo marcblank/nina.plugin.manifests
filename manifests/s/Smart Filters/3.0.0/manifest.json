@@ -1,40 +1,38 @@
 ﻿{
-  "Name": "Smart Filters",
-  "Identifier": "d81d3cc9-c02f-4743-9008-753d36368a33",
-  "Version": {
-    "Major": "1",
-    "Minor": "0",
-    "Patch": "0",
-    "Build": "1"
-  },
-  "Author": "Benoit SAINTOT",
-  "Homepage": "https://github.com/latelierastro/Smart-Filters",
-  "Repository": "https://github.com/latelierastro/Smart-Filters",
-  "License": "MPL-2.0",
-  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-  "ChangelogURL": "https://github.com/latelierastro/Smart-Filters/blob/main/CHANGELOG.md",
-  "Tags": [
-    "Filters",
-    "Smart",
-    "NINA Plugin"
-  ],
-  "MinimumApplicationVersion": {
-    "Major": "3",
-    "Minor": "1",
-    "Patch": "2",
-    "Build": "9001"
-  },
-  "Descriptions": {
-    "ShortDescription": "Optimize your filter selections automatically in NINA.",
-    "LongDescription": "Smart Filters provides a user-friendly interface to define target exposure distribution across filters (L, R, G, B, Ha, SII, OIII) and automatically computes the optimal number of frames for each.\n\nIt adjusts planning intelligently by considering session overheads such as autofocus routines, meridian flips, and dithering delays.\n\nUsers can save and load custom profiles and presets to streamline astrophotography session preparation in NINA, ensuring efficient use of available time.",
-    "FeaturedImageURL": "https://github.com/latelierastro/Smart-Filters/blob/main/SMARTFILTERS_PLUGIN_IMAGE.png?raw=true",
-    "ScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184827.png?raw=true",
-    "AltScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184921.png?raw=true"
-  },
-  "Installer": {
-    "URL": "https://github.com/latelierastro/Smart-Filters/releases/download/Smart_Filters_V_1.0.0.1/SmartFilters.dll",
-    "Type": "DLL",
-    "Checksum": "6F6C8C1EB98B1B60FF5F08955B1B828721923070BD6F2FE32E1A75EEF051825A",
-    "ChecksumType": "SHA256"
-  }
+    "Name": "Smart Filters",
+    "Identifier": "d81d3cc9-c02f-4743-9008-753d36368a33",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3"
+    },
+    "Author": "Benoit SAINTOT",
+    "Homepage": "",
+    "Repository": "https://github.com/latelierastro/Smart-Filters",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/latelierastro/Smart-Filters/blob/main/CHANGELOG.md",
+    "Tags": [
+        ""
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "SmartFilters is a plugin designed to optimize your astrophotography sessions by calculating the ideal number of exposures for each filter.",
+        "LongDescription": "",
+        "FeaturedImageURL": "https://github.com/latelierastro/Smart-Filters/blob/main/SMARTFILTERS_PLUGIN_IMAGE.png?raw=true\r\n",
+        "ScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184827.png?raw=true",
+        "AltScreenshotURL": "https://github.com/latelierastro/Smart-Filters/blob/main/Capture%20d'%C3%A9cran%202025-04-25%20184921.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/latelierastro/Smart-Filters/releases/download/1.0.0.3/SmartFilters.1.0.0.3.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "4678A3350A7E53875A23EB66B4653E4C186A7E158F8FB91B8A0E339EB58D59CA",
+        "ChecksumType": "SHA256"
+    }
 }
