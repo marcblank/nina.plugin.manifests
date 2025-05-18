@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -28,9 +28,9 @@
     "AltScreenshotURL": ""
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.remotecopy/releases/download/v3.0.0.0/NINA.Plugin.RemoteCopy-3.0.0.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.remotecopy/releases/download/v3.0.1.0/NINA.Plugin.RemoteCopy-3.0.1.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "1416E2F0847475B093DA4FD9D9D32D11AAE85F0F4117CD0FD812FF3863E2AB3A",
+    "Checksum": "3644BBC09596884FD099893EC638FAC3A7E7B0AD9D7A2EB8BEF0D6E6D6229947",
     "ChecksumType": "SHA256"
 }
 }
