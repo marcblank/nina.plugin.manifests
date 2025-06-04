@@ -4,8 +4,17 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+         {
+            "type": "node",
+            "request": "launch",
+            "name": "Validate All",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\validate-all-manifests.js"
+        },
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "Validate",
             "skipFiles": [
@@ -14,7 +23,7 @@
             "program": "${workspaceFolder}\\validate-latest-manifest.js"
         },
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "Gather",
             "skipFiles": [

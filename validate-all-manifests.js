@@ -1,7 +1,6 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const path = require('path');
-const util = require('util');
-const readFile = util.promisify(fs.readFile);
+const readFile = fs.readFile;
 
 const request = require('request');
 const crypto = require('crypto');
@@ -14,25 +13,15 @@ addFormats(ajv);
 const schema = require('./manifest.schema.json');
 const validate = ajv.compile(schema);
 
-const { exec } = require("child_process");
-
-exec('git diff --name-only --diff-filter=ACM HEAD~1..HEAD', async (error, stdout, stderr) => {
-    if (error) {
-        console.log(`error: ${error.message}`);
-        process.exit(1);
-    }
-    if (stderr) {
-        console.log(`stderr: ${stderr}`);
-        process.exit(1);
-    }
+async function validateAll() {
 
     let hasErrors = false;
-    const files = stdout.split(/\r?\n/).filter(x => x.indexOf('.json') > -1 && x !== 'package.json' && x !== 'manifest.schema.json' && x !== '.vscode/launch.json');
+    const files = await getAllJsonFiles(path.join(__dirname, 'manifests'));
 
     for(const file of files) {
-        const fullPath = path.join( __dirname, file );
+        const fullPath = file;
         try {
-            console.log('\x1b[0m', 'Found changed manifest in ' + fullPath);
+            console.log('\x1b[0m', 'Found manifest in ' + fullPath);
             const data = await readFile(fullPath);
             const json = JSON.parse(data.toString('utf8').replace(/^\uFEFF/, ''));
             const valid = validate(json);
@@ -56,7 +45,7 @@ exec('git diff --name-only --diff-filter=ACM HEAD~1..HEAD', async (error, stdout
     if(hasErrors) {        
         process.exit(1);
     }
-});
+};
 
 function getHashFromRemote(url, hashalgorithm) {
     return new Promise((resolve, reject) => {
@@ -65,3 +54,24 @@ function getHashFromRemote(url, hashalgorithm) {
         request(url).on('error', x => reject(new Error(`Failed to get ${url}`))).pipe(hasher).on('finish', (x) => resolve(hasher.read()));
     });
 }
+
+async function getAllJsonFiles(dir) {
+  let results = [];
+
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      const subFiles = await getAllJsonFiles(fullPath);
+      results.push(...subFiles);
+    } else if (entry.isFile() && entry.name.endsWith('.json')) {
+      results.push(fullPath);
+    }
+  }
+
+  return results;
+}
+
+validateAll();
