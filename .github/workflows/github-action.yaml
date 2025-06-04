@@ -1,0 +1,56 @@
+name: Manifest Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-latest-manifest:
+    runs-on: ubuntu-latest
+    container:
+      image: tarampampam/node:14-alpine
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: node validate-latest-manifest.js
+
+  create-manifest:
+    runs-on: ubuntu-latest
+    container:
+      image: node:14-alpine
+    needs: validate-latest-manifest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: node gather.js
+      - name: Upload manifest artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugins-manifest
+          path: Plugins/
+
+  push-manifest:
+    runs-on: ubuntu-latest
+    needs: create-manifest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download manifest artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: plugins-manifest
+          path: Plugins/
+      - name: Install git-ftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-ftp
+      - name: Push to FTP
+        run: |
+          git ftp push --force --syncroot Plugins/ \
+            --user "$FTP_USER" \
+            --passwd "$FTP_PW" \
+            "$FTP_HOST"
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PW: ${{ secrets.FTP_PW }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
