@@ -39,7 +39,7 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/Release/Powerups.3.28.0.0.zip",
+        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/v3.28.0.0/Powerups.3.28.0.0.zip",
         "Type": "ARCHIVE",
         "Checksum": "53A83B4763DBF7A406C3927A5ED0CEB396AA02B513FE5B250E0944F21073EE6A",
         "ChecksumType": "SHA256"
