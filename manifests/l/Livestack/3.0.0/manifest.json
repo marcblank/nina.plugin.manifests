@@ -5,14 +5,14 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "1",
-        "Build": "1"
+        "Build": "2"
     },
     "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg/",
-    "Repository": "https://github.com/isbeorn/nina.plugin.livestack/blob/main/CHANGELOG.md",
+    "Repository": "https://github.com/isbeorn/nina.plugin.livestack",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.livestack/src/main/CHANGELOG.md",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.livestack/blob/main/CHANGELOG.md",
     "Tags": [
         "Livestack"
     ],
@@ -30,9 +30,9 @@
         "AltScreenshotURL": "https://github.com/isbeorn/nina.plugin.livestack/blob/main/featured2.jpg?raw=true"
     },
     "Installer": {
-        "URL": "https://github.com/isbeorn/nina.plugin.livestack/releases/download/1.0.1.1/nina.plugin.livestack.1.0.1.1.zip",
+        "URL": "https://github.com/isbeorn/nina.plugin.livestack/releases/download/1.0.1.2/nina.plugin.livestack.1.0.1.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "7FFD281C8E37F8E86F7D9640827B5C0087182FF7A9DEBAC0A2CB332E46E4CCAE",
+        "Checksum": "4A1DB347294F8CD69686CC21FD57922F9DA05E8A5BA15022A7BF8EC46D970B0C",
         "ChecksumType": "SHA256"
     }
 }
