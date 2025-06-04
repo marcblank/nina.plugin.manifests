@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   validate-latest-manifest:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +27,7 @@ jobs:
     container:
       image: node:14-alpine
     needs: validate-latest-manifest
+    if: github.event_name == 'push' # Only run for pushes to main
     steps:
       - uses: actions/checkout@v4
       - run: npm install
@@ -36,6 +41,7 @@ jobs:
   push-manifest:
     runs-on: ubuntu-latest
     needs: create-manifest
+    if: github.event_name == 'push' # Only run for pushes to main
     steps:
       - uses: actions/checkout@v4
       - name: Download manifest artifact
