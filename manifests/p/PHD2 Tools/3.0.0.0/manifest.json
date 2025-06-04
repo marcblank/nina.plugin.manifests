@@ -5,14 +5,14 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "5",
-        "Build": "1"
+        "Build": "2"
     },
     "Author": "Stefan Berg @isbeorn",
-    "Homepage": "https://nighttime-imaging.eu/",
-    "Repository": "https://mypluginsourcerepo.com/project",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.phd2tools",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/src/net7/CHANGELOG.md",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.phd2tools/blob/net7/CHANGELOG.md",
     "Tags": [
         "PHD2",
         "Guiding"
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.phd2tools/downloads/nina.plugin.phd2tools.1.0.5.1.zip",
+        "URL": "https://github.com/isbeorn/nina.plugin.phd2tools/releases/download/1.0.5.2/nina.plugin.phd2tools.1.0.5.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "7475169D351F08840D3962B757AF250D6E0E73EDCE19E7E45DD81767137F4F31",
+        "Checksum": "84F901FCC2A41EFB4B6BBB1E524A7ACA9B8E41F419CC1EEC4321AEA465CAA16A",
         "ChecksumType": "SHA256"
     }
 }

@@ -1,7 +1,7 @@
 # Welcome to the N.I.N.A. Community Plugin Repository
 Inside this repository all plugin manifests for the N.I.N.A. application are found. All plugin manifests inside this repository are put onto the N.I.N.A. server to be used to show and install plugins inside the N.I.N.A. application
 
-N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography imaging suite. You can find the source code [here](https://bitbucket.org/Isbeorn/nina)
+N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography imaging suite. You can find the source code [here](https://github.com/isbeorn/nina)
 
 # Submitting a plugin manifest
 To make a plugin available you can submit a manifest into this repository, by following the basic steps:
@@ -23,15 +23,15 @@ Having a plugin as open source doesn't necessarily mean that it cannot be used f
 
 # Develop a plugin
 For more details on how to develop a plugin, there is a separate repository containing a basic template using a visual studio extension and guidelines to follow.  
-The repository can be found [here](https://bitbucket.org/Isbeorn/nina.plugin.template)
+The repository can be found [here](https://github.com/isbeorn/nina.plugin.templatee)
 
 # Fork the repository
 To be able to submit a pull request, the repository needs to be forked first.  
-How to fork a repository is described [here](https://support.atlassian.com/bitbucket-cloud/docs/fork-a-repository/)
+How to fork a repository is described [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
 # Create a manifest
 A manifest file contains a JSON describing all the necessary metadata of a plugin. 
-To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps. (requires Powershell version 7)  
+To create a manifest, you can either use the [powershell script](https://github.com/isbeorn/nina.plugin.manifests/blob/main/tools/CreateManifest.ps1) or alternatively follow the manual steps. (requires Powershell version 7)  
 
 ***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
 
@@ -44,6 +44,7 @@ To create a manifest, you can either use the [powershell script](https://bitbuck
 - Once the release is generated you can submit the manifest file to the manifest repository.
 
 ### Bitbucket
+- ⚠️Bitbucket free plans no longer support files in the download section. Use bitbucket only if you have a paid subscription!
 - Copy the file in `./tools/bitbucket-pipelines.yml` into the root of your plugin repository.  
 - Adjust the yaml file according to the comments to match the requirements for your plugin.  
 - You'll have to trigger the pipeline manually once you are ready to publish a new version.  
@@ -117,7 +118,7 @@ While not recommended, it is possible to manually create the manifest by using y
 
 ## Manifest specification
 
-As specified in the [JSON Schema](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/manifest.schema.json) the manifest consists of a set of required and optional parameters. Each version of your plugin should have a separate manifest, or alternatively when you only want to support one leading version, one manifest that will be updated constantly with the newest version should be maintained.
+As specified in the [JSON Schema](https://github.com/isbeorn/nina.plugin.manifests/blob/main/manifest.schema.json) the manifest consists of a set of required and optional parameters. Each version of your plugin should have a separate manifest, or alternatively when you only want to support one leading version, one manifest that will be updated constantly with the newest version should be maintained.
 
 `Name` - **Required**
 

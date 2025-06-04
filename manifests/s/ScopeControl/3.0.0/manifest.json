@@ -5,14 +5,14 @@
         "Major": "2",
         "Minor": "0",
         "Patch": "2",
-        "Build": "0"
+        "Build": "1"
     },
-    "Author": "Stefan Berg",
+    "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg/",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.scopecontrol",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/src/master/ScopeControl/Changelog.md",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.scopecontrol/blob/master/ScopeControl/Changelog.md",
     "Tags": [
         "Telescope",
         "Handbox",
@@ -28,14 +28,14 @@
     "Descriptions": {
         "ShortDescription": "Adds tool panels to the imaging tab with basic mount control as well as an altitude and azimuth chart for the telescope position",
         "LongDescription": "",
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured.png",
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/scopecontrol_featured2.png",
+        "FeaturedImageURL": "https://github.com/isbeorn/nina.plugin.scopecontrol/blob/master/ScopeControl/scopecontrol_featured.png?raw=true",
+        "ScreenshotURL": "https://github.com/isbeorn/nina.plugin.scopecontrol/blob/master/ScopeControl/scopecontrol_featured2.png?raw=true",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.scopecontrol/downloads/ScopeControl.2.0.2.0.zip",
+        "URL": "https://github.com/isbeorn/nina.plugin.scopecontrol/releases/download/2.0.2.1/ScopeControl.2.0.2.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "403C6288710DD8704A9B2ED67326A80C9FEB79A33B5F65148506CAE1B2793670",
+        "Checksum": "321853B4F98C26EFB6D34627B6A47097E0CC99C5EB09CE4B758C8307F33F204B",
         "ChecksumType": "SHA256"
     }
 }

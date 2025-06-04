@@ -5,14 +5,14 @@
         "Major": "2",
         "Minor": "0",
         "Patch": "0",
-        "Build": "2"
+        "Build": "9"
     },
-    "Author": "Stefan Berg",
-    "Homepage": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis",
-    "Repository": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis",
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.autofocusanalysis",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/CHANGELOG.md",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.autofocusanalysis/blob/master/CHANGELOG.md",
     "Tags": [
         "Autofocus"
     ],
@@ -24,15 +24,15 @@
     },
     "Descriptions": {
         "ShortDescription": "Analyse temperature slope of autofocus runs from the autofocus logs",
-        "LongDescription": "This plugin can help you determining the temperature slope and offset of your equipment by analyzing past autofocus reports that were created by N.I.N.A.\n\nSimply hit the button with the three dots and point to the folder that contains your autofocus report files in JSON format.\nWhen a folder is selected the plugin will load in all reports, plot a chart and determine the slope and offset via linear regression.\nFurther filters can be applied afterwards, like only having a specific date range, temperature range or focuser position range.\n\n*Please note that you should not blindly follow the suggested slope and offset without reviewing how well the data could be fitted. A low R² value for example should not be relied on and it should be as close to 1 as possible.*",
-        "FeaturedImageURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/AutofocusReportAnalysisIcon.png",
-        "ScreenshotURL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Screenshot1.png",
+        "LongDescription": "This plugin can help you determining the temperature slope and offset of your equipment by analyzing past autofocus reports that were created by N.I.N.A.\r\n\r\nSimply hit the button with the three dots and point to the folder that contains your autofocus report files in JSON format.\r\nWhen a folder is selected the plugin will load in all reports, plot a chart and determine the slope and offset via linear regression.\r\nFurther filters can be applied afterwards, like only having a specific date range, temperature range or focuser position range.\r\n\r\n*Please note that you should not blindly follow the suggested slope and offset without reviewing how well the data could be fitted. A low R² value for example should not be relied on and it should be as close to 1 as possible.*",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/isbeorn/nina.plugin.autofocusanalysis/refs/heads/master/AutofocusReportAnalysisIcon.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/isbeorn/nina.plugin.autofocusanalysis/refs/heads/master/Screenshot1.png",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://bitbucket.org/Isbeorn/nina.plugin.autofocusanalysis/downloads/Autofocus_Report_Analysis.2.0.0.2.zip",
+        "URL": "https://github.com/isbeorn/nina.plugin.autofocusanalysis/releases/download/2.0.0.9/Autofocus.Report.Analysis.2.0.0.9.zip",
         "Type": "ARCHIVE",
-        "Checksum": "456E093CECC6D6BD9F99C35691A9E0C5D8A52C189054AC09DB1923D0E1E81B13",
+        "Checksum": "A3CF7ABBD1E566061A9B7EBC04049C9B1EBAEBD64F04467E1BC16DCF80B3EE70",
         "ChecksumType": "SHA256"
     }
 }
