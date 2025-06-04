@@ -52,7 +52,7 @@ jobs:
           git ftp push --force --syncroot Plugins/ \
             --user "$FTP_USER" \
             --passwd "$FTP_PW" \
-            "$FTP_HOST"
+            "$FTP_HOST/Plugins"
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PW: ${{ secrets.FTP_PW }}
