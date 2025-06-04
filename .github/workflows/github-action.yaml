@@ -8,10 +8,13 @@ on:
 jobs:
   validate-latest-manifest:
     runs-on: ubuntu-latest
-    container:
-      image: tarampampam/node:14-alpine
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Ensure at least 2 commits are fetched for git diff HEAD~1..HEAD
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 14
       - run: npm install
       - run: node validate-latest-manifest.js
 
