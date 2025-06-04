@@ -23,15 +23,15 @@ Having a plugin as open source doesn't necessarily mean that it cannot be used f
 
 # Develop a plugin
 For more details on how to develop a plugin, there is a separate repository containing a basic template using a visual studio extension and guidelines to follow.  
-The repository can be found [here](https://bitbucket.org/Isbeorn/nina.plugin.template)
+The repository can be found [here](https://github.com/isbeorn/nina.plugin.templatee)
 
 # Fork the repository
 To be able to submit a pull request, the repository needs to be forked first.  
-How to fork a repository is described [here](https://support.atlassian.com/bitbucket-cloud/docs/fork-a-repository/)
+How to fork a repository is described [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
 # Create a manifest
 A manifest file contains a JSON describing all the necessary metadata of a plugin. 
-To create a manifest, you can either use the [powershell script](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/tools/CreateManifest.ps1) or alternatively follow the manual steps. (requires Powershell version 7)  
+To create a manifest, you can either use the [powershell script](https://github.com/isbeorn/nina.plugin.manifests/blob/main/tools/CreateManifest.ps1) or alternatively follow the manual steps. (requires Powershell version 7)  
 
 ***Make sure that your DLL will not be recompiled or changed after the manifest is created, as the checksum will change each time!***
 
@@ -44,6 +44,7 @@ To create a manifest, you can either use the [powershell script](https://bitbuck
 - Once the release is generated you can submit the manifest file to the manifest repository.
 
 ### Bitbucket
+- ⚠️Bitbucket free plans no longer support files in the download section. Use bitbucket only if you have a paid subscription!
 - Copy the file in `./tools/bitbucket-pipelines.yml` into the root of your plugin repository.  
 - Adjust the yaml file according to the comments to match the requirements for your plugin.  
 - You'll have to trigger the pipeline manually once you are ready to publish a new version.  
