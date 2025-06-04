@@ -14,7 +14,7 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "",
     "Tags": [
-        ""
+        "Exposure"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
@@ -32,7 +32,7 @@
     "Installer": {
         "URL": "https://github.com/isbeorn/nina.plugin.exposurecalculator/releases/download/2.0.0.0/NINA.Plugin.ExposureCalculator.2.0.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "8612577984533A49DAA9A6E57BBCA30FA42D183DD77397A5D104DCCED82C207C",
+        "Checksum": "BB2EC5D436428DE97292B1B3B2C59D294596C52D03A698CC307AEDC670CAE566",
         "ChecksumType": "SHA256"
     }
 }
