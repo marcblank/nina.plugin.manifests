@@ -3,7 +3,7 @@
     "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
     "Version": {
         "Major": "3",
-        "Minor": "27",
+        "Minor": "28",
         "Patch": "0",
         "Build": "0"
     },
@@ -32,16 +32,16 @@
         "Build": "9001"
     },
     "Descriptions": {
-        "ShortDescription": "*** BETA RELEASE ***",
+        "ShortDescription": "Get the most out of the Advanced Sequencer!",
         "LongDescription": "## This plugin contains a variety of potentially useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
         "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
         "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/LoopWhile.png",
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/Release/Powerups.3.26.0.1.zip",
+        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/Release/Powerups.3.28.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "02CFE47ABAD26D186FB8395BAF6FCB9403ABE04E12D9E1071F109DD97A26F836",
+        "Checksum": "53A83B4763DBF7A406C3927A5ED0CEB396AA02B513FE5B250E0944F21073EE6A",
         "ChecksumType": "SHA256"
     }
 }
