@@ -1,7 +1,7 @@
 # Welcome to the N.I.N.A. Community Plugin Repository
 Inside this repository all plugin manifests for the N.I.N.A. application are found. All plugin manifests inside this repository are put onto the N.I.N.A. server to be used to show and install plugins inside the N.I.N.A. application
 
-N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography imaging suite. You can find the source code [here](https://bitbucket.org/Isbeorn/nina)
+N.I.N.A. - Nighttime Imaging 'N' Astronomy - is an open source astrophotography imaging suite. You can find the source code [here](https://github.com/isbeorn/nina)
 
 # Submitting a plugin manifest
 To make a plugin available you can submit a manifest into this repository, by following the basic steps:
@@ -117,7 +117,7 @@ While not recommended, it is possible to manually create the manifest by using y
 
 ## Manifest specification
 
-As specified in the [JSON Schema](https://bitbucket.org/Isbeorn/nina.plugin.manifests/src/main/manifest.schema.json) the manifest consists of a set of required and optional parameters. Each version of your plugin should have a separate manifest, or alternatively when you only want to support one leading version, one manifest that will be updated constantly with the newest version should be maintained.
+As specified in the [JSON Schema](https://github.com/isbeorn/nina.plugin.manifests/blob/main/manifest.schema.json) the manifest consists of a set of required and optional parameters. Each version of your plugin should have a separate manifest, or alternatively when you only want to support one leading version, one manifest that will be updated constantly with the newest version should be maintained.
 
 `Name` - **Required**
 
