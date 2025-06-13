@@ -4,8 +4,8 @@
     "Version": {
         "Major": "3",
         "Minor": "28",
-        "Patch": "0",
-        "Build": "1"
+        "Patch": "1",
+        "Build": "0"
     },
     "Author": "Marc Blank",
     "Homepage": "",
@@ -39,9 +39,9 @@
         "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
     },
     "Installer": {
-        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/v3.28.0.0/Powerups.3.28.0.1.zip",
+        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/v3.28.1.0/Powerups.3.28.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "83FBAA2B11243ED7B394F2FB0107E3DDF8F9DC8FA28744385262F6C1FDAB1996",
+        "Checksum": "2AA90E74AB78081554A13DF54F34B935BD6EE75656771A9A77E6FE5898E5AE1A",
         "ChecksumType": "SHA256"
     }
 }
