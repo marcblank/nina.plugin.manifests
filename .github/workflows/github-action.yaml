@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 2 # Ensure at least 2 commits are fetched for git diff HEAD~1..HEAD
       - uses: actions/setup-node@v4
         with:
-          node-version: 14
+          node-version: 20
       - run: npm install
       - run: node validate-latest-manifest.js
 
@@ -37,6 +37,7 @@ jobs:
         with:
           name: plugins-manifest
           path: Plugins/
+          retention-days: 1
 
   push-manifest:
     runs-on: ubuntu-latest
@@ -49,16 +50,22 @@ jobs:
         with:
           name: plugins-manifest
           path: Plugins/
-      - name: Install git-ftp
+
+      - name: Push main manifest
         run: |
-          sudo apt-get update
-          sudo apt-get install -y git-ftp
-      - name: Push to FTP
+          curl -T ./Plugins/manifests.json \
+            --user "$FTP_USER:$FTP_PW" \
+            ftp://$FTP_HOST/manifests.json
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PW: ${{ secrets.FTP_PW }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+      
+      - name: Push beta manifest
         run: |
-          git ftp push --force --syncroot Plugins/ \
-            --user "$FTP_USER" \
-            --passwd "$FTP_PW" \
-            "$FTP_HOST/Plugins"
+          curl -T ./Plugins/Beta/manifests.json \
+            --user "$FTP_USER:$FTP_PW" \
+            ftp://$FTP_HOST/Beta/manifests.json
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PW: ${{ secrets.FTP_PW }}
